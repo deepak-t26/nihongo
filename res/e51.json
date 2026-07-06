@@ -1,0 +1,108 @@
+
+[
+  {
+    "kanji": "従業員",
+    "hiragana": "じゅうぎょういん",
+    "romaji": "juugyouin",
+    "english": "employee",
+    "japanese_sentence": "従業員はとても親切でした。",
+    "english_sentence": "The employee was very kind."
+  },
+  {
+    "kanji": "案内",
+    "hiragana": "あんない",
+    "romaji": "annai",
+    "english": "guidance; information; guide",
+    "japanese_sentence": "駅で案内をしてもらいました。",
+    "english_sentence": "I received directions at the station."
+  },
+  {
+    "kanji": "連れ",
+    "hiragana": "つれ",
+    "romaji": "tsure",
+    "english": "companion",
+    "japanese_sentence": "連れと一緒に旅行しました。",
+    "english_sentence": "I traveled with my companion."
+  },
+  {
+    "kanji": "大浴場",
+    "hiragana": "だいよくじょう",
+    "romaji": "daiyokujou",
+    "english": "public bath",
+    "japanese_sentence": "ホテルの大浴場でゆっくりしました。",
+    "english_sentence": "I relaxed in the hotel's public bath."
+  },
+  {
+    "kanji": "示す",
+    "hiragana": "しめす",
+    "romaji": "shimesu",
+    "english": "to show; to indicate",
+    "japanese_sentence": "先生は地図で道を示しました。",
+    "english_sentence": "The teacher showed the way on the map."
+  },
+  {
+    "kanji": "売り場",
+    "hiragana": "うりば",
+    "romaji": "uriba",
+    "english": "sales floor; section",
+    "japanese_sentence": "野菜の売り場は一階にあります。",
+    "english_sentence": "The vegetable section is on the first floor."
+  },
+  {
+    "kanji": "通行人",
+    "hiragana": "つうこうにん",
+    "romaji": "tsuukounin",
+    "english": "passerby",
+    "japanese_sentence": "通行人が道を教えてくれました。",
+    "english_sentence": "A passerby showed me the way."
+  },
+  {
+    "kanji": "警察官",
+    "hiragana": "けいさつかん",
+    "romaji": "keisatsukan",
+    "english": "police officer",
+    "japanese_sentence": "警察官に道を聞きました。",
+    "english_sentence": "I asked a police officer for directions."
+  },
+  {
+    "kanji": "施設",
+    "hiragana": "しせつ",
+    "romaji": "shisetsu",
+    "english": "facility",
+    "japanese_sentence": "この施設は新しくてきれいです。",
+    "english_sentence": "This facility is new and clean."
+  },
+  {
+    "kanji": "共用",
+    "hiragana": "きょうよう",
+    "romaji": "kyouyou",
+    "english": "shared; common use",
+    "japanese_sentence": "このキッチンは共用です。",
+    "english_sentence": "This kitchen is shared."
+  },
+  {
+    "kanji": "居酒屋",
+    "hiragana": "いざかや",
+    "romaji": "izakaya",
+    "english": "Japanese pub",
+    "japanese_sentence": "友達と居酒屋で夕食を食べました。",
+    "english_sentence": "I had dinner with my friend at an izakaya."
+  },
+  {
+    "kanji": "改札",
+    "hiragana": "かいさつ",
+    "romaji": "kaisatsu",
+    "english": "ticket gate",
+    "japanese_sentence": "改札の前で友達を待ちました。",
+    "english_sentence": "I waited for my friend in front of the ticket gate."
+  },
+  {
+    "kanji": "角",
+    "hiragana": "かど",
+    "romaji": "kado",
+    "english": "corner",
+    "japanese_sentence": "次の角を右に曲がってください。",
+    "english_sentence": "Please turn right at the next corner."
+  }
+]
+

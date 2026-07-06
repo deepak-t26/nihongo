@@ -1,0 +1,146 @@
+[
+    {
+      "japanese_word": "後輩",
+      "english_meaning": "junior; younger colleague",
+      "hiragana": "こうはい",
+      "romaji": "kōhai",
+      "english_sentence": "My junior helped me with the project.",
+      "japanese_sentence": "後輩がプロジェクトを手伝ってくれました。"
+    },
+    {
+      "japanese_word": "ハチ",
+      "english_meaning": "bee",
+      "hiragana": "はち",
+      "romaji": "hachi",
+      "english_sentence": "A bee is flying around the flowers.",
+      "japanese_sentence": "ハチが花の周りを飛んでいます。"
+    },
+    {
+      "japanese_word": "家具",
+      "english_meaning": "furniture",
+      "hiragana": "かぐ",
+      "romaji": "kagu",
+      "english_sentence": "We bought new furniture.",
+      "japanese_sentence": "新しい家具を買いました。"
+    },
+    {
+      "japanese_word": "運ぶ",
+      "english_meaning": "to carry; to transport",
+      "hiragana": "はこぶ",
+      "romaji": "hakobu",
+      "english_sentence": "Please carry this box.",
+      "japanese_sentence": "この箱を運んでください。"
+    },
+    {
+      "japanese_word": "角",
+      "english_meaning": "corner",
+      "hiragana": "かど",
+      "romaji": "kado",
+      "english_sentence": "Turn right at the corner.",
+      "japanese_sentence": "角を右に曲がってください。"
+    },
+    {
+      "japanese_word": "ぶつかる",
+      "english_meaning": "to bump into; to collide",
+      "hiragana": "ぶつかる",
+      "romaji": "butsukaru",
+      "english_sentence": "I bumped into the wall.",
+      "japanese_sentence": "壁にぶつかりました。"
+    },
+    {
+      "japanese_word": "部下",
+      "english_meaning": "subordinate; employee",
+      "hiragana": "ぶか",
+      "romaji": "buka",
+      "english_sentence": "The manager praised his subordinate.",
+      "japanese_sentence": "部長は部下を褒めました。"
+    },
+    {
+      "japanese_word": "大事",
+      "english_meaning": "important; valuable",
+      "hiragana": "だいじ",
+      "romaji": "daiji",
+      "english_sentence": "Health is very important.",
+      "japanese_sentence": "健康はとても大事です。"
+    },
+    {
+      "japanese_word": "遅刻",
+      "english_meaning": "being late",
+      "hiragana": "ちこく",
+      "romaji": "chikoku",
+      "english_sentence": "He was late for school.",
+      "japanese_sentence": "彼は学校に遅刻しました。"
+    },
+    {
+      "japanese_word": "欠席",
+      "english_meaning": "absence",
+      "hiragana": "けっせき",
+      "romaji": "kesseki",
+      "english_sentence": "She was absent from class.",
+      "japanese_sentence": "彼女は授業を欠席しました。"
+    },
+    {
+      "japanese_word": "単位",
+      "english_meaning": "credit; unit",
+      "hiragana": "たんい",
+      "romaji": "tan'i",
+      "english_sentence": "I need more credits to graduate.",
+      "japanese_sentence": "卒業するにはもっと単位が必要です。"
+    },
+    {
+      "japanese_word": "出席",
+      "english_meaning": "attendance",
+      "hiragana": "しゅっせき",
+      "romaji": "shusseki",
+      "english_sentence": "Attendance is required.",
+      "japanese_sentence": "出席は必要です。"
+    },
+    {
+      "japanese_word": "片付ける",
+      "english_meaning": "to clean up; to put away",
+      "hiragana": "かたづける",
+      "romaji": "katazukeru",
+      "english_sentence": "Please clean up your room.",
+      "japanese_sentence": "部屋を片付けてください。"
+    },
+    {
+      "japanese_word": "舞台",
+      "english_meaning": "stage",
+      "hiragana": "ぶたい",
+      "romaji": "butai",
+      "english_sentence": "The actors stood on the stage.",
+      "japanese_sentence": "俳優たちは舞台に立ちました。"
+    },
+    {
+      "japanese_word": "時刻",
+      "english_meaning": "time; hour",
+      "hiragana": "じこく",
+      "romaji": "jikoku",
+      "english_sentence": "Please check the departure time.",
+      "japanese_sentence": "出発時刻を確認してください。"
+    },
+    {
+      "japanese_word": "入場",
+      "english_meaning": "entrance; admission",
+      "hiragana": "にゅうじょう",
+      "romaji": "nyūjō",
+      "english_sentence": "Admission starts at 9 a.m.",
+      "japanese_sentence": "入場は午前9時からです。"
+    },
+    {
+      "japanese_word": "制限",
+      "english_meaning": "restriction; limit",
+      "hiragana": "せいげん",
+      "romaji": "seigen",
+      "english_sentence": "There is a speed limit on this road.",
+      "japanese_sentence": "この道路には速度制限があります。"
+    },
+    {
+      "japanese_word": "余裕",
+      "english_meaning": "room; margin; enough time",
+      "hiragana": "よゆう",
+      "romaji": "yoyū",
+      "english_sentence": "I left home early, so I had plenty of time.",
+      "japanese_sentence": "早く家を出たので、時間に余裕がありました。"
+    }
+  ]

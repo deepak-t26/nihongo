@@ -1,0 +1,114 @@
+[
+    {
+      "japanese_word": "俺",
+      "english_meaning": "I; me (informal masculine)",
+      "hiragana": "おれ",
+      "romaji": "ore",
+      "english_sentence": "I will do it myself.",
+      "japanese_sentence": "俺が自分でやる。"
+    },
+    {
+      "japanese_word": "召し",
+      "english_meaning": "to wear; to eat/drink (honorific stem)",
+      "hiragana": "めし",
+      "romaji": "meshi",
+      "english_sentence": "Please wear these shoes.",
+      "japanese_sentence": "この靴をお召しください。"
+    },
+    {
+      "japanese_word": "大人",
+      "english_meaning": "adult",
+      "hiragana": "おとな",
+      "romaji": "otona",
+      "english_sentence": "An adult needs a ticket.",
+      "japanese_sentence": "大人は入場券が必要です。"
+    },
+    {
+      "japanese_word": "枚",
+      "english_meaning": "counter for flat objects",
+      "hiragana": "まい",
+      "romaji": "mai",
+      "english_sentence": "I bought three tickets.",
+      "japanese_sentence": "入場券を三枚買いました。"
+    },
+    {
+      "japanese_word": "列目",
+      "english_meaning": "row; position in a row",
+      "hiragana": "れつめ",
+      "romaji": "retsume",
+      "english_sentence": "My seat is in the second row.",
+      "japanese_sentence": "私の席は二列目です。"
+    },
+    {
+      "japanese_word": "用意",
+      "english_meaning": "preparation; to prepare",
+      "hiragana": "ようい",
+      "romaji": "yōi",
+      "english_sentence": "We prepared everything.",
+      "japanese_sentence": "私たちは全部用意しました。"
+    },
+    {
+      "japanese_word": "遊園地",
+      "english_meaning": "amusement park",
+      "hiragana": "ゆうえんち",
+      "romaji": "yūenchi",
+      "english_sentence": "We went to the amusement park yesterday.",
+      "japanese_sentence": "昨日、遊園地へ行きました。"
+    },
+    {
+      "japanese_word": "入場券",
+      "english_meaning": "admission ticket",
+      "hiragana": "にゅうじょうけん",
+      "romaji": "nyūjōken",
+      "english_sentence": "Please show your admission ticket.",
+      "japanese_sentence": "入場券を見せてください。"
+    },
+    {
+      "japanese_word": "係員",
+      "english_meaning": "staff member; attendant",
+      "hiragana": "かかりいん",
+      "romaji": "kakariin",
+      "english_sentence": "Ask the staff member for help.",
+      "japanese_sentence": "係員に聞いてください。"
+    },
+    {
+      "japanese_word": "お得",
+      "english_meaning": "good value; bargain",
+      "hiragana": "おとく",
+      "romaji": "otoku",
+      "english_sentence": "This ticket is a great bargain.",
+      "japanese_sentence": "このチケットはお得です。"
+    },
+    {
+      "japanese_word": "放題",
+      "english_meaning": "all-you-can; unlimited",
+      "hiragana": "ほうだい",
+      "romaji": "hōdai",
+      "english_sentence": "This restaurant offers all-you-can-eat sushi.",
+      "japanese_sentence": "この店は寿司食べ放題です。"
+    },
+    {
+      "japanese_word": "売り切る",
+      "english_meaning": "to sell out completely",
+      "hiragana": "うりきる",
+      "romaji": "urikiru",
+      "english_sentence": "They sold out all the tickets.",
+      "japanese_sentence": "入場券を全部売り切りました。"
+    },
+    {
+      "japanese_word": "交差点",
+      "english_meaning": "intersection",
+      "hiragana": "こうさてん",
+      "romaji": "kōsaten",
+      "english_sentence": "Turn left at the intersection.",
+      "japanese_sentence": "交差点で左に曲がってください。"
+    },
+    {
+      "japanese_word": "宅配",
+      "english_meaning": "home delivery",
+      "hiragana": "たくはい",
+      "romaji": "takuhai",
+      "english_sentence": "I use a home delivery service.",
+      "japanese_sentence": "宅配サービスを利用しています。"
+    }
+  ]

@@ -1,0 +1,148 @@
+
+[
+  {
+    "kanji": "受付",
+    "hiragana": "うけつけ",
+    "romaji": "uketsuke",
+    "english": "reception; front desk",
+    "japanese_sentence": "受付で名前を書いてください。",
+    "english_sentence": "Please write your name at the reception desk."
+  },
+  {
+    "kanji": "撮影",
+    "hiragana": "さつえい",
+    "romaji": "satsuei",
+    "english": "photography; filming",
+    "japanese_sentence": "ここでは撮影ができます。",
+    "english_sentence": "Photography is allowed here."
+  },
+  {
+    "kanji": "禁止",
+    "hiragana": "きんし",
+    "romaji": "kinshi",
+    "english": "prohibited; forbidden",
+    "japanese_sentence": "この場所では喫煙は禁止です。",
+    "english_sentence": "Smoking is prohibited in this area."
+  },
+  {
+    "kanji": "あらかじめ",
+    "hiragana": "あらかじめ",
+    "romaji": "arakajime",
+    "english": "in advance; beforehand",
+    "japanese_sentence": "あらかじめ予約してください。",
+    "english_sentence": "Please make a reservation in advance."
+  },
+  {
+    "kanji": "了承",
+    "hiragana": "りょうしょう",
+    "romaji": "ryoushou",
+    "english": "understanding; acknowledgment; consent",
+    "japanese_sentence": "ご了承ください。",
+    "english_sentence": "Thank you for your understanding."
+  },
+  {
+    "kanji": "洋服屋",
+    "hiragana": "ようふくや",
+    "romaji": "youfukuya",
+    "english": "clothing store",
+    "japanese_sentence": "駅の近くに新しい洋服屋があります。",
+    "english_sentence": "There is a new clothing store near the station."
+  },
+  {
+    "kanji": "試着",
+    "hiragana": "しちゃく",
+    "romaji": "shichaku",
+    "english": "trying on clothes",
+    "japanese_sentence": "このシャツを試着してもいいですか。",
+    "english_sentence": "May I try on this shirt?"
+  },
+  {
+    "kanji": "水着",
+    "hiragana": "みずぎ",
+    "romaji": "mizugi",
+    "english": "swimsuit",
+    "japanese_sentence": "新しい水着を買いました。",
+    "english_sentence": "I bought a new swimsuit."
+  },
+  {
+    "kanji": "喫煙",
+    "hiragana": "きつえん",
+    "romaji": "kitsuen",
+    "english": "smoking",
+    "japanese_sentence": "喫煙は指定された場所でしてください。",
+    "english_sentence": "Please smoke only in designated areas."
+  },
+  {
+    "kanji": "遠慮",
+    "hiragana": "えんりょ",
+    "romaji": "enryo",
+    "english": "refrain; reserve; hesitation",
+    "japanese_sentence": "写真撮影はご遠慮ください。",
+    "english_sentence": "Please refrain from taking photos."
+  },
+  {
+    "kanji": "登山客",
+    "hiragana": "とざんきゃく",
+    "romaji": "tozankyaku",
+    "english": "mountain climber; hiker",
+    "japanese_sentence": "多くの登山客が山を訪れました。",
+    "english_sentence": "Many hikers visited the mountain."
+  },
+  {
+    "kanji": "山岳",
+    "hiragana": "さんがく",
+    "romaji": "sangaku",
+    "english": "mountain; mountainous",
+    "japanese_sentence": "この地域は山岳地帯です。",
+    "english_sentence": "This area is mountainous."
+  },
+  {
+    "kanji": "火気",
+    "hiragana": "かき",
+    "romaji": "kaki",
+    "english": "open flame; fire",
+    "japanese_sentence": "火気を使用しないでください。",
+    "english_sentence": "Please do not use open flames."
+  },
+  {
+    "kanji": "厳禁",
+    "hiragana": "げんきん",
+    "romaji": "genkin",
+    "english": "strictly prohibited",
+    "japanese_sentence": "ここでは火気厳禁です。",
+    "english_sentence": "Open flames are strictly prohibited here."
+  },
+  {
+    "kanji": "控え",
+    "hiragana": "ひかえ",
+    "romaji": "hikae",
+    "english": "copy; receipt; record",
+    "japanese_sentence": "申込書の控えを保管してください。",
+    "english_sentence": "Please keep a copy of the application form."
+  },
+  {
+    "kanji": "延滞",
+    "hiragana": "えんたい",
+    "romaji": "entai",
+    "english": "overdue; delay",
+    "japanese_sentence": "本を延滞すると料金がかかります。",
+    "english_sentence": "There is a fee if you return the book late."
+  },
+  {
+    "kanji": "返却",
+    "hiragana": "へんきゃく",
+    "romaji": "henkyaku",
+    "english": "return; give back",
+    "japanese_sentence": "本は来週までに返却してください。",
+    "english_sentence": "Please return the book by next week."
+  },
+  {
+    "kanji": "飲食",
+    "hiragana": "いんしょく",
+    "romaji": "inshoku",
+    "english": "eating and drinking",
+    "japanese_sentence": "館内での飲食は禁止です。",
+    "english_sentence": "Eating and drinking are prohibited inside the building."
+  }
+]
+

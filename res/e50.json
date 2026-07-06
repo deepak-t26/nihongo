@@ -1,0 +1,34 @@
+[
+    {
+      "kanji": "期間限定",
+      "hiragana": "きかんげんてい",
+      "romaji": "kikan gentei",
+      "english_meaning": "limited-time; available for a limited period",
+      "japanese_sentence": "このアイスクリームは期間限定で販売されています。",
+      "english_sentence": "This ice cream is sold for a limited time."
+    },
+    {
+      "kanji": "鏡",
+      "hiragana": "かがみ",
+      "romaji": "kagami",
+      "english_meaning": "mirror",
+      "japanese_sentence": "毎朝、鏡を見て髪を整えます。",
+      "english_sentence": "Every morning, I look in the mirror and fix my hair."
+    },
+    {
+      "kanji": "自由",
+      "hiragana": "じゆう",
+      "romaji": "jiyuu",
+      "english_meaning": "freedom; free",
+      "japanese_sentence": "今日は自由な時間がたくさんあります。",
+      "english_sentence": "I have a lot of free time today."
+    },
+    {
+      "kanji": "結構",
+      "hiragana": "けっこう",
+      "romaji": "kekkou",
+      "english_meaning": "quite; fairly; no thank you (depending on context)",
+      "japanese_sentence": "このケーキは結構おいしいです。",
+      "english_sentence": "This cake is quite delicious."
+    }
+  ]

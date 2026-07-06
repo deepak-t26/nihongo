@@ -1,0 +1,258 @@
+[
+    {
+      "japanese_word": "入居者",
+      "english_meaning": "resident; tenant",
+      "hiragana": "にゅうきょしゃ",
+      "romaji": "nyūkyosha",
+      "english_sentence": "The residents attended the meeting.",
+      "japanese_sentence": "入居者は会議に参加しました。"
+    },
+    {
+      "japanese_word": "管理人",
+      "english_meaning": "manager; caretaker; superintendent",
+      "hiragana": "かんりにん",
+      "romaji": "kanrinin",
+      "english_sentence": "Please ask the manager for help.",
+      "japanese_sentence": "管理人に聞いてください。"
+    },
+    {
+      "japanese_word": "博物館",
+      "english_meaning": "museum",
+      "hiragana": "はくぶつかん",
+      "romaji": "hakubutsukan",
+      "english_sentence": "We visited the museum yesterday.",
+      "japanese_sentence": "昨日、博物館へ行きました。"
+    },
+    {
+      "japanese_word": "見学",
+      "english_meaning": "tour; observation; field trip",
+      "hiragana": "けんがく",
+      "romaji": "kengaku",
+      "english_sentence": "The students went on a museum tour.",
+      "japanese_sentence": "生徒たちは博物館を見学しました。"
+    },
+    {
+      "japanese_word": "騒ぐ",
+      "english_meaning": "to make noise; to be noisy",
+      "hiragana": "さわぐ",
+      "romaji": "sawagu",
+      "english_sentence": "The children were making a lot of noise.",
+      "japanese_sentence": "子どもたちは騒いでいました。"
+    },
+    {
+      "japanese_word": "住民",
+      "english_meaning": "resident; inhabitant",
+      "hiragana": "じゅうみん",
+      "romaji": "jūmin",
+      "english_sentence": "The residents cleaned the park.",
+      "japanese_sentence": "住民は公園を掃除しました。"
+    },
+    {
+      "japanese_word": "欄",
+      "english_meaning": "column; blank (on a form)",
+      "hiragana": "らん",
+      "romaji": "ran",
+      "english_sentence": "Please fill in this column.",
+      "japanese_sentence": "この欄に記入してください。"
+    },
+    {
+      "japanese_word": "指差す",
+      "english_meaning": "to point at",
+      "hiragana": "ゆびさす",
+      "romaji": "yubisasu",
+      "english_sentence": "He pointed at the map.",
+      "japanese_sentence": "彼は地図を指差しました。"
+    },
+    {
+      "japanese_word": "駐輪場",
+      "english_meaning": "bicycle parking area",
+      "hiragana": "ちゅうりんじょう",
+      "romaji": "chūrinjō",
+      "english_sentence": "Please park your bicycle in the bicycle parking area.",
+      "japanese_sentence": "自転車は駐輪場に停めてください。"
+    },
+    {
+      "japanese_word": "新入生",
+      "english_meaning": "new student; freshman",
+      "hiragana": "しんにゅうせい",
+      "romaji": "shinnyūsei",
+      "english_sentence": "The new students looked excited.",
+      "japanese_sentence": "新入生はうれしそうでした。"
+    },
+    {
+      "japanese_word": "学年",
+      "english_meaning": "school year; grade",
+      "hiragana": "がくねん",
+      "romaji": "gakunen",
+      "english_sentence": "She is in the third school year.",
+      "japanese_sentence": "彼女は三学年です。"
+    },
+    {
+      "japanese_word": "停める",
+      "english_meaning": "to park; to stop a vehicle",
+      "hiragana": "とめる",
+      "romaji": "tomeru",
+      "english_sentence": "Please park your car here.",
+      "japanese_sentence": "ここに車を停めてください。"
+    },
+    {
+      "japanese_word": "年生",
+      "english_meaning": "grade (e.g. first-year student)",
+      "hiragana": "ねんせい",
+      "romaji": "nensei",
+      "english_sentence": "I am a second-year student.",
+      "japanese_sentence": "私は二年生です。"
+    },
+    {
+      "japanese_word": "紙",
+      "english_meaning": "paper",
+      "hiragana": "かみ",
+      "romaji": "kami",
+      "english_sentence": "Please write on this paper.",
+      "japanese_sentence": "この紙に書いてください。"
+    },
+    {
+      "japanese_word": "２０部",
+      "english_meaning": "20 copies",
+      "hiragana": "にじゅうぶ",
+      "romaji": "nijū-bu",
+      "english_sentence": "Please make 20 copies of this document.",
+      "japanese_sentence": "この資料を20部コピーしてください。"
+    },
+    {
+      "japanese_word": "遠足",
+      "english_meaning": "school excursion; field trip",
+      "hiragana": "えんそく",
+      "romaji": "ensoku",
+      "english_sentence": "The children are looking forward to the field trip.",
+      "japanese_sentence": "子どもたちは遠足を楽しみにしています。"
+    },
+    {
+      "japanese_word": "事項",
+      "english_meaning": "item; matter",
+      "hiragana": "じこう",
+      "romaji": "jikō",
+      "english_sentence": "Please read the important items carefully.",
+      "japanese_sentence": "重要事項をよく読んでください。"
+    },
+    {
+      "japanese_word": "生徒",
+      "english_meaning": "student",
+      "hiragana": "せいと",
+      "romaji": "seito",
+      "english_sentence": "The students are studying quietly.",
+      "japanese_sentence": "生徒たちは静かに勉強しています。"
+    },
+    {
+      "japanese_word": "持参",
+      "english_meaning": "bringing; bringing along",
+      "hiragana": "じさん",
+      "romaji": "jisan",
+      "english_sentence": "Please bring your ID card.",
+      "japanese_sentence": "身分証明書を持参してください。"
+    },
+    {
+      "japanese_word": "昼食",
+      "english_meaning": "lunch",
+      "hiragana": "ちゅうしょく",
+      "romaji": "chūshoku",
+      "english_sentence": "We ate lunch together.",
+      "japanese_sentence": "一緒に昼食を食べました。"
+    },
+    {
+      "japanese_word": "各自",
+      "english_meaning": "each person; individually",
+      "hiragana": "かくじ",
+      "romaji": "kakuji",
+      "english_sentence": "Each person should prepare their own lunch.",
+      "japanese_sentence": "昼食は各自で用意してください。"
+    },
+    {
+      "japanese_word": "場",
+      "english_meaning": "place; location",
+      "hiragana": "ば",
+      "romaji": "ba",
+      "english_sentence": "This is a good place to rest.",
+      "japanese_sentence": "ここは休むのに良い場です。"
+    },
+    {
+      "japanese_word": "参列者",
+      "english_meaning": "attendee; participant (at a ceremony)",
+      "hiragana": "さんれつしゃ",
+      "romaji": "sanretsusha",
+      "english_sentence": "The attendees arrived early.",
+      "japanese_sentence": "参列者は早く到着しました。"
+    },
+    {
+      "japanese_word": "会場",
+      "english_meaning": "venue",
+      "hiragana": "かいじょう",
+      "romaji": "kaijō",
+      "english_sentence": "The venue opened at 9 a.m.",
+      "japanese_sentence": "会場は午前9時に開きました。"
+    },
+    {
+      "japanese_word": "演奏",
+      "english_meaning": "musical performance",
+      "hiragana": "えんそう",
+      "romaji": "ensō",
+      "english_sentence": "The musical performance was wonderful.",
+      "japanese_sentence": "演奏はすばらしかったです。"
+    },
+    {
+      "japanese_word": "入場",
+      "english_meaning": "admission; entrance",
+      "hiragana": "にゅうじょう",
+      "romaji": "nyūjō",
+      "english_sentence": "Admission starts at 10 a.m.",
+      "japanese_sentence": "入場は午前10時からです。"
+    },
+    {
+      "japanese_word": "座席",
+      "english_meaning": "seat",
+      "hiragana": "ざせき",
+      "romaji": "zaseki",
+      "english_sentence": "Please sit in your assigned seat.",
+      "japanese_sentence": "指定された座席に座ってください。"
+    },
+    {
+      "japanese_word": "事前",
+      "english_meaning": "in advance; beforehand",
+      "hiragana": "じぜん",
+      "romaji": "jizen",
+      "english_sentence": "Please make a reservation in advance.",
+      "japanese_sentence": "事前に予約してください。"
+    },
+    {
+      "japanese_word": "指定",
+      "english_meaning": "designation; assignment",
+      "hiragana": "してい",
+      "romaji": "shitei",
+      "english_sentence": "This is a reserved seat.",
+      "japanese_sentence": "これは指定席です。"
+    },
+    {
+      "japanese_word": "手持ちの",
+      "english_meaning": "on hand; in one's possession",
+      "hiragana": "てもちの",
+      "romaji": "temochi no",
+      "english_sentence": "Please use the ticket you have with you.",
+      "japanese_sentence": "手持ちの整理券を使ってください。"
+    },
+    {
+      "japanese_word": "整理券",
+      "english_meaning": "numbered ticket; queue ticket",
+      "hiragana": "せいりけん",
+      "romaji": "seiriken",
+      "english_sentence": "Please take a numbered ticket first.",
+      "japanese_sentence": "先に整理券を取ってください。"
+    },
+    {
+      "japanese_word": "不明",
+      "english_meaning": "unknown; unclear",
+      "hiragana": "ふめい",
+      "romaji": "fumei",
+      "english_sentence": "The cause is still unknown.",
+      "japanese_sentence": "原因はまだ不明です。"
+    }
+  ]

@@ -1,0 +1,121 @@
+[
+    {
+      "kanji": "抜いる",
+      "hiragana": "ぬいている",
+      "english_meaning": "to be missing / omitted",
+      "english_sentence": "One page is missing from the document.",
+      "japanese_sentence": "書類の一ページが抜いてあります。"
+    },
+    {
+      "kanji": "対応",
+      "hiragana": "たいおう",
+      "english_meaning": "response; handling; support",
+      "english_sentence": "The staff responded quickly to my request.",
+      "japanese_sentence": "スタッフは私の依頼にすぐ対応しました。"
+    },
+    {
+      "kanji": "美容",
+      "hiragana": "びよう",
+      "english_meaning": "beauty; cosmetology",
+      "english_sentence": "She works in the beauty industry.",
+      "japanese_sentence": "彼女は美容の仕事をしています。"
+    },
+    {
+      "kanji": "屋",
+      "hiragana": "や",
+      "english_meaning": "shop; store; dealer",
+      "english_sentence": "There is a flower shop near the station.",
+      "japanese_sentence": "駅の近くに花屋があります。"
+    },
+    {
+      "kanji": "何分",
+      "hiragana": "なんぷん",
+      "english_meaning": "how many minutes",
+      "english_sentence": "How many minutes does it take?",
+      "japanese_sentence": "何分かかりますか。"
+    },
+    {
+      "kanji": "希望",
+      "hiragana": "きぼう",
+      "english_meaning": "hope; wish; preference",
+      "english_sentence": "Please tell us your preferred time.",
+      "japanese_sentence": "ご希望の時間を教えてください。"
+    },
+    {
+      "kanji": "交通",
+      "hiragana": "こうつう",
+      "english_meaning": "transportation; traffic",
+      "english_sentence": "Traffic is heavy this morning.",
+      "japanese_sentence": "今朝は交通が混んでいます。"
+    },
+    {
+      "kanji": "一台",
+      "hiragana": "いちだい",
+      "english_meaning": "one machine / one vehicle (counter)",
+      "english_sentence": "One taxi is waiting outside.",
+      "japanese_sentence": "タクシーが一台外で待っています。"
+    },
+    {
+      "kanji": "迎える",
+      "hiragana": "むかえる",
+      "english_meaning": "to pick up; to welcome; to greet",
+      "english_sentence": "I will pick you up at the station.",
+      "japanese_sentence": "駅まで迎えに行きます。"
+    },
+    {
+      "kanji": "状況",
+      "hiragana": "じょうきょう",
+      "english_meaning": "situation; condition",
+      "english_sentence": "Please explain the situation.",
+      "japanese_sentence": "状況を説明してください。"
+    },
+    {
+      "kanji": "満室",
+      "hiragana": "まんしつ",
+      "english_meaning": "fully booked; no vacancies",
+      "english_sentence": "The hotel is fully booked tonight.",
+      "japanese_sentence": "ホテルは今夜満室です。"
+    },
+    {
+      "kanji": "歯医者",
+      "hiragana": "はいしゃ",
+      "english_meaning": "dentist; dental clinic",
+      "english_sentence": "I have an appointment with the dentist tomorrow.",
+      "japanese_sentence": "明日は歯医者の予約があります。"
+    },
+    {
+      "kanji": "歯科",
+      "hiragana": "しか",
+      "english_meaning": "dentistry; dental department",
+      "english_sentence": "The dental department is on the second floor.",
+      "japanese_sentence": "歯科は二階にあります。"
+    },
+    {
+      "kanji": "診る",
+      "hiragana": "みる",
+      "english_meaning": "to examine (a patient)",
+      "english_sentence": "The doctor will examine you soon.",
+      "japanese_sentence": "医者がすぐに診ます。"
+    },
+    {
+      "kanji": "伺う",
+      "hiragana": "うかがう",
+      "english_meaning": "to visit; to ask (humble)",
+      "english_sentence": "I will visit your office tomorrow.",
+      "japanese_sentence": "明日そちらへ伺います。"
+    },
+    {
+      "kanji": "体調",
+      "hiragana": "たいちょう",
+      "english_meaning": "physical condition; health",
+      "english_sentence": "My physical condition is good today.",
+      "japanese_sentence": "今日は体調がいいです。"
+    },
+    {
+      "kanji": "不良",
+      "hiragana": "ふりょう",
+      "english_meaning": "poor; defective; bad",
+      "english_sentence": "I was absent because of poor health.",
+      "japanese_sentence": "体調不良で休みました。"
+    }
+  ]
