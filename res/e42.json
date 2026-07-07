@@ -1,0 +1,291 @@
+[
+    {
+      "kanji": "出張先",
+      "words": [
+        {
+          "kanji": "出張先",
+          "hiragana": "しゅっちょうさき",
+          "romaji": "shutchou-saki",
+          "english": "business trip destination",
+          "japanese_sentence": "出張先で新しい取引先と会いました。",
+          "english_sentence": "I met a new client at my business trip destination."
+        }
+      ]
+    },
+    {
+      "kanji": "貼る",
+      "words": [
+        {
+          "kanji": "貼る",
+          "hiragana": "はる",
+          "romaji": "haru",
+          "english": "to stick; to paste",
+          "japanese_sentence": "壁にポスターを貼りました。",
+          "english_sentence": "I put a poster on the wall."
+        }
+      ]
+    },
+    {
+      "kanji": "手帳",
+      "words": [
+        {
+          "kanji": "手帳",
+          "hiragana": "てちょう",
+          "romaji": "techou",
+          "english": "planner; notebook",
+          "japanese_sentence": "予定を手帳に書きました。",
+          "english_sentence": "I wrote my schedule in my planner."
+        }
+      ]
+    },
+    {
+      "kanji": "並ぶ",
+      "words": [
+        {
+          "kanji": "並ぶ",
+          "hiragana": "ならぶ",
+          "romaji": "narabu",
+          "english": "to line up; to stand in line",
+          "japanese_sentence": "人気の店なので長い列に並びました。",
+          "english_sentence": "Since it is a popular shop, I stood in a long line."
+        }
+      ]
+    },
+    {
+      "kanji": "店長",
+      "words": [
+        {
+          "kanji": "店長",
+          "hiragana": "てんちょう",
+          "romaji": "tenchou",
+          "english": "store manager",
+          "japanese_sentence": "店長に相談してみます。",
+          "english_sentence": "I'll consult the store manager."
+        }
+      ]
+    },
+    {
+      "kanji": "進行役",
+      "words": [
+        {
+          "kanji": "進行役",
+          "hiragana": "しんこうやく",
+          "romaji": "shinkou-yaku",
+          "english": "facilitator; moderator",
+          "japanese_sentence": "会議の進行役を担当しました。",
+          "english_sentence": "I served as the meeting facilitator."
+        }
+      ]
+    },
+    {
+      "kanji": "用意",
+      "words": [
+        {
+          "kanji": "用意",
+          "hiragana": "ようい",
+          "romaji": "youi",
+          "english": "preparation",
+          "japanese_sentence": "資料の用意ができました。",
+          "english_sentence": "The materials are ready."
+        },
+        {
+          "kanji": "用意する",
+          "hiragana": "よういする",
+          "romaji": "youi suru",
+          "english": "to prepare",
+          "japanese_sentence": "会議の前に資料を用意してください。",
+          "english_sentence": "Please prepare the materials before the meeting."
+        }
+      ]
+    },
+    {
+      "kanji": "最初",
+      "words": [
+        {
+          "kanji": "最初",
+          "hiragana": "さいしょ",
+          "romaji": "saisho",
+          "english": "first; beginning",
+          "japanese_sentence": "最初に自己紹介をします。",
+          "english_sentence": "First, I will introduce myself."
+        }
+      ]
+    },
+    {
+      "kanji": "役所",
+      "words": [
+        {
+          "kanji": "役所",
+          "hiragana": "やくしょ",
+          "romaji": "yakusho",
+          "english": "government office; city hall",
+          "japanese_sentence": "役所で住民票を取りました。",
+          "english_sentence": "I got a resident certificate at the city office."
+        }
+      ]
+    },
+    {
+      "kanji": "プレゼン",
+      "words": [
+        {
+          "kanji": "プレゼン",
+          "hiragana": "ぷれぜん",
+          "romaji": "purezen",
+          "english": "presentation",
+          "japanese_sentence": "明日はプレゼンがあります。",
+          "english_sentence": "I have a presentation tomorrow."
+        }
+      ]
+    },
+    {
+      "kanji": "何本",
+      "words": [
+        {
+          "kanji": "何本",
+          "hiragana": "なんぼん",
+          "romaji": "nanbon",
+          "english": "how many long cylindrical objects",
+          "japanese_sentence": "ペンは何本ありますか。",
+          "english_sentence": "How many pens are there?"
+        }
+      ]
+    },
+    {
+      "kanji": "せっかく",
+      "words": [
+        {
+          "kanji": "せっかく",
+          "hiragana": "せっかく",
+          "romaji": "sekkaku",
+          "english": "especially; after going to the trouble",
+          "japanese_sentence": "せっかく来たので観光しましょう。",
+          "english_sentence": "Since we've come all this way, let's go sightseeing."
+        }
+      ]
+    },
+    {
+      "kanji": "ついでに",
+      "words": [
+        {
+          "kanji": "ついでに",
+          "hiragana": "ついでに",
+          "romaji": "tsuide ni",
+          "english": "while you're at it; incidentally",
+          "japanese_sentence": "買い物のついでに郵便局へ行きました。",
+          "english_sentence": "I went to the post office while I was out shopping."
+        }
+      ]
+    },
+    {
+      "kanji": "経理",
+      "words": [
+        {
+          "kanji": "経理",
+          "hiragana": "けいり",
+          "romaji": "keiri",
+          "english": "accounting",
+          "japanese_sentence": "経理に領収書を提出しました。",
+          "english_sentence": "I submitted the receipt to accounting."
+        }
+      ]
+    },
+    {
+      "kanji": "認めら",
+      "words": [
+        {
+          "kanji": "認められる",
+          "hiragana": "みとめられる",
+          "romaji": "mitomerareru",
+          "english": "to be approved; to be recognized",
+          "japanese_sentence": "この経費は会社に認められました。",
+          "english_sentence": "This expense was approved by the company."
+        }
+      ]
+    },
+    {
+      "kanji": "清算",
+      "words": [
+        {
+          "kanji": "清算",
+          "hiragana": "せいさん",
+          "romaji": "seisan",
+          "english": "settlement; reimbursement",
+          "japanese_sentence": "出張費を清算しました。",
+          "english_sentence": "I settled my business trip expenses."
+        }
+      ]
+    },
+    {
+      "kanji": "経費",
+      "words": [
+        {
+          "kanji": "経費",
+          "hiragana": "けいひ",
+          "romaji": "keihi",
+          "english": "expenses",
+          "japanese_sentence": "交通費は経費として申請できます。",
+          "english_sentence": "Transportation costs can be claimed as business expenses."
+        }
+      ]
+    },
+    {
+      "kanji": "追加予算",
+      "words": [
+        {
+          "kanji": "追加予算",
+          "hiragana": "ついかよさん",
+          "romaji": "tsuika yosan",
+          "english": "additional budget",
+          "japanese_sentence": "新しい計画のために追加予算を申請しました。",
+          "english_sentence": "We requested an additional budget for the new project."
+        }
+      ]
+    },
+    {
+      "kanji": "追加経費",
+      "words": [
+        {
+          "kanji": "追加経費",
+          "hiragana": "ついかけいひ",
+          "romaji": "tsuika keihi",
+          "english": "additional expenses",
+          "japanese_sentence": "追加経費について説明してください。",
+          "english_sentence": "Please explain the additional expenses."
+        }
+      ]
+    },
+    {
+      "kanji": "事前",
+      "words": [
+        {
+          "kanji": "事前",
+          "hiragana": "じぜん",
+          "romaji": "jizen",
+          "english": "in advance",
+          "japanese_sentence": "事前に予約してください。",
+          "english_sentence": "Please make a reservation in advance."
+        }
+      ]
+    },
+    {
+      "kanji": "承認",
+      "words": [
+        {
+          "kanji": "承認",
+          "hiragana": "しょうにん",
+          "romaji": "shounin",
+          "english": "approval",
+          "japanese_sentence": "部長の承認が必要です。",
+          "english_sentence": "The manager's approval is required."
+        },
+        {
+          "kanji": "承認する",
+          "hiragana": "しょうにんする",
+          "romaji": "shounin suru",
+          "english": "to approve",
+          "japanese_sentence": "申請書を承認しました。",
+          "english_sentence": "I approved the application form."
+        }
+      ]
+    }
+  ]

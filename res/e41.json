@@ -1,0 +1,162 @@
+[
+    {
+      "kanji": "中華",
+      "words": [
+        {
+          "kanji": "中華",
+          "hiragana": "ちゅうか",
+          "romaji": "chuuka",
+          "english": "Chinese cuisine; Chinese style",
+          "japanese_sentence": "今日は中華を食べに行きましょう。",
+          "english_sentence": "Let's go eat Chinese food today."
+        }
+      ]
+    },
+    {
+      "kanji": "カニ",
+      "words": [
+        {
+          "kanji": "カニ",
+          "hiragana": "かに",
+          "romaji": "kani",
+          "english": "crab",
+          "japanese_sentence": "冬になるとカニを食べたくなります。",
+          "english_sentence": "I feel like eating crab when winter comes."
+        }
+      ]
+    },
+    {
+      "kanji": "鍋",
+      "words": [
+        {
+          "kanji": "鍋",
+          "hiragana": "なべ",
+          "romaji": "nabe",
+          "english": "pot; hot pot",
+          "japanese_sentence": "寒い日は鍋料理が人気です。",
+          "english_sentence": "Hot pot dishes are popular on cold days."
+        },
+        {
+          "kanji": "鍋料理",
+          "hiragana": "なべりょうり",
+          "romaji": "naberyouri",
+          "english": "hot pot dish",
+          "japanese_sentence": "家族みんなで鍋料理を楽しみました。",
+          "english_sentence": "The whole family enjoyed a hot pot meal."
+        }
+      ]
+    },
+    {
+      "kanji": "混んで",
+      "words": [
+        {
+          "kanji": "混む",
+          "hiragana": "こむ",
+          "romaji": "komu",
+          "english": "to be crowded",
+          "japanese_sentence": "電車がとても混んでいます。",
+          "english_sentence": "The train is very crowded."
+        },
+        {
+          "kanji": "混んでいる",
+          "hiragana": "こんでいる",
+          "romaji": "konde iru",
+          "english": "to be crowded",
+          "japanese_sentence": "週末は店が混んでいます。",
+          "english_sentence": "The store is crowded on weekends."
+        }
+      ]
+    },
+    {
+      "kanji": "拡散",
+      "words": [
+        {
+          "kanji": "拡散",
+          "hiragana": "かくさん",
+          "romaji": "kakusan",
+          "english": "spread; diffusion",
+          "japanese_sentence": "SNSで情報がすぐに拡散しました。",
+          "english_sentence": "The information quickly spread on social media."
+        },
+        {
+          "kanji": "拡散する",
+          "hiragana": "かくさんする",
+          "romaji": "kakusan suru",
+          "english": "to spread; to diffuse",
+          "japanese_sentence": "うわさが町中に拡散しました。",
+          "english_sentence": "The rumor spread throughout the town."
+        }
+      ]
+    },
+    {
+      "kanji": "数",
+      "words": [
+        {
+          "kanji": "数",
+          "hiragana": "かず",
+          "romaji": "kazu",
+          "english": "number",
+          "japanese_sentence": "参加者の数が増えました。",
+          "english_sentence": "The number of participants increased."
+        },
+        {
+          "kanji": "数字",
+          "hiragana": "すうじ",
+          "romaji": "suuji",
+          "english": "number; numeral",
+          "japanese_sentence": "この数字を覚えてください。",
+          "english_sentence": "Please remember this number."
+        },
+        {
+          "kanji": "数える",
+          "hiragana": "かぞえる",
+          "romaji": "kazoeru",
+          "english": "to count",
+          "japanese_sentence": "子どもたちは星を数えました。",
+          "english_sentence": "The children counted the stars."
+        }
+      ]
+    },
+    {
+      "kanji": "売れ行き",
+      "words": [
+        {
+          "kanji": "売れ行き",
+          "hiragana": "うれゆき",
+          "romaji": "ureyuki",
+          "english": "sales; sales performance",
+          "japanese_sentence": "新商品の売れ行きは好調です。",
+          "english_sentence": "The new product is selling well."
+        },
+        {
+          "kanji": "売れる",
+          "hiragana": "うれる",
+          "romaji": "ureru",
+          "english": "to sell; to be sold",
+          "japanese_sentence": "この本はよく売れています。",
+          "english_sentence": "This book is selling well."
+        }
+      ]
+    },
+    {
+      "kanji": "目立つ",
+      "words": [
+        {
+          "kanji": "目立つ",
+          "hiragana": "めだつ",
+          "romaji": "medatsu",
+          "english": "to stand out; to be conspicuous",
+          "japanese_sentence": "彼は赤い服を着ていてとても目立ちます。",
+          "english_sentence": "He stands out because he is wearing red clothes."
+        },
+        {
+          "kanji": "目立った",
+          "hiragana": "めだった",
+          "romaji": "medatta",
+          "english": "remarkable; noticeable",
+          "japanese_sentence": "目立った変化はありませんでした。",
+          "english_sentence": "There were no noticeable changes."
+        }
+      ]
+    }
+  ]
