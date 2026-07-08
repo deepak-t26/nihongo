@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Japanese Practice</title>
+
+<style>
+*{
+    box-sizing:border-box;
+    font-family:system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
+}
+
+body{
+    margin:0;
+    background:#f5f5f5;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    min-height:100vh;
+    color:#222;
+}
+
+.card{
+    width:min(700px,95%);
+    background:white;
+    padding:40px;
+    border-radius:16px;
+    box-shadow:0 10px 30px rgba(0,0,0,.08);
+}
+
+.top{
+    display:flex;
+    justify-content:space-between;
+    margin-bottom:25px;
+    color:#777;
+    font-size:14px;
+}
+
+.question{
+    font-size:48px;
+    text-align:center;
+    margin:30px 0;
+    font-weight:bold;
+}
+
+.answer{
+    display:none;
+    text-align:center;
+}
+
+.answer h2{
+    margin:10px 0;
+}
+
+.answer p{
+    margin:6px 0;
+}
+
+.example{
+    margin-top:25px;
+    padding-top:20px;
+    border-top:1px solid #ddd;
+}
+
+.buttons{
+    display:flex;
+    gap:10px;
+    justify-content:center;
+    margin-top:30px;
+    flex-wrap:wrap;
+}
+
+button{
+    padding:12px 20px;
+    border:none;
+    border-radius:8px;
+    cursor:pointer;
+    background:#222;
+    color:white;
+    font-size:15px;
+}
+
+button:hover{
+    opacity:.9;
+}
+
+.loading{
+    text-align:center;
+    color:#777;
+}
+</style>
+
+</head>
+<body>
+
+<div class="card">
+
+<div class="top">
+<div id="counter">0 / 0</div>
+<div id="status">Loading...</div>
+</div>
+
+<div id="content" class="loading">
+Loading vocabulary...
+</div>
+
+</div>
+
+<script>
+
+let words = [];
+let current = 0;
+
+async function loadData(){
+
+    try{
+
+        const files = await fetch("res/files.json").then(r=>r.json());
+
+        for(const file of files){
+
+            try{
+
+                const data = await fetch("res/"+file).then(r=>r.json());
+
+                if(Array.isArray(data) && data.length){
+                    words.push(...data);
+                }
+
+            }catch(e){
+                console.log(file+" skipped");
+            }
+
+        }
+
+        shuffle(words);
+
+        document.getElementById("status").textContent =
+            words.length+" words";
+
+        show();
+
+    }catch(err){
+
+        document.getElementById("content").innerHTML =
+        "<h2>Unable to load files.</h2><p>Create res/files.json listing every JSON file.</p>";
+
+    }
+
+}
+
+function shuffle(array){
+    for(let i=array.length-1;i>0;i--){
+        const j=Math.floor(Math.random()*(i+1));
+        [array[i],array[j]]=[array[j],array[i]];
+    }
+}
+
+function show(){
+
+    if(words.length===0){
+        document.getElementById("content").innerHTML="No vocabulary found.";
+        return;
+    }
+
+    const w=words[current];
+
+    document.getElementById("counter").textContent=
+        `${current+1} / ${words.length}`;
+
+    document.getElementById("content").innerHTML=`
+
+<div class="question">
+${w.kanji || w.hiragana || "(empty)"}
+</div>
+
+<div class="answer" id="answer">
+
+<h2>${w.hiragana || ""}</h2>
+
+<p><b>Romaji:</b> ${w.romaji || "-"}</p>
+
+<p><b>English:</b> ${w.english || "-"}</p>
+
+<div class="example">
+<p>${w.japanese_sentence || ""}</p>
+<p>${w.english_sentence || ""}</p>
+</div>
+
+</div>
+
+<div class="buttons">
+
+<button onclick="toggleAnswer()">Show Answer</button>
+
+<button onclick="prev()">◀ Previous</button>
+
+<button onclick="next()">Next ▶</button>
+
+<button onclick="reshuffle()">Shuffle</button>
+
+</div>
+
+`;
+
+}
+
+function toggleAnswer(){
+
+    const a=document.getElementById("answer");
+
+    if(a.style.display==="block"){
+        a.style.display="none";
+    }else{
+        a.style.display="block";
+    }
+
+}
+
+function next(){
+
+    current++;
+
+    if(current>=words.length)
+        current=0;
+
+    show();
+
+}
+
+function prev(){
+
+    current--;
+
+    if(current<0)
+        current=words.length-1;
+
+    show();
+
+}
+
+function reshuffle(){
+
+    shuffle(words);
+    current=0;
+    show();
+
+}
+
+loadData();
+
+</script>
+
+</body>
+</html>

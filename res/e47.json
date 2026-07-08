@@ -1,167 +1,167 @@
 [
     {
-      "japanese_word": "原稿",
-      "english_meaning": "manuscript; draft",
+      "kanji": "原稿",
+      "english": "manuscript; draft",
       "hiragana": "げんこう",
       "romaji": "genkō",
       "english_sentence": "I finished writing the manuscript yesterday.",
       "japanese_sentence": "昨日、原稿を書き終えました。"
     },
     {
-      "japanese_word": "ふた",
-      "english_meaning": "lid; cover",
+      "kanji": "ふた",
+      "english": "lid; cover",
       "hiragana": "ふた",
       "romaji": "futa",
       "english_sentence": "Please put the lid on the bottle.",
       "japanese_sentence": "ボトルにふたをしてください。"
     },
     {
-      "japanese_word": "蛇口",
-      "english_meaning": "faucet; tap",
+      "kanji": "蛇口",
+      "english": "faucet; tap",
       "hiragana": "じゃぐち",
       "romaji": "jaguchi",
       "english_sentence": "Turn off the faucet after washing your hands.",
       "japanese_sentence": "手を洗った後、蛇口を閉めてください。"
     },
     {
-      "japanese_word": "ひねる",
-      "english_meaning": "to twist; to turn",
+      "kanji": "ひねる",
+      "english": "to twist; to turn",
       "hiragana": "ひねる",
       "romaji": "hineru",
       "english_sentence": "Turn the knob to open the door.",
       "japanese_sentence": "ドアを開けるためにノブをひねってください。"
     },
     {
-      "japanese_word": "温か",
-      "english_meaning": "warm",
+      "kanji": "温か",
+      "english": "warm",
       "hiragana": "あたたか",
       "romaji": "atataka",
       "english_sentence": "The soup is still warm.",
       "japanese_sentence": "スープはまだ温かいです。"
     },
     {
-      "japanese_word": "苗",
-      "english_meaning": "seedling",
+      "kanji": "苗",
+      "english": "seedling",
       "hiragana": "なえ",
       "romaji": "nae",
       "english_sentence": "We planted tomato seedlings in the garden.",
       "japanese_sentence": "庭にトマトの苗を植えました。"
     },
     {
-      "japanese_word": "土",
-      "english_meaning": "soil; earth",
+      "kanji": "土",
+      "english": "soil; earth",
       "hiragana": "つち",
       "romaji": "tsuchi",
       "english_sentence": "The flowers grow well in rich soil.",
       "japanese_sentence": "花は栄養のある土でよく育ちます。"
     },
     {
-      "japanese_word": "返品",
-      "english_meaning": "return (of a product)",
+      "kanji": "返品",
+      "english": "return (of a product)",
       "hiragana": "へんぴん",
       "romaji": "henpin",
       "english_sentence": "I would like to return this shirt.",
       "japanese_sentence": "このシャツを返品したいです。"
     },
     {
-      "japanese_word": "断り",
-      "english_meaning": "refusal; rejection",
+      "kanji": "断り",
+      "english": "refusal; rejection",
       "hiragana": "ことわり",
       "romaji": "kotowari",
       "english_sentence": "He politely declined the invitation.",
       "japanese_sentence": "彼は招待を丁寧に断りました。"
     },
     {
-      "japanese_word": "燃やす",
-      "english_meaning": "to burn",
+      "kanji": "燃やす",
+      "english": "to burn",
       "hiragana": "もやす",
       "romaji": "moyasu",
       "english_sentence": "Do not burn plastic waste.",
       "japanese_sentence": "プラスチックごみを燃やさないでください。"
     },
     {
-      "japanese_word": "心",
-      "english_meaning": "heart; mind",
+      "kanji": "心",
+      "english": "heart; mind",
       "hiragana": "こころ",
       "romaji": "kokoro",
       "english_sentence": "She has a kind heart.",
       "japanese_sentence": "彼女は優しい心を持っています。"
     },
     {
-      "japanese_word": "越す",
-      "english_meaning": "to cross; to go beyond",
+      "kanji": "越す",
+      "english": "to cross; to go beyond",
       "hiragana": "こす",
       "romaji": "kosu",
       "english_sentence": "Let's cross the bridge together.",
       "japanese_sentence": "一緒に橋を越しましょう。"
     },
     {
-      "japanese_word": "来店",
-      "english_meaning": "visit to a store",
+      "kanji": "来店",
+      "english": "visit to a store",
       "hiragana": "らいてん",
       "romaji": "raiten",
       "english_sentence": "Thank you for visiting our store.",
       "japanese_sentence": "ご来店ありがとうございます。"
     },
     {
-      "japanese_word": "誠",
-      "english_meaning": "sincerity",
+      "kanji": "誠",
+      "english": "sincerity",
       "hiragana": "まこと",
       "romaji": "makoto",
       "english_sentence": "He spoke with sincerity.",
       "japanese_sentence": "彼は誠を込めて話しました。"
     },
     {
-      "japanese_word": "実",
-      "english_meaning": "fruit; truth; reality",
+      "kanji": "実",
+      "english": "fruit; truth; reality",
       "hiragana": "み",
       "romaji": "mi",
       "english_sentence": "The tree is full of fruit.",
       "japanese_sentence": "その木には実がたくさんなっています。"
     },
     {
-      "japanese_word": "留学",
-      "english_meaning": "studying abroad",
+      "kanji": "留学",
+      "english": "studying abroad",
       "hiragana": "りゅうがく",
       "romaji": "ryūgaku",
       "english_sentence": "She plans to study abroad next year.",
       "japanese_sentence": "彼女は来年留学する予定です。"
     },
     {
-      "japanese_word": "後輩",
-      "english_meaning": "junior (at school/work)",
+      "kanji": "後輩",
+      "english": "junior (at school/work)",
       "hiragana": "こうはい",
       "romaji": "kōhai",
       "english_sentence": "My junior asked me for advice.",
       "japanese_sentence": "後輩が私にアドバイスを求めました。"
     },
     {
-      "japanese_word": "講義",
-      "english_meaning": "lecture",
+      "kanji": "講義",
+      "english": "lecture",
       "hiragana": "こうぎ",
       "romaji": "kōgi",
       "english_sentence": "The lecture starts at nine.",
       "japanese_sentence": "講義は9時に始まります。"
     },
     {
-      "japanese_word": "教育",
-      "english_meaning": "education",
+      "kanji": "教育",
+      "english": "education",
       "hiragana": "きょういく",
       "romaji": "kyōiku",
       "english_sentence": "Education is important for everyone.",
       "japanese_sentence": "教育は誰にとっても大切です。"
     },
     {
-      "japanese_word": "学部棟",
-      "english_meaning": "faculty building",
+      "kanji": "学部棟",
+      "english": "faculty building",
       "hiragana": "がくぶとう",
       "romaji": "gakubutō",
       "english_sentence": "My classroom is in the faculty building.",
       "japanese_sentence": "私の教室は学部棟にあります。"
     },
     {
-      "japanese_word": "つきあたり",
-      "english_meaning": "the end of the road; dead end",
+      "kanji": "つきあたり",
+      "english": "the end of the road; dead end",
       "hiragana": "つきあたり",
       "romaji": "tsukiatari",
       "english_sentence": "Turn left at the end of the hallway.",

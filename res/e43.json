@@ -1,191 +1,191 @@
 [
     {
-      "japanese_word": "体調",
-      "english_meaning": "physical condition; health",
+      "kanji": "体調",
+      "english": "physical condition; health",
       "hiragana": "たいちょう",
       "romaji": "taichō",
       "english_sentence": "My physical condition is much better today.",
       "japanese_sentence": "今日は体調がだいぶ良くなりました。"
     },
     {
-      "japanese_word": "保健室",
-      "english_meaning": "school nurse's office",
+      "kanji": "保健室",
+      "english": "school nurse's office",
       "hiragana": "ほけんしつ",
       "romaji": "hokenshitsu",
       "english_sentence": "I went to the nurse's office because I had a headache.",
       "japanese_sentence": "頭が痛かったので保健室へ行きました。"
     },
     {
-      "japanese_word": "軽い",
-      "english_meaning": "light; mild",
+      "kanji": "軽い",
+      "english": "light; mild",
       "hiragana": "かるい",
       "romaji": "karui",
       "english_sentence": "This bag is very light.",
       "japanese_sentence": "このかばんはとても軽いです。"
     },
     {
-      "japanese_word": "関係",
-      "english_meaning": "relationship; connection",
+      "kanji": "関係",
+      "english": "relationship; connection",
       "hiragana": "かんけい",
       "romaji": "kankei",
       "english_sentence": "They have a good relationship.",
       "japanese_sentence": "彼らは良い関係です。"
     },
     {
-      "japanese_word": "悩む",
-      "english_meaning": "to worry; to be troubled",
+      "kanji": "悩む",
+      "english": "to worry; to be troubled",
       "hiragana": "なやむ",
       "romaji": "nayamu",
       "english_sentence": "She is worried about her future.",
       "japanese_sentence": "彼女は将来について悩んでいます。"
     },
     {
-      "japanese_word": "ほっとけば",
-      "english_meaning": "if you leave it alone; just leave it",
+      "kanji": "ほっとけば",
+      "english": "if you leave it alone; just leave it",
       "hiragana": "ほっとけば",
       "romaji": "hottokeba",
       "english_sentence": "If you leave it alone, it will be fine.",
       "japanese_sentence": "ほっとけば大丈夫だよ。"
     },
     {
-      "japanese_word": "敬語",
-      "english_meaning": "honorific language; polite speech",
+      "kanji": "敬語",
+      "english": "honorific language; polite speech",
       "hiragana": "けいご",
       "romaji": "keigo",
       "english_sentence": "You should use polite language with customers.",
       "japanese_sentence": "お客様には敬語を使いましょう。"
     },
     {
-      "japanese_word": "本棚",
-      "english_meaning": "bookshelf",
+      "kanji": "本棚",
+      "english": "bookshelf",
       "hiragana": "ほんだな",
       "romaji": "hondana",
       "english_sentence": "The bookshelf is full of books.",
       "japanese_sentence": "本棚には本がたくさんあります。"
     },
     {
-      "japanese_word": "祝儀",
-      "english_meaning": "gift of money for a celebration",
+      "kanji": "祝儀",
+      "english": "gift of money for a celebration",
       "hiragana": "しゅうぎ",
       "romaji": "shūgi",
       "english_sentence": "I prepared a wedding gift envelope.",
       "japanese_sentence": "結婚式の祝儀を用意しました。"
     },
     {
-      "japanese_word": "招待",
-      "english_meaning": "invitation",
+      "kanji": "招待",
+      "english": "invitation",
       "hiragana": "しょうたい",
       "romaji": "shōtai",
       "english_sentence": "Thank you for the invitation.",
       "japanese_sentence": "ご招待ありがとうございます。"
     },
     {
-      "japanese_word": "歓迎会",
-      "english_meaning": "welcome party",
+      "kanji": "歓迎会",
+      "english": "welcome party",
       "hiragana": "かんげいかい",
       "romaji": "kangeikai",
       "english_sentence": "We held a welcome party for the new employee.",
       "japanese_sentence": "新入社員の歓迎会を開きました。"
     },
     {
-      "japanese_word": "人数",
-      "english_meaning": "number of people",
+      "kanji": "人数",
+      "english": "number of people",
       "hiragana": "にんずう",
       "romaji": "ninzū",
       "english_sentence": "How many people will attend?",
       "japanese_sentence": "人数は何人ですか。"
     },
     {
-      "japanese_word": "存知",
-      "english_meaning": "knowledge; awareness (usually ご存知)",
+      "kanji": "存知",
+      "english": "knowledge; awareness (usually ご存知)",
       "hiragana": "ぞんじ",
       "romaji": "zonji",
       "english_sentence": "Do you know this person?",
       "japanese_sentence": "この方をご存知ですか。"
     },
     {
-      "japanese_word": "時期",
-      "english_meaning": "time; season; period",
+      "kanji": "時期",
+      "english": "time; season; period",
       "hiragana": "じき",
       "romaji": "jiki",
       "english_sentence": "Now is the best time to travel.",
       "japanese_sentence": "今は旅行に良い時期です。"
     },
     {
-      "japanese_word": "咲く",
-      "english_meaning": "to bloom",
+      "kanji": "咲く",
+      "english": "to bloom",
       "hiragana": "さく",
       "romaji": "saku",
       "english_sentence": "The cherry blossoms bloom in spring.",
       "japanese_sentence": "春に桜が咲きます。"
     },
     {
-      "japanese_word": "満開",
-      "english_meaning": "in full bloom",
+      "kanji": "満開",
+      "english": "in full bloom",
       "hiragana": "まんかい",
       "romaji": "mankai",
       "english_sentence": "The cherry blossoms are in full bloom.",
       "japanese_sentence": "桜が満開です。"
     },
     {
-      "japanese_word": "ほぼ",
-      "english_meaning": "almost; nearly",
+      "kanji": "ほぼ",
+      "english": "almost; nearly",
       "hiragana": "ほぼ",
       "romaji": "hobo",
       "english_sentence": "The work is almost finished.",
       "japanese_sentence": "仕事はほぼ終わりました。"
     },
     {
-      "japanese_word": "昇進",
-      "english_meaning": "promotion",
+      "kanji": "昇進",
+      "english": "promotion",
       "hiragana": "しょうしん",
       "romaji": "shōshin",
       "english_sentence": "He received a promotion.",
       "japanese_sentence": "彼は昇進しました。"
     },
     {
-      "japanese_word": "人事",
-      "english_meaning": "personnel; human resources",
+      "kanji": "人事",
+      "english": "personnel; human resources",
       "hiragana": "じんじ",
       "romaji": "jinji",
       "english_sentence": "Please contact the HR department.",
       "japanese_sentence": "人事に連絡してください。"
     },
     {
-      "japanese_word": "毛",
-      "english_meaning": "hair; fur",
+      "kanji": "毛",
+      "english": "hair; fur",
       "hiragana": "け",
       "romaji": "ke",
       "english_sentence": "The cat has soft fur.",
       "japanese_sentence": "その猫は毛が柔らかいです。"
     },
     {
-      "japanese_word": "染める",
-      "english_meaning": "to dye",
+      "kanji": "染める",
+      "english": "to dye",
       "hiragana": "そめる",
       "romaji": "someru",
       "english_sentence": "She dyed her hair brown.",
       "japanese_sentence": "彼女は髪を茶色に染めました。"
     },
     {
-      "japanese_word": "友人",
-      "english_meaning": "friend",
+      "kanji": "友人",
+      "english": "friend",
       "hiragana": "ゆうじん",
       "romaji": "yūjin",
       "english_sentence": "I met an old friend yesterday.",
       "japanese_sentence": "昨日、友人に会いました。"
     },
     {
-      "japanese_word": "同窓",
-      "english_meaning": "alumni; former schoolmate",
+      "kanji": "同窓",
+      "english": "alumni; former schoolmate",
       "hiragana": "どうそう",
       "romaji": "dōsō",
       "english_sentence": "We are alumni from the same school.",
       "japanese_sentence": "私たちは同窓です。"
     },
     {
-      "japanese_word": "そういえば",
-      "english_meaning": "come to think of it; speaking of which",
+      "kanji": "そういえば",
+      "english": "come to think of it; speaking of which",
       "hiragana": "そういえば",
       "romaji": "sō ieba",
       "english_sentence": "Come to think of it, I forgot my umbrella.",
@@ -193,192 +193,192 @@
     }
     ,
         {
-          "japanese_word": "転職",
-          "english_meaning": "changing jobs; career change",
+          "kanji": "転職",
+          "english": "changing jobs; career change",
           "hiragana": "てんしょく",
           "romaji": "tenshoku",
           "english_sentence": "He is thinking about changing jobs.",
           "japanese_sentence": "彼は転職を考えています。"
         },
         {
-          "japanese_word": "具体的",
-          "english_meaning": "concrete; specific",
+          "kanji": "具体的",
+          "english": "concrete; specific",
           "hiragana": "ぐたいてき",
           "romaji": "gutaiteki",
           "english_sentence": "Please give a specific example.",
           "japanese_sentence": "具体的な例を教えてください。"
         },
         {
-          "japanese_word": "年目",
-          "english_meaning": "the ...th year",
+          "kanji": "年目",
+          "english": "the ...th year",
           "hiragana": "ねんめ",
           "romaji": "nenme",
           "english_sentence": "This is my third year at the company.",
           "japanese_sentence": "会社で三年目です。"
         },
         {
-          "japanese_word": "直撃",
-          "english_meaning": "direct hit",
+          "kanji": "直撃",
+          "english": "direct hit",
           "hiragana": "ちょくげき",
           "romaji": "chokugeki",
           "english_sentence": "The typhoon made a direct hit.",
           "japanese_sentence": "台風が町を直撃しました。"
         },
         {
-          "japanese_word": "はっきり",
-          "english_meaning": "clearly; distinctly",
+          "kanji": "はっきり",
+          "english": "clearly; distinctly",
           "hiragana": "はっきり",
           "romaji": "hakkiri",
           "english_sentence": "Please speak clearly.",
           "japanese_sentence": "はっきり話してください。"
         },
         {
-          "japanese_word": "うわっ",
-          "english_meaning": "Whoa!; Wow!",
+          "kanji": "うわっ",
+          "english": "Whoa!; Wow!",
           "hiragana": "うわっ",
           "romaji": "uwa",
           "english_sentence": "Whoa! That surprised me.",
           "japanese_sentence": "うわっ、びっくりした。"
         },
         {
-          "japanese_word": "消える",
-          "english_meaning": "to disappear; to go out",
+          "kanji": "消える",
+          "english": "to disappear; to go out",
           "hiragana": "きえる",
           "romaji": "kieru",
           "english_sentence": "The lights suddenly went out.",
           "japanese_sentence": "突然電気が消えました。"
         },
         {
-          "japanese_word": "再起動",
-          "english_meaning": "restart; reboot",
+          "kanji": "再起動",
+          "english": "restart; reboot",
           "hiragana": "さいきどう",
           "romaji": "saikidō",
           "english_sentence": "Please restart your computer.",
           "japanese_sentence": "パソコンを再起動してください。"
         },
         {
-          "japanese_word": "反応",
-          "english_meaning": "reaction; response",
+          "kanji": "反応",
+          "english": "reaction; response",
           "hiragana": "はんのう",
           "romaji": "hannō",
           "english_sentence": "She didn't react at all.",
           "japanese_sentence": "彼女は全く反応しませんでした。"
         },
         {
-          "japanese_word": "宿泊",
-          "english_meaning": "lodging; stay",
+          "kanji": "宿泊",
+          "english": "lodging; stay",
           "hiragana": "しゅくはく",
           "romaji": "shukuhaku",
           "english_sentence": "We stayed at a hotel.",
           "japanese_sentence": "ホテルに宿泊しました。"
         },
         {
-          "japanese_word": "仕方",
-          "english_meaning": "way; method; choice",
+          "kanji": "仕方",
+          "english": "way; method; choice",
           "hiragana": "しかた",
           "romaji": "shikata",
           "english_sentence": "There is no other way.",
           "japanese_sentence": "仕方がありません。"
         },
         {
-          "japanese_word": "参考",
-          "english_meaning": "reference; helpful information",
+          "kanji": "参考",
+          "english": "reference; helpful information",
           "hiragana": "さんこう",
           "romaji": "sankō",
           "english_sentence": "I hope this will be helpful.",
           "japanese_sentence": "参考になればうれしいです。"
         },
         {
-          "japanese_word": "冊",
-          "english_meaning": "counter for books",
+          "kanji": "冊",
+          "english": "counter for books",
           "hiragana": "さつ",
           "romaji": "satsu",
           "english_sentence": "I bought three books.",
           "japanese_sentence": "本を三冊買いました。"
         },
         {
-          "japanese_word": "私なら",
-          "english_meaning": "if it were me",
+          "kanji": "私なら",
+          "english": "if it were me",
           "hiragana": "わたしなら",
           "romaji": "watashi nara",
           "english_sentence": "If it were me, I would wait.",
           "japanese_sentence": "私なら待ちます。"
         },
         {
-          "japanese_word": "退院",
-          "english_meaning": "discharge from hospital",
+          "kanji": "退院",
+          "english": "discharge from hospital",
           "hiragana": "たいいん",
           "romaji": "taiin",
           "english_sentence": "He was discharged from the hospital yesterday.",
           "japanese_sentence": "彼は昨日退院しました。"
         },
         {
-          "japanese_word": "直後",
-          "english_meaning": "immediately after",
+          "kanji": "直後",
+          "english": "immediately after",
           "hiragana": "ちょくご",
           "romaji": "chokugo",
           "english_sentence": "Call me immediately after the meeting.",
           "japanese_sentence": "会議の直後に電話してください。"
         },
         {
-          "japanese_word": "送別会",
-          "english_meaning": "farewell party",
+          "kanji": "送別会",
+          "english": "farewell party",
           "hiragana": "そうべつかい",
           "romaji": "sōbetsukai",
           "english_sentence": "We had a farewell party for our coworker.",
           "japanese_sentence": "同僚の送別会を開きました。"
         },
         {
-          "japanese_word": "迷って",
-          "english_meaning": "being unsure; hesitating",
+          "kanji": "迷って",
+          "english": "being unsure; hesitating",
           "hiragana": "まよって",
           "romaji": "mayotte",
           "english_sentence": "I'm still deciding.",
           "japanese_sentence": "まだ迷っています。"
         },
         {
-          "japanese_word": "機種",
-          "english_meaning": "model (of a device)",
+          "kanji": "機種",
+          "english": "model (of a device)",
           "hiragana": "きしゅ",
           "romaji": "kishu",
           "english_sentence": "This phone model is popular.",
           "japanese_sentence": "この機種は人気があります。"
         },
         {
-          "japanese_word": "部活",
-          "english_meaning": "school club activity",
+          "kanji": "部活",
+          "english": "school club activity",
           "hiragana": "ぶかつ",
           "romaji": "bukatsu",
           "english_sentence": "I joined the tennis club.",
           "japanese_sentence": "テニス部の部活に入りました。"
         },
         {
-          "japanese_word": "指導",
-          "english_meaning": "guidance; instruction",
+          "kanji": "指導",
+          "english": "guidance; instruction",
           "hiragana": "しどう",
           "romaji": "shidō",
           "english_sentence": "The teacher gave us guidance.",
           "japanese_sentence": "先生が指導してくださいました。"
         },
         {
-          "japanese_word": "伸び",
-          "english_meaning": "growth; improvement",
+          "kanji": "伸び",
+          "english": "growth; improvement",
           "hiragana": "のび",
           "romaji": "nobi",
           "english_sentence": "His English has improved.",
           "japanese_sentence": "彼の英語は伸びています。"
         },
         {
-          "japanese_word": "助言",
-          "english_meaning": "advice",
+          "kanji": "助言",
+          "english": "advice",
           "hiragana": "じょげん",
           "romaji": "jogen",
           "english_sentence": "Thank you for your advice.",
           "japanese_sentence": "助言をありがとうございます。"
         },
         {
-          "japanese_word": "向こう",
-          "english_meaning": "over there; the other side",
+          "kanji": "向こう",
+          "english": "over there; the other side",
           "hiragana": "むこう",
           "romaji": "mukō",
           "english_sentence": "The station is over there.",
@@ -386,88 +386,88 @@
         }
         ,
             {
-              "japanese_word": "指導教員",
-              "english_meaning": "academic advisor; supervising professor",
+              "kanji": "指導教員",
+              "english": "academic advisor; supervising professor",
               "hiragana": "しどうきょういん",
               "romaji": "shidō kyōin",
               "english_sentence": "I discussed my research with my academic advisor.",
               "japanese_sentence": "指導教員と研究について話し合いました。"
             },
             {
-              "japanese_word": "外せない",
-              "english_meaning": "can't miss; indispensable",
+              "kanji": "外せない",
+              "english": "can't miss; indispensable",
               "hiragana": "はずせない",
               "romaji": "hazusenai",
               "english_sentence": "This is a restaurant you can't miss.",
               "japanese_sentence": "ここは外せないレストランです。"
             },
             {
-              "japanese_word": "文献",
-              "english_meaning": "reference; academic literature",
+              "kanji": "文献",
+              "english": "reference; academic literature",
               "hiragana": "ぶんけん",
               "romaji": "bunken",
               "english_sentence": "I found a useful reference for my report.",
               "japanese_sentence": "レポートに役立つ文献を見つけました。"
             },
             {
-              "japanese_word": "顔色が悪い",
-              "english_meaning": "to look pale; to look unwell",
+              "kanji": "顔色が悪い",
+              "english": "to look pale; to look unwell",
               "hiragana": "かおいろがわるい",
               "romaji": "kaoiro ga warui",
               "english_sentence": "You look pale today.",
               "japanese_sentence": "今日は顔色が悪いですね。"
             },
             {
-              "japanese_word": "企画",
-              "english_meaning": "plan; project",
+              "kanji": "企画",
+              "english": "plan; project",
               "hiragana": "きかく",
               "romaji": "kikaku",
               "english_sentence": "She is planning a new project.",
               "japanese_sentence": "彼女は新しい企画を立てています。"
             },
             {
-              "japanese_word": "募集",
-              "english_meaning": "recruitment; invitation for applications",
+              "kanji": "募集",
+              "english": "recruitment; invitation for applications",
               "hiragana": "ぼしゅう",
               "romaji": "boshū",
               "english_sentence": "The company is recruiting new employees.",
               "japanese_sentence": "会社は新しい社員を募集しています。"
             },
             {
-              "japanese_word": "早退",
-              "english_meaning": "leaving early",
+              "kanji": "早退",
+              "english": "leaving early",
               "hiragana": "そうたい",
               "romaji": "sōtai",
               "english_sentence": "I left school early because I was sick.",
               "japanese_sentence": "体調が悪かったので早退しました。"
             },
             {
-              "japanese_word": "幹事",
-              "english_meaning": "organizer; event coordinator",
+              "kanji": "幹事",
+              "english": "organizer; event coordinator",
               "hiragana": "かんじ",
               "romaji": "kanji",
               "english_sentence": "She is the organizer of the welcome party.",
               "japanese_sentence": "彼女は歓迎会の幹事です。"
             },
             {
-              "japanese_word": "頼む",
-              "english_meaning": "to ask; to request; to rely on",
+              "kanji": "頼む",
+              "english": "to ask; to request; to rely on",
               "hiragana": "たのむ",
               "romaji": "tanomu",
               "english_sentence": "Can I ask you for a favor?",
               "japanese_sentence": "お願いを頼んでもいいですか。"
             },
             {
-              "japanese_word": "和服",
-              "english_meaning": "traditional Japanese clothing",
+              "kanji": "和服",
+              "english": "traditional Japanese clothing",
               "hiragana": "わふく",
               "romaji": "wafuku",
               "english_sentence": "She wore traditional Japanese clothing.",
               "japanese_sentence": "彼女は和服を着ていました。"
             },
             {
-              "japanese_word": "振袖",
-              "english_meaning": "long-sleeved kimono for unmarried women",
+              "kanji": "振袖",
+              "english": "long-sleeved kimono for unmarried women",
               "hiragana": "ふりそで",
               "romaji": "furisode",
               "english_sentence": "She wore a beautiful furisode at the ceremony.",

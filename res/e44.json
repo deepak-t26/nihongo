@@ -1,135 +1,135 @@
 [
     {
-      "japanese_word": "道路",
-      "english_meaning": "road; street",
+      "kanji": "道路",
+      "english": "road; street",
       "hiragana": "どうろ",
       "romaji": "dōro",
       "english_sentence": "Please cross the road carefully.",
       "japanese_sentence": "道路を気をつけて渡ってください。"
     },
     {
-      "japanese_word": "玄関",
-      "english_meaning": "entrance; front door",
+      "kanji": "玄関",
+      "english": "entrance; front door",
       "hiragana": "げんかん",
       "romaji": "genkan",
       "english_sentence": "Please leave your shoes at the entrance.",
       "japanese_sentence": "玄関で靴を脱いでください。"
     },
     {
-      "japanese_word": "やめなさい",
-      "english_meaning": "Stop it!; Quit it!",
+      "kanji": "やめなさい",
+      "english": "Stop it!; Quit it!",
       "hiragana": "やめなさい",
       "romaji": "yamenasai",
       "english_sentence": "Stop running in the hallway.",
       "japanese_sentence": "廊下を走るのはやめなさい。"
     },
     {
-      "japanese_word": "廊下",
-      "english_meaning": "hallway; corridor",
+      "kanji": "廊下",
+      "english": "hallway; corridor",
       "hiragana": "ろうか",
       "romaji": "rōka",
       "english_sentence": "The students are walking in the hallway.",
       "japanese_sentence": "生徒たちは廊下を歩いています。"
     },
     {
-      "japanese_word": "生徒",
-      "english_meaning": "student (elementary, middle, or high school)",
+      "kanji": "生徒",
+      "english": "student (elementary, middle, or high school)",
       "hiragana": "せいと",
       "romaji": "seito",
       "english_sentence": "The students are studying quietly.",
       "japanese_sentence": "生徒たちは静かに勉強しています。"
     },
     {
-      "japanese_word": "警備員",
-      "english_meaning": "security guard",
+      "kanji": "警備員",
+      "english": "security guard",
       "hiragana": "けいびいん",
       "romaji": "keibiin",
       "english_sentence": "The security guard checked the entrance.",
       "japanese_sentence": "警備員が玄関を確認しました。"
     },
     {
-      "japanese_word": "進む",
-      "english_meaning": "to go forward; to proceed",
+      "kanji": "進む",
+      "english": "to go forward; to proceed",
       "hiragana": "すすむ",
       "romaji": "susumu",
       "english_sentence": "Please move forward slowly.",
       "japanese_sentence": "ゆっくり進んでください。"
     },
     {
-      "japanese_word": "大会",
-      "english_meaning": "tournament; competition",
+      "kanji": "大会",
+      "english": "tournament; competition",
       "hiragana": "たいかい",
       "romaji": "taikai",
       "english_sentence": "Many people joined the tournament.",
       "japanese_sentence": "多くの人が大会に参加しました。"
     },
     {
-      "japanese_word": "観客",
-      "english_meaning": "audience; spectators",
+      "kanji": "観客",
+      "english": "audience; spectators",
       "hiragana": "かんきゃく",
       "romaji": "kankyaku",
       "english_sentence": "The audience cheered loudly.",
       "japanese_sentence": "観客は大きな声で応援しました。"
     },
     {
-      "japanese_word": "犯",
-      "english_meaning": "criminal; offender (as in 犯人 or used in compounds)",
+      "kanji": "犯",
+      "english": "criminal; offender (as in 犯人 or used in compounds)",
       "hiragana": "はん",
       "romaji": "han",
       "english_sentence": "The police arrested the criminal.",
       "japanese_sentence": "警察は犯人を逮捕しました。"
     },
     {
-      "japanese_word": "逃げる",
-      "english_meaning": "to run away; to escape",
+      "kanji": "逃げる",
+      "english": "to run away; to escape",
       "hiragana": "にげる",
       "romaji": "nigeru",
       "english_sentence": "The thief tried to run away.",
       "japanese_sentence": "泥棒は逃げようとしました。"
     },
     {
-      "japanese_word": "さっさと",
-      "english_meaning": "quickly; without delay",
+      "kanji": "さっさと",
+      "english": "quickly; without delay",
       "hiragana": "さっさと",
       "romaji": "sassato",
       "english_sentence": "Finish your homework quickly.",
       "japanese_sentence": "宿題をさっさと終わらせなさい。"
     },
     {
-      "japanese_word": "はぐ",
-      "english_meaning": "to become separated (from someone)",
+      "kanji": "はぐ",
+      "english": "to become separated (from someone)",
       "hiragana": "はぐ",
       "romaji": "hagu",
       "english_sentence": "I got separated from my friend.",
       "japanese_sentence": "友達とはぐれました。"
     },
     {
-      "japanese_word": "違反",
-      "english_meaning": "violation; breach",
+      "kanji": "違反",
+      "english": "violation; breach",
       "hiragana": "いはん",
       "romaji": "ihan",
       "english_sentence": "Parking here is a violation.",
       "japanese_sentence": "ここに駐車するのは違反です。"
     },
     {
-      "japanese_word": "パトカー",
-      "english_meaning": "police car",
+      "kanji": "パトカー",
+      "english": "police car",
       "hiragana": "ぱとかー",
       "romaji": "patokā",
       "english_sentence": "The police car arrived quickly.",
       "japanese_sentence": "パトカーがすぐに来ました。"
     },
     {
-      "japanese_word": "警官",
-      "english_meaning": "police officer",
+      "kanji": "警官",
+      "english": "police officer",
       "hiragana": "けいかん",
       "romaji": "keikan",
       "english_sentence": "The police officer helped the child.",
       "japanese_sentence": "警官は子どもを助けました。"
     },
     {
-      "japanese_word": "寄って",
-      "english_meaning": "come closer; stop by (te-form of 寄る)",
+      "kanji": "寄って",
+      "english": "come closer; stop by (te-form of 寄る)",
       "hiragana": "よって",
       "romaji": "yotte",
       "english_sentence": "Please come closer.",
