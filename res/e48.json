@@ -111,4 +111,349 @@
       "english_sentence": "I use a home delivery service.",
       "japanese_sentence": "宅配サービスを利用しています。"
     }
+  ,
+    {
+      "kanji": "反対",
+      "english": "opposition; to oppose",
+      "hiragana": "はんたい",
+      "romaji": "hantai",
+      "english_sentence": "I am against the proposal.",
+      "japanese_sentence": "私はその提案に反対です。"
+    },
+    {
+      "kanji": "高校",
+      "english": "high school",
+      "hiragana": "こうこう",
+      "romaji": "koukou",
+      "english_sentence": "My sister goes to high school.",
+      "japanese_sentence": "妹は高校に通っています。"
+    },
+    {
+      "kanji": "進学",
+      "english": "advancing to a higher school",
+      "hiragana": "しんがく",
+      "romaji": "shingaku",
+      "english_sentence": "She decided to continue her education.",
+      "japanese_sentence": "彼女は進学することを決めました。"
+    },
+    {
+      "kanji": "いやあ",
+      "english": "wow; well; goodness (interjection)",
+      "hiragana": "いやあ",
+      "romaji": "iyaa",
+      "english_sentence": "Wow, it's really hot today.",
+      "japanese_sentence": "いやあ、今日は本当に暑いですね。"
+    },
+    {
+      "kanji": "賛成",
+      "english": "agreement; approval",
+      "hiragana": "さんせい",
+      "romaji": "sansei",
+      "english_sentence": "I agree with your opinion.",
+      "japanese_sentence": "私はあなたの意見に賛成です。"
+    },
+    {
+      "kanji": "発言",
+      "english": "remark; statement",
+      "hiragana": "はつげん",
+      "romaji": "hatsugen",
+      "english_sentence": "She made an important comment.",
+      "japanese_sentence": "彼女は大切な発言をしました。"
+    },
+    {
+      "kanji": "思い切って",
+      "english": "boldly; taking the plunge",
+      "hiragana": "おもいきって",
+      "romaji": "omoikitte",
+      "english_sentence": "I boldly changed jobs.",
+      "japanese_sentence": "思い切って転職しました。"
+    },
+    {
+      "kanji": "働き方",
+      "english": "way of working; work style",
+      "hiragana": "はたらきかた",
+      "romaji": "hatarakikata",
+      "english_sentence": "Many people are changing their work styles.",
+      "japanese_sentence": "多くの人が働き方を変えています。"
+    },
+    {
+      "kanji": "出勤",
+      "english": "going to work",
+      "hiragana": "しゅっきん",
+      "romaji": "shukkin",
+      "english_sentence": "I go to work by train.",
+      "japanese_sentence": "私は電車で出勤します。"
+    },
+    {
+      "kanji": "許可",
+      "english": "permission",
+      "hiragana": "きょか",
+      "romaji": "kyoka",
+      "english_sentence": "You need permission to enter.",
+      "japanese_sentence": "入るには許可が必要です。"
+    },
+    {
+      "kanji": "どうかなあ",
+      "english": "I wonder; I'm not sure",
+      "hiragana": "どうかなあ",
+      "romaji": "dou kanaa",
+      "english_sentence": "I'm not sure if that's a good idea.",
+      "japanese_sentence": "それはどうかなあ。"
+    },
+    {
+      "kanji": "宣伝",
+      "english": "advertising; promotion",
+      "hiragana": "せんでん",
+      "romaji": "senden",
+      "english_sentence": "The company advertised its new product.",
+      "japanese_sentence": "会社は新しい商品を宣伝しました。"
+    },
+    {
+      "kanji": "合宿",
+      "english": "training camp",
+      "hiragana": "がっしゅく",
+      "romaji": "gasshuku",
+      "english_sentence": "We have a training camp this weekend.",
+      "japanese_sentence": "今週末は合宿があります。"
+    },
+    {
+      "kanji": "制度",
+      "english": "system; institution",
+      "hiragana": "せいど",
+      "romaji": "seido",
+      "english_sentence": "The new system starts next month.",
+      "japanese_sentence": "新しい制度は来月始まります。"
+    },
+    {
+      "kanji": "腹減る",
+      "english": "to get hungry (casual)",
+      "hiragana": "はらへる",
+      "romaji": "haraheru",
+      "english_sentence": "I'm getting hungry.",
+      "japanese_sentence": "腹減った。"
+    },
+    {
+      "kanji": "よさそう",
+      "english": "looks good; seems nice",
+      "hiragana": "よさそう",
+      "romaji": "yosasou",
+      "english_sentence": "That restaurant looks good.",
+      "japanese_sentence": "あのレストランはよさそうです。"
+    },
+    {
+      "kanji": "次回",
+      "english": "next time",
+      "hiragana": "じかい",
+      "romaji": "jikai",
+      "english_sentence": "We'll discuss it next time.",
+      "japanese_sentence": "次回話し合いましょう。"
+    },
+    {
+      "kanji": "卒業",
+      "english": "graduation",
+      "hiragana": "そつぎょう",
+      "romaji": "sotsugyou",
+      "english_sentence": "He graduated from university.",
+      "japanese_sentence": "彼は大学を卒業しました。"
+    },
+    {
+      "kanji": "名前入り",
+      "english": "with a name on it; personalized",
+      "hiragana": "なまえいり",
+      "romaji": "namaeiri",
+      "english_sentence": "I received a personalized mug.",
+      "japanese_sentence": "名前入りのマグカップをもらいました。"
+    },
+    {
+      "kanji": "夫婦",
+      "english": "married couple",
+      "hiragana": "ふうふ",
+      "romaji": "fuufu",
+      "english_sentence": "The couple lives nearby.",
+      "japanese_sentence": "その夫婦は近くに住んでいます。"
+    },
+    {
+      "kanji": "明るい",
+      "english": "bright; cheerful",
+      "hiragana": "あかるい",
+      "romaji": "akarui",
+      "english_sentence": "She has a cheerful personality.",
+      "japanese_sentence": "彼女は明るい性格です。"
+    },
+    {
+      "kanji": "絞る",
+      "english": "to squeeze; to narrow down",
+      "hiragana": "しぼる",
+      "romaji": "shiboru",
+      "english_sentence": "Let's narrow down the choices.",
+      "japanese_sentence": "候補を絞りましょう。"
+    },
+    {
+      "kanji": "赤系",
+      "english": "red tones",
+      "hiragana": "あかけい",
+      "romaji": "akakei",
+      "english_sentence": "I like red tones.",
+      "japanese_sentence": "赤系の色が好きです。"
+    },
+    {
+      "kanji": "青系",
+      "english": "blue tones",
+      "hiragana": "あおけい",
+      "romaji": "aokei",
+      "english_sentence": "This design uses blue tones.",
+      "japanese_sentence": "このデザインは青系です。"
+    },
+    {
+      "kanji": "表紙",
+      "english": "cover (of a book or magazine)",
+      "hiragana": "ひょうし",
+      "romaji": "hyoushi",
+      "english_sentence": "The book has a beautiful cover.",
+      "japanese_sentence": "その本は表紙がきれいです。"
+    },
+    {
+      "kanji": "取引先",
+      "english": "client; business partner",
+      "hiragana": "とりひきさき",
+      "romaji": "torihikisaki",
+      "english_sentence": "I visited a client today.",
+      "japanese_sentence": "今日は取引先を訪問しました。"
+    },
+    {
+      "kanji": "集客",
+      "english": "attracting customers",
+      "hiragana": "しゅうきゃく",
+      "romaji": "shuukyaku",
+      "english_sentence": "The event attracted many customers.",
+      "japanese_sentence": "そのイベントは集客に成功しました。"
+    },
+    {
+      "kanji": "詳しく",
+      "english": "in detail",
+      "hiragana": "くわしく",
+      "romaji": "kuwashiku",
+      "english_sentence": "Please explain it in detail.",
+      "japanese_sentence": "詳しく説明してください。"
+    },
+    {
+      "kanji": "案",
+      "english": "plan; idea; proposal",
+      "hiragana": "あん",
+      "romaji": "an",
+      "english_sentence": "This is my plan.",
+      "japanese_sentence": "これが私の案です。"
+    },
+    {
+      "kanji": "提案",
+      "english": "proposal; suggestion",
+      "hiragana": "ていあん",
+      "romaji": "teian",
+      "english_sentence": "He made a good suggestion.",
+      "japanese_sentence": "彼はよい提案をしました。"
+    },
+    {
+      "kanji": "本人",
+      "english": "the person concerned",
+      "hiragana": "ほんにん",
+      "romaji": "honnin",
+      "english_sentence": "The person himself came.",
+      "japanese_sentence": "本人が来ました。"
+    },
+    {
+      "kanji": "食器",
+      "english": "tableware; dishes",
+      "hiragana": "しょっき",
+      "romaji": "shokki",
+      "english_sentence": "We bought new tableware.",
+      "japanese_sentence": "新しい食器を買いました。"
+    },
+    {
+      "kanji": "好み",
+      "english": "preference; taste",
+      "hiragana": "このみ",
+      "romaji": "konomi",
+      "english_sentence": "Everyone has different preferences.",
+      "japanese_sentence": "好みは人それぞれです。"
+    },
+    {
+      "kanji": "結婚祝い",
+      "english": "wedding gift",
+      "hiragana": "けっこんいわい",
+      "romaji": "kekkon iwai",
+      "english_sentence": "We bought a wedding gift.",
+      "japanese_sentence": "結婚祝いを買いました。"
+    },
+    {
+      "kanji": "国際",
+      "english": "international",
+      "hiragana": "こくさい",
+      "romaji": "kokusai",
+      "english_sentence": "She works for an international company.",
+      "japanese_sentence": "彼女は国際企業で働いています。"
+    },
+    {
+      "kanji": "交流",
+      "english": "exchange; interaction",
+      "hiragana": "こうりゅう",
+      "romaji": "kouryuu",
+      "english_sentence": "The students enjoyed cultural exchange.",
+      "japanese_sentence": "学生たちは国際交流を楽しみました。"
+    },
+    {
+      "kanji": "企画",
+      "english": "planning; project",
+      "hiragana": "きかく",
+      "romaji": "kikaku",
+      "english_sentence": "She is planning a new project.",
+      "japanese_sentence": "彼女は新しい企画を立てています。"
+    },
+    {
+      "kanji": "長引く",
+      "english": "to drag on; to last longer",
+      "hiragana": "ながびく",
+      "romaji": "nagabiku",
+      "english_sentence": "The meeting dragged on.",
+      "japanese_sentence": "会議が長引きました。"
+    },
+    {
+      "kanji": "お見舞い",
+      "english": "hospital visit; sympathy visit",
+      "hiragana": "おみまい",
+      "romaji": "omimai",
+      "english_sentence": "I went to visit my friend in the hospital.",
+      "japanese_sentence": "友達のお見舞いに行きました。"
+    },
+    {
+      "kanji": "町内会",
+      "english": "neighborhood association",
+      "hiragana": "ちょうないかい",
+      "romaji": "chounaikai",
+      "english_sentence": "The neighborhood association held a festival.",
+      "japanese_sentence": "町内会がお祭りを開きました。"
+    },
+    {
+      "kanji": "会計係",
+      "english": "treasurer; person in charge of accounts",
+      "hiragana": "かいけいがかり",
+      "romaji": "kaikeigakari",
+      "english_sentence": "She is the treasurer of the club.",
+      "japanese_sentence": "彼女はクラブの会計係です。"
+    },
+    {
+      "kanji": "会員",
+      "english": "member",
+      "hiragana": "かいいん",
+      "romaji": "kaiin",
+      "english_sentence": "Only members can enter.",
+      "japanese_sentence": "会員だけが入れます。"
+    },
+    {
+      "kanji": "お子さん",
+      "english": "child (honorific)",
+      "hiragana": "おこさん",
+      "romaji": "okosan",
+      "english_sentence": "How old is your child?",
+      "japanese_sentence": "お子さんは何歳ですか。"
+    }
   ]
