@@ -1,34 +1,26 @@
 [
     {
-      "kanji": "中華",
-      "words": [
-        {
+      
           "kanji": "中華",
           "hiragana": "ちゅうか",
           "romaji": "chuuka",
           "english": "Chinese cuisine; Chinese style",
           "japanese_sentence": "今日は中華を食べに行きましょう。",
           "english_sentence": "Let's go eat Chinese food today."
-        }
-      ]
+       
     },
     {
-      "kanji": "カニ",
-      "words": [
-        {
+      
           "kanji": "カニ",
           "hiragana": "かに",
           "romaji": "kani",
           "english": "crab",
           "japanese_sentence": "冬になるとカニを食べたくなります。",
           "english_sentence": "I feel like eating crab when winter comes."
-        }
-      ]
+       
     },
     {
-      "kanji": "鍋",
-      "words": [
-        {
+      
           "kanji": "鍋",
           "hiragana": "なべ",
           "romaji": "nabe",
@@ -43,13 +35,10 @@
           "english": "hot pot dish",
           "japanese_sentence": "家族みんなで鍋料理を楽しみました。",
           "english_sentence": "The whole family enjoyed a hot pot meal."
-        }
-      ]
+       
     },
     {
-      "kanji": "混んで",
-      "words": [
-        {
+      
           "kanji": "混む",
           "hiragana": "こむ",
           "romaji": "komu",
@@ -64,13 +53,10 @@
           "english": "to be crowded",
           "japanese_sentence": "週末は店が混んでいます。",
           "english_sentence": "The store is crowded on weekends."
-        }
-      ]
+        
     },
     {
-      "kanji": "拡散",
-      "words": [
-        {
+      
           "kanji": "拡散",
           "hiragana": "かくさん",
           "romaji": "kakusan",
@@ -85,13 +71,10 @@
           "english": "to spread; to diffuse",
           "japanese_sentence": "うわさが町中に拡散しました。",
           "english_sentence": "The rumor spread throughout the town."
-        }
-      ]
+       
     },
     {
-      "kanji": "数",
-      "words": [
-        {
+     
           "kanji": "数",
           "hiragana": "かず",
           "romaji": "kazu",
@@ -114,13 +97,10 @@
           "english": "to count",
           "japanese_sentence": "子どもたちは星を数えました。",
           "english_sentence": "The children counted the stars."
-        }
-      ]
+        
     },
     {
-      "kanji": "売れ行き",
-      "words": [
-        {
+      
           "kanji": "売れ行き",
           "hiragana": "うれゆき",
           "romaji": "ureyuki",
@@ -135,13 +115,10 @@
           "english": "to sell; to be sold",
           "japanese_sentence": "この本はよく売れています。",
           "english_sentence": "This book is selling well."
-        }
-      ]
+        
     },
     {
-      "kanji": "目立つ",
-      "words": [
-        {
+      
           "kanji": "目立つ",
           "hiragana": "めだつ",
           "romaji": "medatsu",
@@ -156,7 +133,6 @@
           "english": "remarkable; noticeable",
           "japanese_sentence": "目立った変化はありませんでした。",
           "english_sentence": "There were no noticeable changes."
-        }
-      ]
+      
     }
   ]
