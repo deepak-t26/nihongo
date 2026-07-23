@@ -1,0 +1,106 @@
+[
+    {
+      "kanji": "塾",
+      "english": "cram school; tutoring school",
+      "hiragana": "じゅく",
+      "romaji": "juku",
+      "english_sentence": "She goes to cram school after school.",
+      "japanese_sentence": "彼女は放課後に塾へ通っています。"
+    },
+    {
+      "kanji": "順位",
+      "english": "ranking; position",
+      "hiragana": "じゅんい",
+      "romaji": "jun'i",
+      "english_sentence": "Our team finished in first place.",
+      "japanese_sentence": "私たちのチームは順位が一位でした。"
+    },
+    {
+      "kanji": "コンクール",
+      "english": "contest; competition",
+      "hiragana": "こんくーる",
+      "romaji": "konkūru",
+      "english_sentence": "She won the piano competition.",
+      "japanese_sentence": "彼女はピアノのコンクールで優勝しました。"
+    },
+    {
+      "kanji": "弾ける",
+      "english": "to be able to play (a musical instrument)",
+      "hiragana": "ひける",
+      "romaji": "hikeru",
+      "english_sentence": "He can play the guitar.",
+      "japanese_sentence": "彼はギターが弾けます。"
+    },
+    {
+      "kanji": "不安",
+      "english": "anxiety; uneasiness",
+      "hiragana": "ふあん",
+      "romaji": "fuan",
+      "english_sentence": "I'm anxious about tomorrow's exam.",
+      "japanese_sentence": "明日の試験が不安です。"
+    },
+    {
+      "kanji": "きっと",
+      "english": "surely; certainly",
+      "hiragana": "きっと",
+      "romaji": "kitto",
+      "english_sentence": "I'm sure you'll do well.",
+      "japanese_sentence": "きっとうまくいきますよ。"
+    },
+    {
+      "kanji": "どうしてもうまく言えない",
+      "english": "I just can't say it well no matter what",
+      "hiragana": "どうしてもうまくいえない",
+      "romaji": "dōshite mo umaku ienai",
+      "english_sentence": "No matter what I do, I just can't explain it well.",
+      "japanese_sentence": "どうしてもうまく言えないんです。"
+    },
+    {
+      "kanji": "自信",
+      "english": "confidence",
+      "hiragana": "じしん",
+      "romaji": "jishin",
+      "english_sentence": "She has confidence in herself.",
+      "japanese_sentence": "彼女は自信があります。"
+    },
+    {
+      "kanji": "受験票",
+      "english": "exam admission ticket",
+      "hiragana": "じゅけんひょう",
+      "romaji": "jukenhyō",
+      "english_sentence": "Don't forget your exam admission ticket.",
+      "japanese_sentence": "受験票を忘れないでください。"
+    },
+    {
+      "kanji": "いよいよ",
+      "english": "at last; finally",
+      "hiragana": "いよいよ",
+      "romaji": "iyoiyo",
+      "english_sentence": "The exam is finally tomorrow.",
+      "japanese_sentence": "いよいよ明日は試験です。"
+    },
+    {
+      "kanji": "資格",
+      "english": "qualification; certification",
+      "hiragana": "しかく",
+      "romaji": "shikaku",
+      "english_sentence": "She obtained a teaching qualification.",
+      "japanese_sentence": "彼女は教師の資格を取りました。"
+    },
+    {
+      "kanji": "緊張",
+      "english": "tension; nervousness",
+      "hiragana": "きんちょう",
+      "romaji": "kinchō",
+      "english_sentence": "I was nervous before the interview.",
+      "japanese_sentence": "面接の前は緊張しました。"
+    },
+    {
+      "kanji": "祈って",
+      "english": "pray; wish (te-form of 祈る)",
+      "hiragana": "いのって",
+      "romaji": "inotte",
+      "english_sentence": "Please pray for my success.",
+      "japanese_sentence": "成功を祈ってください。"
+    }
+  ]

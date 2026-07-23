@@ -1,0 +1,26 @@
+[
+    {
+      "kanji": "作成者",
+      "english": "creator; author; person who created something",
+      "hiragana": "さくせいしゃ",
+      "romaji": "sakuseisha",
+      "english_sentence": "The creator of this document is Ms. Tanaka.",
+      "japanese_sentence": "この資料の作成者は田中さんです。"
+    },
+    {
+      "kanji": "内線",
+      "english": "extension (telephone)",
+      "hiragana": "ないせん",
+      "romaji": "naisen",
+      "english_sentence": "Please call me at extension 203.",
+      "japanese_sentence": "内線203番に電話してください。"
+    },
+    {
+      "kanji": "講演会",
+      "english": "lecture; public lecture; lecture meeting",
+      "hiragana": "こうえんかい",
+      "romaji": "kouenkai",
+      "english_sentence": "I attended a lecture on environmental issues.",
+      "japanese_sentence": "環境問題についての講演会に参加しました。"
+    }
+  ]

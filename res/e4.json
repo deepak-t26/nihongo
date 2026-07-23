@@ -1,0 +1,42 @@
+[
+    {
+      "kanji": "泊まる",
+      "english": "to stay overnight; to lodge",
+      "hiragana": "とまる",
+      "romaji": "tomaru",
+      "english_sentence": "We stayed at a hotel last night.",
+      "japanese_sentence": "昨夜はホテルに泊まりました。"
+    },
+    {
+      "kanji": "遅刻",
+      "english": "being late; tardiness",
+      "hiragana": "ちこく",
+      "romaji": "chikoku",
+      "english_sentence": "He was late for school again.",
+      "japanese_sentence": "彼はまた学校に遅刻しました。"
+    },
+    {
+      "kanji": "就寝",
+      "english": "going to bed; retiring for the night",
+      "hiragana": "しゅうしん",
+      "romaji": "shuushin",
+      "english_sentence": "I usually go to bed at ten o'clock.",
+      "japanese_sentence": "私はたいてい10時に就寝します。"
+    },
+    {
+      "kanji": "旅館",
+      "english": "traditional Japanese inn",
+      "hiragana": "りょかん",
+      "romaji": "ryokan",
+      "english_sentence": "We stayed at a traditional Japanese inn.",
+      "japanese_sentence": "私たちは旅館に泊まりました。"
+    },
+    {
+      "kanji": "敷いて",
+      "english": "spread; lay out (te-form of 敷く)",
+      "hiragana": "しいて",
+      "romaji": "shiite",
+      "english_sentence": "Please lay out the futon before going to bed.",
+      "japanese_sentence": "寝る前に布団を敷いてください。"
+    }
+  ]

@@ -1,0 +1,50 @@
+[
+    {
+      "kanji": "辺",
+      "english": "area; vicinity; side",
+      "hiragana": "へん",
+      "romaji": "hen",
+      "english_sentence": "There is a convenience store around here.",
+      "japanese_sentence": "この辺にコンビニがあります。"
+    },
+    {
+      "kanji": "閉会",
+      "english": "closing; adjournment (of a meeting)",
+      "hiragana": "へいかい",
+      "romaji": "heikai",
+      "english_sentence": "The chairman declared the meeting closed.",
+      "japanese_sentence": "議長が閉会を宣言しました。"
+    },
+    {
+      "kanji": "司会",
+      "english": "host; master of ceremonies",
+      "hiragana": "しかい",
+      "romaji": "shikai",
+      "english_sentence": "She was the host of the event.",
+      "japanese_sentence": "彼女はイベントの司会をしました。"
+    },
+    {
+      "kanji": "講義",
+      "english": "lecture",
+      "hiragana": "こうぎ",
+      "romaji": "kougi",
+      "english_sentence": "The professor's lecture was very interesting.",
+      "japanese_sentence": "先生の講義はとても面白かったです。"
+    },
+    {
+      "kanji": "約束",
+      "english": "promise; appointment",
+      "hiragana": "やくそく",
+      "romaji": "yakusoku",
+      "english_sentence": "I kept my promise.",
+      "japanese_sentence": "私は約束を守りました。"
+    },
+    {
+      "kanji": "あんなにもめると思わなかったよ。",
+      "english": "I didn't think it would become such a big conflict.",
+      "hiragana": "あんなにもめるとおもわなかったよ。",
+      "romaji": "anna ni momeru to omowanakatta yo",
+      "english_sentence": "I didn't think it would become such a big conflict.",
+      "japanese_sentence": "あんなにもめると思わなかったよ。"
+    }
+  ]

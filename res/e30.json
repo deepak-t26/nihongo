@@ -1,0 +1,162 @@
+[
+    {
+      "kanji": "入院",
+      "english": "hospitalization; to be hospitalized",
+      "hiragana": "にゅういん",
+      "romaji": "nyūin",
+      "english_sentence": "He was hospitalized last week.",
+      "japanese_sentence": "彼は先週入院しました。"
+    },
+    {
+      "kanji": "いらっしゃらなかった",
+      "english": "did not come; was not present (honorific)",
+      "hiragana": "いらっしゃらなかった",
+      "romaji": "irassharanakatta",
+      "english_sentence": "The manager did not come today.",
+      "japanese_sentence": "部長は今日いらっしゃらなかった。"
+    },
+    {
+      "kanji": "つらい",
+      "english": "painful; difficult; hard",
+      "hiragana": "つらい",
+      "romaji": "tsurai",
+      "english_sentence": "It was a difficult experience.",
+      "japanese_sentence": "それはつらい経験でした。"
+    },
+    {
+      "kanji": "職場",
+      "english": "workplace",
+      "hiragana": "しょくば",
+      "romaji": "shokuba",
+      "english_sentence": "My workplace is close to the station.",
+      "japanese_sentence": "私の職場は駅の近くです。"
+    },
+    {
+      "kanji": "全治",
+      "english": "complete recovery",
+      "hiragana": "ぜんち",
+      "romaji": "zenchi",
+      "english_sentence": "The doctor said it would take a month for a full recovery.",
+      "japanese_sentence": "医者は全治一か月だと言いました。"
+    },
+    {
+      "kanji": "災難",
+      "english": "misfortune; disaster",
+      "hiragana": "さいなん",
+      "romaji": "sainan",
+      "english_sentence": "What an unfortunate accident.",
+      "japanese_sentence": "本当に災難でしたね。"
+    },
+    {
+      "kanji": "中止",
+      "english": "cancellation; suspension",
+      "hiragana": "ちゅうし",
+      "romaji": "chūshi",
+      "english_sentence": "The event was canceled because of the rain.",
+      "japanese_sentence": "雨のためイベントは中止になりました。"
+    },
+    {
+      "kanji": "残念",
+      "english": "regrettable; unfortunate",
+      "hiragana": "ざんねん",
+      "romaji": "zannen",
+      "english_sentence": "That's really unfortunate.",
+      "japanese_sentence": "それは本当に残念ですね。"
+    },
+    {
+      "kanji": "運",
+      "english": "luck; fortune",
+      "hiragana": "うん",
+      "romaji": "un",
+      "english_sentence": "I had good luck today.",
+      "japanese_sentence": "今日は運が良かったです。"
+    },
+    {
+      "kanji": "飛ばし",
+      "english": "speeding; driving fast",
+      "hiragana": "とばし",
+      "romaji": "tobashi",
+      "english_sentence": "He was caught for speeding.",
+      "japanese_sentence": "彼は飛ばしすぎて捕まりました。"
+    },
+    {
+      "kanji": "通り",
+      "english": "street; road",
+      "hiragana": "とおり",
+      "romaji": "tōri",
+      "english_sentence": "There are many shops on this street.",
+      "japanese_sentence": "この通りには店がたくさんあります。"
+    },
+    {
+      "kanji": "中華",
+      "english": "Chinese (food/style)",
+      "hiragana": "ちゅうか",
+      "romaji": "chūka",
+      "english_sentence": "Let's have Chinese food for dinner.",
+      "japanese_sentence": "夕食は中華を食べましょう。"
+    },
+    {
+      "kanji": "くじ引き",
+      "english": "lottery; drawing lots",
+      "hiragana": "くじびき",
+      "romaji": "kujibiki",
+      "english_sentence": "I won a prize in the lottery drawing.",
+      "japanese_sentence": "くじ引きで賞をもらいました。"
+    },
+    {
+      "kanji": "はずれ",
+      "english": "losing ticket; miss; no prize",
+      "hiragana": "はずれ",
+      "romaji": "hazure",
+      "english_sentence": "My lottery ticket was a loser.",
+      "japanese_sentence": "私のくじははずれでした。"
+    },
+    {
+      "kanji": "引いたのに",
+      "english": "even though I drew (it)",
+      "hiragana": "ひいたのに",
+      "romaji": "hiita noni",
+      "english_sentence": "Even though I drew a ticket, I didn't win.",
+      "japanese_sentence": "くじを引いたのに当たりませんでした。"
+    },
+    {
+      "kanji": "賞",
+      "english": "prize; award",
+      "hiragana": "しょう",
+      "romaji": "shō",
+      "english_sentence": "She won the first prize.",
+      "japanese_sentence": "彼女は一等賞を取りました。"
+    },
+    {
+      "kanji": "総務",
+      "english": "general affairs",
+      "hiragana": "そうむ",
+      "romaji": "sōmu",
+      "english_sentence": "Please contact the General Affairs Department.",
+      "japanese_sentence": "総務にお問い合わせください。"
+    },
+    {
+      "kanji": "急",
+      "english": "sudden; urgent",
+      "hiragana": "きゅう",
+      "romaji": "kyū",
+      "english_sentence": "I had an urgent meeting.",
+      "japanese_sentence": "急な会議が入りました。"
+    },
+    {
+      "kanji": "お気の毒",
+      "english": "I'm sorry to hear that; my sympathies",
+      "hiragana": "おきのどく",
+      "romaji": "okinodoku",
+      "english_sentence": "I'm very sorry to hear that.",
+      "japanese_sentence": "それはお気の毒です。"
+    },
+    {
+      "kanji": "かわいそうに",
+      "english": "poor thing; how pitiful",
+      "hiragana": "かわいそうに",
+      "romaji": "kawaisō ni",
+      "english_sentence": "Oh, you poor thing.",
+      "japanese_sentence": "かわいそうに、大丈夫ですか。"
+    }
+  ]

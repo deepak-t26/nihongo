@@ -1,0 +1,50 @@
+[
+    {
+      "kanji": "途中",
+      "english": "on the way; halfway; in the middle",
+      "hiragana": "とちゅう",
+      "romaji": "tochuu",
+      "english_sentence": "I met my friend on the way to school.",
+      "japanese_sentence": "学校へ行く途中で友達に会いました。"
+    },
+    {
+      "kanji": "冷える",
+      "english": "to become cold; to cool down",
+      "hiragana": "ひえる",
+      "romaji": "hieru",
+      "english_sentence": "It gets cold at night.",
+      "japanese_sentence": "夜になると冷えます。"
+    },
+    {
+      "kanji": "間会",
+      "english": "intermission; recess; break between sessions",
+      "hiragana": "かんかい",
+      "romaji": "kankai",
+      "english_sentence": "We had a short break between the sessions.",
+      "japanese_sentence": "間会には短い休憩がありました。"
+    },
+    {
+      "kanji": "時代",
+      "english": "era; age; period",
+      "hiragana": "じだい",
+      "romaji": "jidai",
+      "english_sentence": "We live in the digital age.",
+      "japanese_sentence": "私たちはデジタル時代に生きています。"
+    },
+    {
+      "kanji": "無沙汰",
+      "english": "not keeping in touch; long silence",
+      "hiragana": "ぶさた",
+      "romaji": "busata",
+      "english_sentence": "Sorry for not keeping in touch for so long.",
+      "japanese_sentence": "長い間ご無沙汰していました。"
+    },
+    {
+      "kanji": "相変わらず",
+      "english": "as usual; as always; still",
+      "hiragana": "あいかわらず",
+      "romaji": "aikawarazu",
+      "english_sentence": "He is still as cheerful as ever.",
+      "japanese_sentence": "彼は相変わらず元気です。"
+    }
+  ]

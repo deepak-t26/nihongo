@@ -1,0 +1,90 @@
+[
+    {
+      "kanji": "取引先",
+      "english": "client; business partner",
+      "hiragana": "とりひきさき",
+      "romaji": "torihikisaki",
+      "english_sentence": "I have a meeting with a client this afternoon.",
+      "japanese_sentence": "午後は取引先と会議があります。"
+    },
+    {
+      "kanji": "教員",
+      "english": "teacher; faculty member",
+      "hiragana": "きょういん",
+      "romaji": "kyōin",
+      "english_sentence": "The teacher explained the lesson clearly.",
+      "japanese_sentence": "教員は授業を分かりやすく説明しました。"
+    },
+    {
+      "kanji": "入門",
+      "english": "beginner's guide; introduction",
+      "hiragana": "にゅうもん",
+      "romaji": "nyūmon",
+      "english_sentence": "This book is a good introduction to Japanese.",
+      "japanese_sentence": "この本は日本語の入門にぴったりです。"
+    },
+    {
+      "kanji": "鳴る",
+      "english": "to ring; to sound",
+      "hiragana": "なる",
+      "romaji": "naru",
+      "english_sentence": "The phone is ringing.",
+      "japanese_sentence": "電話が鳴っています。"
+    },
+    {
+      "kanji": "しまった",
+      "english": "Oops!; I messed up",
+      "hiragana": "しまった",
+      "romaji": "shimatta",
+      "english_sentence": "Oops! I forgot my wallet.",
+      "japanese_sentence": "しまった、財布を忘れた。"
+    },
+    {
+      "kanji": "ちゃった",
+      "english": "(casual contraction of ～てしまった); ended up; unfortunately did",
+      "hiragana": "ちゃった",
+      "romaji": "chatta",
+      "english_sentence": "I accidentally dropped my phone.",
+      "japanese_sentence": "スマホを落としちゃった。"
+    },
+    {
+      "kanji": "上着",
+      "english": "jacket; coat",
+      "hiragana": "うわぎ",
+      "romaji": "uwagi",
+      "english_sentence": "Don't forget your jacket.",
+      "japanese_sentence": "上着を忘れないでください。"
+    },
+    {
+      "kanji": "お越し",
+      "english": "coming (honorific)",
+      "hiragana": "おこし",
+      "romaji": "okoshi",
+      "english_sentence": "Thank you for coming today.",
+      "japanese_sentence": "本日はお越しいただきありがとうございます。"
+    },
+    {
+      "kanji": "ご覧",
+      "english": "look; see (honorific)",
+      "hiragana": "ごらん",
+      "romaji": "goran",
+      "english_sentence": "Please take a look at this document.",
+      "japanese_sentence": "こちらの資料をご覧ください。"
+    },
+    {
+      "kanji": "乗り遅れ",
+      "english": "missing (a train, bus, etc.)",
+      "hiragana": "のりおくれ",
+      "romaji": "noriokure",
+      "english_sentence": "I missed the last train.",
+      "japanese_sentence": "終電に乗り遅れました。"
+    },
+    {
+      "kanji": "ご用意",
+      "english": "preparation (honorific)",
+      "hiragana": "ごようい",
+      "romaji": "goyōi",
+      "english_sentence": "We have prepared a seat for you.",
+      "japanese_sentence": "お席をご用意しております。"
+    }
+  ]

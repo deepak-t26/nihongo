@@ -1,0 +1,130 @@
+[
+    {
+      "kanji": "咳",
+      "english": "cough",
+      "hiragana": "せき",
+      "romaji": "seki",
+      "english_sentence": "His cough hasn't gone away yet.",
+      "japanese_sentence": "咳がまだ止まりません。"
+    },
+    {
+      "kanji": "ひいた",
+      "english": "caught (a cold)",
+      "hiragana": "ひいた",
+      "romaji": "hiita",
+      "english_sentence": "I caught a cold yesterday.",
+      "japanese_sentence": "昨日風邪をひいた。"
+    },
+    {
+      "kanji": "運んで",
+      "english": "carry; bring (te-form of 運ぶ)",
+      "hiragana": "はこんで",
+      "romaji": "hakonde",
+      "english_sentence": "Please carry these boxes inside.",
+      "japanese_sentence": "この箱を中へ運んでください。"
+    },
+    {
+      "kanji": "緊急",
+      "english": "emergency; urgent",
+      "hiragana": "きんきゅう",
+      "romaji": "kinkyū",
+      "english_sentence": "This is an emergency situation.",
+      "japanese_sentence": "これは緊急事態です。"
+    },
+    {
+      "kanji": "クレーム",
+      "english": "complaint; claim",
+      "hiragana": "くれーむ",
+      "romaji": "kurēmu",
+      "english_sentence": "The company received a customer complaint.",
+      "japanese_sentence": "会社はお客様からクレームを受けました。"
+    },
+    {
+      "kanji": "ちょっとここだとあれだし",
+      "english": "It's a bit awkward here...",
+      "hiragana": "ちょっとここだとあれだし",
+      "romaji": "chotto koko da to are dashi",
+      "english_sentence": "It's a bit awkward to talk here.",
+      "japanese_sentence": "ちょっとここだとあれだし、場所を変えましょう。"
+    },
+    {
+      "kanji": "泣いて",
+      "english": "crying (te-form of 泣く)",
+      "hiragana": "ないて",
+      "romaji": "naite",
+      "english_sentence": "The baby is crying.",
+      "japanese_sentence": "赤ちゃんが泣いています。"
+    },
+    {
+      "kanji": "係長",
+      "english": "section chief",
+      "hiragana": "かかりちょう",
+      "romaji": "kakarichō",
+      "english_sentence": "The section chief approved the proposal.",
+      "japanese_sentence": "係長がその提案を承認しました。"
+    },
+    {
+      "kanji": "たまって",
+      "english": "to accumulate; to pile up (te-form of 溜まる)",
+      "hiragana": "たまって",
+      "romaji": "tamatte",
+      "english_sentence": "A lot of work has piled up.",
+      "japanese_sentence": "仕事がたまっています。"
+    },
+    {
+      "kanji": "祖母",
+      "english": "grandmother",
+      "hiragana": "そぼ",
+      "romaji": "sobo",
+      "english_sentence": "My grandmother lives in the countryside.",
+      "japanese_sentence": "祖母は田舎に住んでいます。"
+    },
+    {
+      "kanji": "お邪魔",
+      "english": "to bother; to visit (polite expression)",
+      "hiragana": "おじゃま",
+      "romaji": "ojama",
+      "english_sentence": "I'll visit your home tomorrow.",
+      "japanese_sentence": "明日お邪魔します。"
+    },
+    {
+      "kanji": "様子",
+      "english": "state; condition; appearance",
+      "hiragana": "ようす",
+      "romaji": "yōsu",
+      "english_sentence": "She looks tired today.",
+      "japanese_sentence": "今日は様子がおかしいです。"
+    },
+    {
+      "kanji": "大会",
+      "english": "tournament; competition",
+      "hiragana": "たいかい",
+      "romaji": "taikai",
+      "english_sentence": "He won the tennis tournament.",
+      "japanese_sentence": "彼はテニス大会で優勝しました。"
+    },
+    {
+      "kanji": "譲る",
+      "english": "to give up; to yield; to hand over",
+      "hiragana": "ゆずる",
+      "romaji": "yuzuru",
+      "english_sentence": "She gave her seat to an elderly person.",
+      "japanese_sentence": "彼女はお年寄りに席を譲りました。"
+    },
+    {
+      "kanji": "栄養",
+      "english": "nutrition",
+      "hiragana": "えいよう",
+      "romaji": "eiyō",
+      "english_sentence": "You should eat nutritious food.",
+      "japanese_sentence": "栄養のあるものを食べてください。"
+    },
+    {
+      "kanji": "しっかり",
+      "english": "firmly; properly; well",
+      "hiragana": "しっかり",
+      "romaji": "shikkari",
+      "english_sentence": "Please study well for the exam.",
+      "japanese_sentence": "試験のためにしっかり勉強してください。"
+    }
+  ]

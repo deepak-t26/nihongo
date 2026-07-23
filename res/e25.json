@@ -1,0 +1,26 @@
+[
+    {
+      "kanji": "就職",
+      "english": "employment; getting a job",
+      "hiragana": "しゅうしょく",
+      "romaji": "shūshoku",
+      "english_sentence": "She got a job at a large company.",
+      "japanese_sentence": "彼女は大きな会社に就職しました。"
+    },
+    {
+      "kanji": "孫",
+      "english": "grandchild",
+      "hiragana": "まご",
+      "romaji": "mago",
+      "english_sentence": "My grandparents love their grandchild.",
+      "japanese_sentence": "祖父母は孫をとてもかわいがっています。"
+    },
+    {
+      "kanji": "飼う",
+      "english": "to keep; to raise (a pet or animal)",
+      "hiragana": "かう",
+      "romaji": "kau",
+      "english_sentence": "They keep a dog at home.",
+      "japanese_sentence": "彼らは家で犬を飼っています。"
+    }
+  ]

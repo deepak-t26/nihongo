@@ -1,0 +1,34 @@
+[
+    {
+      "kanji": "海外",
+      "english": "overseas; abroad",
+      "hiragana": "かいがい",
+      "romaji": "kaigai",
+      "english_sentence": "She wants to study abroad.",
+      "japanese_sentence": "彼女は海外で勉強したいです。"
+    },
+    {
+      "kanji": "見送る",
+      "english": "to see someone off; to postpone",
+      "hiragana": "みおくる",
+      "romaji": "miokuru",
+      "english_sentence": "I went to the station to see my friend off.",
+      "japanese_sentence": "友達を見送るために駅へ行きました。"
+    },
+    {
+      "kanji": "１０便",
+      "english": "Flight 10; No. 10 service",
+      "hiragana": "じゅうびん",
+      "romaji": "juubin",
+      "english_sentence": "Flight 10 will depart on time.",
+      "japanese_sentence": "１０便は定刻どおりに出発します。"
+    },
+    {
+      "kanji": "宿泊客",
+      "english": "hotel guest; lodging guest",
+      "hiragana": "しゅくはくきゃく",
+      "romaji": "shukuhakukyaku",
+      "english_sentence": "The hotel guests enjoyed the breakfast buffet.",
+      "japanese_sentence": "宿泊客は朝食バイキングを楽しみました。"
+    }
+  ]

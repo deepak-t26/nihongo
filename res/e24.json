@@ -1,0 +1,58 @@
+[
+    {
+      "kanji": "苦労",
+      "english": "hardship; trouble; effort",
+      "hiragana": "くろう",
+      "romaji": "kurō",
+      "english_sentence": "She went through many hardships to achieve her dream.",
+      "japanese_sentence": "彼女は夢をかなえるためにたくさん苦労しました。"
+    },
+    {
+      "kanji": "貴重",
+      "english": "valuable; precious",
+      "hiragana": "きちょう",
+      "romaji": "kichō",
+      "english_sentence": "This is valuable information.",
+      "japanese_sentence": "これは貴重な情報です。"
+    },
+    {
+      "kanji": "おもちゃ",
+      "english": "toy",
+      "hiragana": "おもちゃ",
+      "romaji": "omocha",
+      "english_sentence": "The child is playing with a toy.",
+      "japanese_sentence": "子どもがおもちゃで遊んでいます。"
+    },
+    {
+      "kanji": "務める",
+      "english": "to serve as; to hold a position",
+      "hiragana": "つとめる",
+      "romaji": "tsutomeru",
+      "english_sentence": "She serves as the team leader.",
+      "japanese_sentence": "彼女はチームリーダーを務めています。"
+    },
+    {
+      "kanji": "ほっと",
+      "english": "with relief",
+      "hiragana": "ほっと",
+      "romaji": "hotto",
+      "english_sentence": "I felt relieved after hearing the good news.",
+      "japanese_sentence": "良い知らせを聞いてほっとしました。"
+    },
+    {
+      "kanji": "無事",
+      "english": "safe; unharmed",
+      "hiragana": "ぶじ",
+      "romaji": "buji",
+      "english_sentence": "Everyone arrived safely.",
+      "japanese_sentence": "みんな無事に到着しました。"
+    },
+    {
+      "kanji": "まとまる",
+      "english": "to be settled; to be put together",
+      "hiragana": "まとまる",
+      "romaji": "matomaru",
+      "english_sentence": "The plan was finally settled.",
+      "japanese_sentence": "計画がようやくまとまりました。"
+    }
+  ]
