@@ -1,0 +1,26 @@
+[
+    {
+      "kanji": "差し出す",
+      "english": "to hand over",
+      "hiragana": "さしだす",
+      "romaji": "sashidasu",
+      "english_sentence": "Please hand over your passport.",
+      "japanese_sentence": "パスポートを差し出してください。"
+    },
+    {
+      "kanji": "母親",
+      "english": "mother",
+      "hiragana": "ははおや",
+      "romaji": "hahaoya",
+      "english_sentence": "My mother likes gardening.",
+      "japanese_sentence": "母親はガーデニングが好きです。"
+    },
+    {
+      "kanji": "取れちゃった",
+      "english": "came off; got detached",
+      "hiragana": "とれちゃった",
+      "romaji": "torechatta",
+      "english_sentence": "The button came off my shirt.",
+      "japanese_sentence": "シャツのボタンが取れちゃった。"
+    }
+  ]
