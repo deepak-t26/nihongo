@@ -1,0 +1,34 @@
+[
+    {
+      "kanji": "暮らし",
+      "hiragana": "くらし",
+      "romaji": "kurashi",
+      "english": "life; living; livelihood; daily life",
+      "japanese_sentence": "田舎での暮らしはとても静かです。",
+      "english_sentence": "Life in the countryside is very peaceful."
+    },
+    {
+      "kanji": "指導",
+      "hiragana": "しどう",
+      "romaji": "shidou",
+      "english": "guidance; instruction; coaching",
+      "japanese_sentence": "先生は学生を丁寧に指導します。",
+      "english_sentence": "The teacher carefully instructs the students."
+    },
+    {
+      "kanji": "教員",
+      "hiragana": "きょういん",
+      "romaji": "kyouin",
+      "english": "teacher; faculty member; teaching staff",
+      "japanese_sentence": "彼女は高校の教員です。",
+      "english_sentence": "She is a high school teacher."
+    },
+    {
+      "kanji": "別れる",
+      "hiragana": "わかれる",
+      "romaji": "wakareru",
+      "english": "to separate; to part; to break up",
+      "japanese_sentence": "駅で友達と別れました。",
+      "english_sentence": "I said goodbye to my friend at the station."
+    }
+  ]

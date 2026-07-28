@@ -1,0 +1,74 @@
+[
+    {
+      "kanji": "ホチキス",
+      "hiragana": "ホチキス",
+      "romaji": "hochikisu",
+      "english": "stapler",
+      "japanese_sentence": "この書類をホチキスで留めてください。",
+      "english_sentence": "Please staple these documents together."
+    },
+    {
+      "kanji": "口座",
+      "hiragana": "こうざ",
+      "romaji": "kouza",
+      "english": "bank account",
+      "japanese_sentence": "銀行で新しい口座を作りました。",
+      "english_sentence": "I opened a new bank account at the bank."
+    },
+    {
+      "kanji": "用紙",
+      "hiragana": "ようし",
+      "romaji": "youshi",
+      "english": "form; paper",
+      "japanese_sentence": "申込用紙に名前を書いてください。",
+      "english_sentence": "Please write your name on the application form."
+    },
+    {
+      "kanji": "街",
+      "hiragana": "まち",
+      "romaji": "machi",
+      "english": "town; city",
+      "japanese_sentence": "この街はとても静かです。",
+      "english_sentence": "This town is very quiet."
+    },
+    {
+      "kanji": "出席者",
+      "hiragana": "しゅっせきしゃ",
+      "romaji": "shussekisha",
+      "english": "attendee; participant",
+      "japanese_sentence": "出席者は全員時間どおりに集まりました。",
+      "english_sentence": "All the attendees arrived on time."
+    },
+    {
+      "kanji": "人口",
+      "hiragana": "じんこう",
+      "romaji": "jinkou",
+      "english": "population",
+      "japanese_sentence": "この市の人口は約五十万人です。",
+      "english_sentence": "The population of this city is about 500,000."
+    },
+    {
+      "kanji": "ご覧",
+      "hiragana": "ごらん",
+      "romaji": "goran",
+      "english": "look; viewing (honorific)",
+      "japanese_sentence": "こちらをご覧ください。",
+      "english_sentence": "Please look at this."
+    },
+    {
+      "kanji": "記念写真",
+      "hiragana": "きねんしゃしん",
+      "romaji": "kinen shashin",
+      "english": "commemorative photo",
+      "japanese_sentence": "旅行の最後に記念写真を撮りました。",
+      "english_sentence": "We took a commemorative photo at the end of the trip."
+    },
+    {
+      "kanji": "ほら",
+      "hiragana": "ほら",
+      "romaji": "hora",
+      "english": "look!; see?; there!",
+      "japanese_sentence": "ほら、あそこに虹が見えるよ。",
+      "english_sentence": "Look, you can see a rainbow over there."
+    }
+  ]
