@@ -1,0 +1,780 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Japanese Interview Guide — .NET Engineer / LIMS Technical Support</title>
+<style>
+:root{
+  --bg:#f5f7fb; --card:#fff; --text:#182230; --muted:#617083;
+  --primary:#315efb; --primary2:#eaf0ff; --border:#dfe5ee;
+  --good:#16835b; --goodbg:#eaf8f2; --warn:#a86600; --warnbg:#fff5df;
+  --dark:#111827; --shadow:0 8px 28px rgba(22,34,51,.08);
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--text);font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Noto Sans JP",Arial,sans-serif;line-height:1.65}
+header{background:linear-gradient(135deg,#172554,#315efb);color:white;padding:42px 20px}
+.container{max-width:1180px;margin:auto;padding:0 20px}
+.hero{display:grid;grid-template-columns:1.5fr .8fr;gap:28px;align-items:center}
+h1{font-size:clamp(28px,4vw,46px);line-height:1.15;margin:0 0 14px}
+.hero p{font-size:18px;opacity:.92;margin:8px 0}
+.badges{display:flex;flex-wrap:wrap;gap:8px;margin-top:18px}
+.badge{background:rgba(255,255,255,.15);border:1px solid rgba(255,255,255,.3);padding:6px 11px;border-radius:999px;font-size:13px}
+.hero-card{background:white;color:var(--text);border-radius:18px;padding:22px;box-shadow:var(--shadow)}
+.hero-card h3{margin-top:0}
+.hero-card div{padding:7px 0;border-bottom:1px solid var(--border)}
+.hero-card div:last-child{border-bottom:0}
+nav{position:sticky;top:0;z-index:10;background:#fff;border-bottom:1px solid var(--border);box-shadow:0 2px 10px rgba(0,0,0,.04)}
+.navinner{max-width:1180px;margin:auto;padding:9px 20px;display:flex;gap:8px;overflow:auto}
+nav a{white-space:nowrap;text-decoration:none;color:#334155;padding:7px 11px;border-radius:8px;font-size:13px}
+nav a:hover{background:var(--primary2);color:var(--primary)}
+main{padding:30px 0 70px}
+section{scroll-margin-top:65px;margin:0 0 28px}
+.card{background:var(--card);border:1px solid var(--border);border-radius:16px;padding:24px;box-shadow:var(--shadow);margin-bottom:18px}
+h2{font-size:27px;margin:0 0 12px}
+h3{font-size:20px;margin:22px 0 9px}
+h4{margin:15px 0 6px}
+.lead{font-size:17px;color:#344256}
+.note{border-left:4px solid var(--primary);background:var(--primary2);padding:13px 16px;border-radius:8px;margin:14px 0}
+.good{border-left-color:var(--good);background:var(--goodbg)}
+.warn{border-left-color:var(--warn);background:var(--warnbg)}
+.grid{display:grid;grid-template-columns:repeat(2,1fr);gap:16px}
+.grid3{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}
+.smallcard{background:#fafbfe;border:1px solid var(--border);border-radius:12px;padding:16px}
+.smallcard strong{display:block;margin-bottom:5px}
+table{width:100%;border-collapse:collapse;margin:12px 0;font-size:14px}
+th,td{border:1px solid var(--border);padding:10px;vertical-align:top}
+th{background:#f1f4f9;text-align:left}
+.jp{font-size:18px;font-weight:650}
+.read{color:#667085;font-size:13px;margin-top:2px}
+.en{color:#465466;font-size:14px}
+.romaji{color:#315efb;font-size:13px;margin-top:2px}
+code,.pill{background:#eef2f7;border-radius:5px;padding:2px 6px;font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-size:.92em}
+pre{background:#101828;color:#e7edf6;padding:18px;border-radius:12px;overflow:auto;line-height:1.55}
+details{border:1px solid var(--border);border-radius:12px;padding:12px 15px;background:#fff;margin:10px 0}
+summary{cursor:pointer;font-weight:700}
+.q{border-left:4px solid #315efb;padding-left:15px;margin:18px 0}
+.answer{background:#f8faff;border-radius:10px;padding:13px 15px;margin-top:9px}
+.toolbar{display:flex;gap:10px;flex-wrap:wrap;margin:14px 0}
+button{border:1px solid var(--border);background:white;padding:9px 13px;border-radius:8px;cursor:pointer;font-weight:600}
+button:hover{background:var(--primary2)}
+input{width:100%;padding:12px 14px;border:1px solid var(--border);border-radius:9px;font-size:15px}
+.checklist label{display:block;padding:8px 0}
+.checklist input{width:auto;margin-right:9px}
+.highlight{background:#fff2a8;padding:1px 4px;border-radius:3px}
+.kbd{font-family:monospace;background:#eef1f5;border:1px solid #d7dde6;border-radius:5px;padding:2px 6px}
+footer{text-align:center;color:var(--muted);padding:30px 20px}
+@media(max-width:800px){.hero,.grid,.grid3{grid-template-columns:1fr}.card{padding:18px}h2{font-size:23px}}
+@media print{
+ nav,.toolbar{display:none}
+ body{background:white}
+ .card{box-shadow:none;break-inside:avoid}
+ header{background:white;color:black;padding:20px 0}
+ .hero-card{box-shadow:none;border:1px solid #ddd}
+}
+</style>
+</head>
+<body>
+
+<header>
+<div class="container hero">
+  <div>
+    <div style="font-size:13px;letter-spacing:.08em;text-transform:uppercase;opacity:.8">Interview Preparation</div>
+    <h1>.NET Engineer × LIMS<br>Japanese Interview Guide</h1>
+    <p>For a Japanese hiring / introductory interview focused on LIMS, technical support, application implementation, customer requirements, and .NET.</p>
+    <div class="badges">
+      <span class="badge">Japanese client communication</span>
+      <span class="badge">.NET / C#</span>
+      <span class="badge">LIMS</span>
+      <span class="badge">Healthcare / Life Sciences</span>
+      <span class="badge">Requirements → Design → Test → Support</span>
+    </div>
+  </div>
+  <div class="hero-card">
+    <h3>Your interview positioning</h3>
+    <div><b>Current strength:</b> healthcare software + device integration</div>
+    <div><b>Technical bridge:</b> C# / .NET + web development</div>
+    <div><b>Domain bridge:</b> rehabilitation / medical applications → laboratory systems</div>
+    <div><b>Work style:</b> confirm requirements, solve issues, communicate clearly</div>
+    <div><b>Important:</b> do not claim direct LIMS experience if you do not have it</div>
+  </div>
+</div>
+</header>
+
+<nav>
+<div class="navinner">
+<a href="#strategy">Strategy</a>
+<a href="#intro">Self-introduction</a>
+<a href="#lims">LIMS basics</a>
+<a href="#vocab">Vocabulary</a>
+<a href="#sentences">Useful sentences</a>
+<a href="#questions">Questions</a>
+<a href="#technical">Technical Q&A</a>
+<a href="#support">Support Q&A</a>
+<a href="#japanese">Japanese communication</a>
+<a href="#questions-to-ask">Ask interviewer</a>
+<a href="#checklist">Final checklist</a>
+</div>
+</nav>
+
+<main class="container">
+
+<section id="strategy">
+<div class="card">
+<h2>1. Interview Strategy</h2>
+<p class="lead">This job is not simply asking “Can you code in C#?” The description combines <b>software development, product implementation, application support, customer communication, requirements gathering, troubleshooting, and Japanese communication</b>.</p>
+
+<div class="grid">
+<div class="smallcard">
+<strong>① Show your transferable experience</strong>
+<p>You already work on healthcare/rehabilitation software. Emphasize that you understand software used in a medical environment, where accuracy, reliability, testing, and user feedback matter.</p>
+</div>
+<div class="smallcard">
+<strong>② Be honest about LIMS</strong>
+<p>If you have not worked directly on a LIMS, say so clearly. Then immediately explain your related experience and willingness to learn laboratory workflows.</p>
+</div>
+<div class="smallcard">
+<strong>③ Connect your .NET experience</strong>
+<p>Talk about your C#/.NET learning and .NET MAUI/internal-tool exposure. Do not describe yourself as an expert if your professional experience is mainly Flutter.</p>
+</div>
+<div class="smallcard">
+<strong>④ Demonstrate customer-facing behavior</strong>
+<p>Use phrases such as 「確認します」「認識を合わせます」「原因を切り分けます」. These are very useful for support/implementation roles.</p>
+</div>
+</div>
+
+<div class="note warn">
+<b>Key sentence to remember:</b><br>
+「LIMSの実務経験はありませんが、医療・リハビリ分野のアプリ開発経験があり、要件確認から設計、開発、テスト、保守まで経験しています。これまでの経験を活かしながら、LIMSの業務知識を身につけたいと考えています。」
+<div class="romaji">LIMS no jitsu-mu keiken wa arimasen ga, iryō / rihabiri bun'ya no apuri kaihatsu keiken ga ari, yōken kakunin kara sekkei, kaihatsu, tesuto, hoshu made keiken shiteimasu. Kore made no keiken o ikashinagara, LIMS no gyōmu chishiki o mi ni tsuketai to kangaeteimasu.</div>
+<div class="en">I don't have practical LIMS experience, but I have experience developing healthcare/rehabilitation applications, from requirements confirmation through design, development, testing, and maintenance. I would like to use my previous experience while learning LIMS business knowledge.</div>
+</div>
+</div>
+</section>
+
+<section id="intro">
+<div class="card">
+<h2>2. 60–90 Second Self-Introduction</h2>
+
+<div class="note good">
+<b>Recommended structure:</b> Name → current role → experience → healthcare domain → technology → .NET interest → why this role.
+</div>
+
+<div class="answer">
+<div class="jp">はじめまして。ディーパック・テイラーと申します。</div>
+<div class="read">はじめまして。ディーパック・テイラーと もうします。</div>
+<div class="romaji">Hajimemashite. Dīpakku Teirā to mōshimasu.</div>
+<div class="en">Nice to meet you. My name is Deepak Tailor.</div>
+
+<br>
+<div class="jp">現在、ソフトウェアエンジニアとして、医療・リハビリテーション分野のアプリ開発に携わっています。</div>
+<div class="read">げんざい、ソフトウェアエンジニアとして、いりょう・リハビリテーションぶんやのアプリかいはつに たずさわっています。</div>
+<div class="romaji">Genzai, sofutowea enjinia toshite, iryō / rihabiritēshon bun'ya no apuri kaihatsu ni tazusawatteimasu.</div>
+<div class="en">Currently, I work as a software engineer developing applications in the healthcare and rehabilitation field.</div>
+
+<br>
+<div class="jp">これまで、FlutterとDartを中心に、要件確認、設計、開発、テスト、デバッグ、保守まで経験してきました。</div>
+<div class="read">これまで、FlutterとDartをちゅうしんに、ようけんかくにん、せっけい、かいはつ、テスト、デバッグ、ほしゅまで けいけんしてきました。</div>
+<div class="romaji">Kore made, Flutter to Dart o chūshin ni, yōken kakunin, sekkei, kaihatsu, tesuto, debaggu, hoshu made keiken shite kimashita.</div>
+<div class="en">I have mainly worked with Flutter and Dart, and have experience from requirements confirmation through design, development, testing, debugging, and maintenance.</div>
+
+<br>
+<div class="jp">また、C#と.NETにも取り組んでおり、今後はWebやバックエンドを含めたシステム開発の経験を広げたいと考えています。</div>
+<div class="read">また、C#と.NETにも とりくんでおり、こんごは Webやバックエンドを ふくめた システムかいはつの けいけんを ひろげたいと かんがえています。</div>
+<div class="romaji">Mata, C# to .NET ni mo torikunde ori, kongo wa Web ya bakkuendo o fukumeta shisutemu kaihatsu no keiken o hirogetai to kangaeteimasu.</div>
+<div class="en">I am also working on C# and .NET, and I would like to broaden my system development experience, including web and backend development.</div>
+
+<br>
+<div class="jp">今回のポジションでは、これまでの医療分野での経験と、お客様とのコミュニケーション力を活かしながら、LIMSの知識も身につけたいと考えています。本日はよろしくお願いいたします。</div>
+<div class="read">こんかいのポジションでは、これまでの いりょうぶんやでの けいけんと、おきゃくさまとの コミュニケーションりょくを いかしながら、LIMSの ちしきも みにつけたいと かんがえています。</div>
+<div class="romaji">Konkai no pojishon de wa, kore made no iryō bun'ya de no keiken to, okyaku-sama to no komyunikēshon-ryoku o ikashinagara, LIMS no chishiki mo mi ni tsuketai to kangaeteimasu.</div>
+<div class="en">In this position, I would like to use my healthcare experience and communication skills with customers while also developing my knowledge of LIMS. Thank you for meeting with me today.</div>
+</div>
+</div>
+</section>
+
+<section id="lims">
+<div class="card">
+<h2>3. LIMS: What You Need to Understand for the Interview</h2>
+<p>A <b>LIMS (Laboratory Information Management System)</b> manages laboratory information and workflows. It can handle samples, tests, results, users, instruments, reports, and audit/history information.</p>
+
+<div class="grid3">
+<div class="smallcard"><strong>サンプル管理</strong> Sample management<br><span class="en">Registering and tracking samples.</span></div>
+<div class="smallcard"><strong>検査管理</strong> Test management<br><span class="en">Managing tests performed on samples.</span></div>
+<div class="smallcard"><strong>結果管理</strong> Result management<br><span class="en">Recording, validating, and storing results.</span></div>
+<div class="smallcard"><strong>ワークフロー</strong> Workflow<br><span class="en">Sample received → test → review → approval.</span></div>
+<div class="smallcard"><strong>機器連携</strong> Instrument integration<br><span class="en">Connecting laboratory instruments and software.</span></div>
+<div class="smallcard"><strong>監査証跡</strong> Audit trail<br><span class="en">Tracking who changed what and when.</span></div>
+</div>
+
+<h3>Simple LIMS workflow</h3>
+<pre>Sample received
+      ↓
+Sample registration
+      ↓
+Test assignment
+      ↓
+Laboratory testing / instrument
+      ↓
+Result registration
+      ↓
+Review / approval
+      ↓
+Report
+      ↓
+History / audit trail / database</pre>
+
+<h3>How to connect LIMS to your experience</h3>
+<table>
+<tr><th>LIMS requirement</th><th>Your transferable experience</th></tr>
+<tr><td>Healthcare domain</td><td>Medical / rehabilitation application development</td></tr>
+<tr><td>Requirements</td><td>Requirement confirmation and specification discussions</td></tr>
+<tr><td>Testing</td><td>Application testing, debugging, Python automation</td></tr>
+<tr><td>Device integration</td><td>BLE and medical-device communication</td></tr>
+<tr><td>Web technology</td><td>React / JavaScript / HTML/CSS experience</td></tr>
+<tr><td>.NET</td><td>C# / .NET learning and internal-tool exposure</td></tr>
+<tr><td>Support</td><td>Bug investigation, maintenance, troubleshooting, user feedback</td></tr>
+<tr><td>Japanese clients</td><td>Japanese workplace communication, documents, specifications and clarification</td></tr>
+</table>
+</div>
+</section>
+
+<section id="vocab">
+<div class="card">
+<h2>4. High-Priority Vocabulary</h2>
+<p>Learn these first. They are more useful for this interview than memorizing hundreds of random words.</p>
+<table>
+<tr><th>Japanese</th><th>Reading</th><th>Meaning</th><th>Useful example</th></tr>
+<tr><td class="jp">要件</td><td>ようけん</td><td>requirement</td><td>要件を確認する</td></tr>
+<tr><td class="jp">要件定義</td><td>ようけんていぎ</td><td>requirements definition</td><td>要件定義に参加する</td></tr>
+<tr><td class="jp">仕様</td><td>しよう</td><td>specification</td><td>仕様を確認する</td></tr>
+<tr><td class="jp">設計</td><td>せっけい</td><td>design</td><td>基本設計・詳細設計</td></tr>
+<tr><td class="jp">実装</td><td>じっそう</td><td>implementation</td><td>機能を実装する</td></tr>
+<tr><td class="jp">検証</td><td>けんしょう</td><td>verification / validation</td><td>結果を検証する</td></tr>
+<tr><td class="jp">試験・テスト</td><td>しけん・テスト</td><td>testing</td><td>テストを実施する</td></tr>
+<tr><td class="jp">保守</td><td>ほしゅ</td><td>maintenance</td><td>システムを保守する</td></tr>
+<tr><td class="jp">障害</td><td>しょうがい</td><td>incident / system failure</td><td>障害の原因を調査する</td></tr>
+<tr><td class="jp">不具合</td><td>ふぐあい</td><td>bug / defect</td><td>不具合を修正する</td></tr>
+<tr><td class="jp">原因</td><td>げんいん</td><td>cause</td><td>原因を特定する</td></tr>
+<tr><td class="jp">切り分け</td><td>きりわけ</td><td>isolation / narrowing down</td><td>原因を切り分ける</td></tr>
+<tr><td class="jp">対応</td><td>たいおう</td><td>handle / respond</td><td>問い合わせに対応する</td></tr>
+<tr><td class="jp">問い合わせ</td><td>といあわせ</td><td>inquiry</td><td>お客様からの問い合わせ</td></tr>
+<tr><td class="jp">導入</td><td>どうにゅう</td><td>implementation / deployment</td><td>システムを導入する</td></tr>
+<tr><td class="jp">設定</td><td>せってい</td><td>configuration / settings</td><td>システムを設定する</td></tr>
+<tr><td class="jp">連携</td><td>れんけい</td><td>integration</td><td>外部システムと連携する</td></tr>
+<tr><td class="jp">データベース</td><td>DB</td><td>database</td><td>DBからデータを取得する</td></tr>
+<tr><td class="jp">権限</td><td>けんげん</td><td>permission / access rights</td><td>ユーザー権限を設定する</td></tr>
+<tr><td class="jp">監査証跡</td><td>かんさしょうせき</td><td>audit trail</td><td>変更履歴を確認する</td></tr>
+<tr><td class="jp">お客様</td><td>おきゃくさま</td><td>customer / client</td><td>お客様の要望を確認する</td></tr>
+<tr><td class="jp">認識合わせ</td><td>にんしきあわせ</td><td>aligning understanding</td><td>認識合わせを行う</td></tr>
+<tr><td class="jp">優先度</td><td>ゆうせんど</td><td>priority</td><td>優先度を確認する</td></tr>
+<tr><td class="jp">納期</td><td>のうき</td><td>deadline / delivery date</td><td>納期を確認する</td></tr>
+</table>
+</div>
+</section>
+
+<section id="sentences">
+<div class="card">
+<h2>5. Essential Japanese Sentences</h2>
+
+<h3>A. Talking about your experience</h3>
+<details open>
+<summary>「〜を担当しました」 — I was responsible for ~</summary>
+<div class="answer">
+<div class="jp">医療・リハビリテーション分野のアプリ開発を担当しました。</div>
+<div class="romaji">Iryō / rihabiritēshon bun'ya no apuri kaihatsu o tantō shimashita.</div>
+<div class="en">I was responsible for application development in the healthcare and rehabilitation field.</div>
+</div>
+</details>
+
+<details>
+<summary>「〜まで経験しています」 — I have experience through ~</summary>
+<div class="answer">
+<div class="jp">要件確認から設計、開発、テスト、保守まで経験しています。</div>
+<div class="romaji">Yōken kakunin kara sekkei, kaihatsu, tesuto, hoshu made keiken shiteimasu.</div>
+<div class="en">I have experience from requirements confirmation through design, development, testing, and maintenance.</div>
+</div>
+</details>
+
+<details>
+<summary>「〜を活かしたいです」 — I would like to make use of ~</summary>
+<div class="answer">
+<div class="jp">これまでの医療分野での経験を活かしたいです。</div>
+<div class="romaji">Kore made no iryō bun'ya de no keiken o ikashitai desu.</div>
+<div class="en">I would like to make use of my previous healthcare-domain experience.</div>
+</div>
+</details>
+
+<h3>B. Talking about LIMS honestly</h3>
+<details open>
+<summary>「直接の経験はありませんが…」 — I don't have direct experience, but…</summary>
+<div class="answer">
+<div class="jp">LIMSの実務経験はまだありませんが、医療分野のソフトウェア開発経験があります。</div>
+<div class="romaji">LIMS no jitsu-mu keiken wa mada arimasen ga, iryō bun'ya no sofutowea kaihatsu keiken ga arimasu.</div>
+<div class="en">I don't yet have practical LIMS experience, but I have experience developing software in the healthcare field.</div>
+</div>
+</details>
+
+<details>
+<summary>「業務知識を身につけたいです」 — I want to develop domain knowledge</summary>
+<div class="answer">
+<div class="jp">LIMSの業務知識を勉強して、早く業務に貢献できるようになりたいです。</div>
+<div class="romaji">LIMS no gyōmu chishiki o benkyō shite, hayaku gyōmu ni kōken dekiru yō ni naritai desu.</div>
+<div class="en">I want to study LIMS business knowledge and become able to contribute to the work quickly.</div>
+</div>
+</details>
+
+<h3>C. Requirements / customer communication</h3>
+<details open>
+<summary>Clarifying requirements</summary>
+<div class="answer">
+<div class="jp">認識の違いがないように、まず要件を確認したいです。</div>
+<div class="romaji">Ninshiki no chigai ga nai yō ni, mazu yōken o kakunin shitai desu.</div>
+<div class="en">I would first like to confirm the requirements so that there is no difference in understanding.</div>
+</div>
+</details>
+
+<details>
+<summary>When something is unclear</summary>
+<div class="answer">
+<div class="jp">すみません、もう一度ご説明いただけますでしょうか。</div>
+<div class="romaji">Sumimasen, mō ichido go-setsumei itadakemasu deshō ka.</div>
+<div class="en">Sorry, could you explain that one more time?</div>
+</div>
+</details>
+
+<details>
+<summary>Confirming your understanding</summary>
+<div class="answer">
+<div class="jp">私の理解では、〇〇という認識ですが、合っていますでしょうか。</div>
+<div class="romaji">Watashi no rikai de wa, 〇〇 to iu ninshiki desu ga, atteimasu deshō ka.</div>
+<div class="en">My understanding is that it is 〇〇. Is that correct?</div>
+</div>
+</details>
+
+<h3>D. Troubleshooting</h3>
+<details>
+<summary>Investigating an issue</summary>
+<div class="answer">
+<div class="jp">まず発生条件を確認して、原因を切り分けます。</div>
+<div class="romaji">Mazu hassei jōken o kakunin shite, gen'in o kiriwakemasu.</div>
+<div class="en">First, I would check the conditions under which it occurs and narrow down the cause.</div>
+</div>
+</details>
+
+<details>
+<summary>Reporting a problem</summary>
+<div class="answer">
+<div class="jp">原因を調査した結果、データの登録処理に問題があることが分かりました。</div>
+<div class="romaji">Gen'in o chōsa shita kekka, dēta no tōroku shori ni mondai ga aru koto ga wakarimashita.</div>
+<div class="en">As a result of investigating the cause, I found that there was a problem with the data registration process.</div>
+</div>
+</details>
+</div>
+</section>
+
+<section id="questions">
+<div class="card">
+<h2>6. Likely Interview Questions + Model Answers</h2>
+<p class="lead">Use these as speaking templates. Do not memorize every word. Learn the structure and key vocabulary.</p>
+
+<div class="q">
+<h3>Q1. 自己紹介をお願いします。</h3>
+<div class="read">じこしょうかいを おねがいします。</div>
+<div class="en"><b>Please introduce yourself.</b></div>
+<div class="answer">
+<div class="jp">現在、ソフトウェアエンジニアとして医療・リハビリテーション分野のアプリ開発をしています。FlutterとDartを中心に、要件確認、設計、開発、テスト、保守を経験しています。また、C#と.NETについても勉強しています。</div>
+<div class="en">Currently I work as a software engineer developing healthcare/rehabilitation applications. I mainly use Flutter and Dart, and have experience with requirements confirmation, design, development, testing and maintenance. I am also studying C# and .NET.</div>
+</div>
+</div>
+
+<div class="q">
+<h3>Q2. これまでどのような仕事をしてきましたか？</h3>
+<div class="read">これまで どのような しごとを してきましたか？</div>
+<div class="en"><b>What kind of work have you done so far?</b></div>
+<div class="answer">
+<div class="jp">主に医療・リハビリテーション向けのアプリ開発です。患者さんのリハビリをサポートするアプリや、Bluetoothを使った医療機器との連携機能などを担当しました。テストや不具合対応、保守も行っています。</div>
+<div class="en">Mainly healthcare and rehabilitation application development. I worked on applications supporting patient rehabilitation and functions integrating with medical devices using Bluetooth. I also handle testing, bug fixes, and maintenance.</div>
+</div>
+</div>
+
+<div class="q">
+<h3>Q3. LIMSの経験はありますか？</h3>
+<div class="read">LIMSの けいけんは ありますか？</div>
+<div class="en"><b>Do you have experience with LIMS?</b></div>
+<div class="answer">
+<div class="jp">LIMSを直接担当した経験はありません。ただ、医療分野のアプリ開発経験があり、要件確認から設計、開発、テスト、保守まで経験しています。そのため、業務知識を勉強しながら、これまでの経験を活かせると考えています。</div>
+<div class="en">I have not directly worked on LIMS. However, I have experience developing healthcare applications and have worked from requirements confirmation through design, development, testing and maintenance. Therefore, I believe I can use my previous experience while learning the domain knowledge.</div>
+</div>
+</div>
+
+<div class="q">
+<h3>Q4. なぜLIMSの仕事に興味がありますか？</h3>
+<div class="read">なぜ LIMSの しごとに きょうみが ありますか？</div>
+<div class="en"><b>Why are you interested in LIMS work?</b></div>
+<div class="answer">
+<div class="jp">現在も医療分野のシステムに関わっているため、これまでの経験を活かせると考えています。また、LIMSは業務フローやデータ管理が重要なシステムなので、より大きな業務システムの開発経験を積みたいと思っています。</div>
+<div class="en">Since I currently work with healthcare systems, I believe I can use my existing experience. Also, because LIMS involves important workflows and data management, I would like to gain experience developing larger business systems.</div>
+</div>
+</div>
+
+<div class="q">
+<h3>Q5. C# / .NETの経験について教えてください。</h3>
+<div class="read">C# / .NETの けいけんについて おしえてください。</div>
+<div class="en"><b>Tell us about your C# / .NET experience.</b></div>
+<div class="answer">
+<div class="jp">C#と.NETを現在勉強しており、社内ツールなどで.NETに触れる機会があります。これまでFlutterやDartを中心に開発してきましたが、今後はC#/.NETを使ったバックエンドや業務システムの開発にも経験を広げたいと考えています。</div>
+<div class="en">I am currently studying C# and .NET, and I have opportunities to work with .NET for internal tools. Until now I have mainly developed with Flutter and Dart, but I would like to expand my experience into backend and business-system development using C#/.NET.</div>
+</div>
+</div>
+
+<div class="q">
+<h3>Q6. お客様の要望が曖昧な場合、どうしますか？</h3>
+<div class="read">おきゃくさまの ようぼうが あいまいな ばあい、どうしますか？</div>
+<div class="en"><b>What would you do if a customer's request is unclear?</b></div>
+<div class="answer">
+<div class="jp">まず、具体的な利用シーンや困っている点を確認します。その後、自分の理解を説明して、認識が合っているか確認します。必要であれば、仕様や画面の例を使って認識を合わせます。</div>
+<div class="en">First, I would confirm the specific use case and the problem they are facing. Then I would explain my understanding and confirm whether it is correct. If necessary, I would use specifications or screen examples to align our understanding.</div>
+</div>
+</div>
+
+<div class="q">
+<h3>Q7. 不具合が発生した場合、どのように対応しますか？</h3>
+<div class="read">ふぐあいが はっせいした ばあい、どのように たいおうしますか？</div>
+<div class="en"><b>How do you handle a bug?</b></div>
+<div class="answer">
+<div class="jp">まず再現条件を確認します。その後、ログやデータ、処理の流れを確認して、原因を切り分けます。原因が分かったら修正して、影響範囲を確認し、テストを行います。</div>
+<div class="en">First I confirm the reproduction conditions. Then I check logs, data and the processing flow to narrow down the cause. Once the cause is identified, I fix it, check the impact range, and test it.</div>
+</div>
+</div>
+
+<div class="q">
+<h3>Q8. 日本語でお客様と話すことに問題はありませんか？</h3>
+<div class="read">にほんごで おきゃくさまと はなすことに もんだいは ありませんか？</div>
+<div class="en"><b>Are you comfortable communicating with customers in Japanese?</b></div>
+<div class="answer">
+<div class="jp">技術的な内容について、簡単な説明や確認はできます。分からない言葉や内容があった場合は、曖昧なまま進めず、確認して認識を合わせるようにしています。今後も日本語でのコミュニケーション力を高めたいと考えています。</div>
+<div class="en">I can explain and confirm technical matters in simple terms. If there is a word or point I do not understand, I do not proceed with an unclear understanding; I confirm it and align our understanding. I also want to continue improving my Japanese communication skills.</div>
+</div>
+</div>
+
+<div class="q">
+<h3>Q9. チームで仕事をするときに大切なことは何ですか？</h3>
+<div class="read">チームで しごとを するときに たいせつな ことは なんですか？</div>
+<div class="en"><b>What is important when working in a team?</b></div>
+<div class="answer">
+<div class="jp">情報共有と認識合わせが大切だと考えています。特に、仕様や進捗に変更があった場合は、早めにチームに共有するようにしています。</div>
+<div class="en">I think information sharing and alignment of understanding are important. Especially when there are changes to specifications or progress, I try to share them with the team early.</div>
+</div>
+</div>
+
+<div class="q">
+<h3>Q10. 今後どのようなエンジニアになりたいですか？</h3>
+<div class="read">こんご どのような エンジニアに なりたいですか？</div>
+<div class="en"><b>What kind of engineer do you want to become?</b></div>
+<div class="answer">
+<div class="jp">まず、C#/.NETやWeb・バックエンドの知識を深めたいです。その上で、要件定義や設計など上流工程にも関わり、お客様の課題を理解して、技術的な解決策を提案できるエンジニアになりたいです。</div>
+<div class="en">First, I want to deepen my knowledge of C#/.NET, web and backend technologies. Then I want to become an engineer who can participate in upstream processes such as requirements definition and design, understand customer problems, and propose technical solutions.</div>
+</div>
+</div>
+</div>
+</section>
+
+<section id="technical">
+<div class="card">
+<h2>7. Technical Questions You May Get</h2>
+
+<details>
+<summary>What is LIMS?</summary>
+<div class="answer">
+<div class="jp">LIMSは、Laboratory Information Management Systemの略で、検査室のサンプル、検査結果、ユーザー、機器、データなどを管理するシステムです。</div>
+<div class="en">LIMS stands for Laboratory Information Management System. It manages laboratory samples, test results, users, instruments, and data.</div>
+</div>
+</details>
+
+<details>
+<summary>Why is database knowledge important for LIMS?</summary>
+<div class="answer">
+<div class="jp">LIMSでは、サンプル情報や検査結果など、多くのデータを正確に管理する必要があります。そのため、データベースの設計、検索、更新、整合性などが重要だと考えています。</div>
+<div class="en">LIMS needs to accurately manage large amounts of data such as sample information and test results. Therefore database design, querying, updating, and data consistency are important.</div>
+</div>
+</details>
+
+<details>
+<summary>What is the difference between a bug and an operational issue?</summary>
+<div class="answer">
+<div class="jp">不具合はシステムの想定された動作と実際の動作が違う場合です。運用上の問題の場合は、設定やデータ、利用方法などが原因の場合もあります。まず状況を確認して原因を切り分けます。</div>
+<div class="en">A bug is when actual behavior differs from expected system behavior. An operational issue can also be caused by configuration, data, or usage. I would first investigate the situation and isolate the cause.</div>
+</div>
+</details>
+
+<details>
+<summary>What is API integration?</summary>
+<div class="answer">
+<div class="jp">API連携は、異なるシステム同士がAPIを使ってデータを送受信することです。例えば、外部システムから検査データを取得したり、結果を別のシステムに送ったりする場合があります。</div>
+<div class="en">API integration means different systems exchange data through APIs. For example, a system may retrieve test data from an external system or send results to another system.</div>
+</div>
+</details>
+
+<details>
+<summary>What would you consider when developing a healthcare/laboratory system?</summary>
+<div class="answer">
+<div class="jp">データの正確性、アクセス権限、セキュリティ、ログ、テスト、変更履歴などが重要だと考えています。また、ユーザーが間違えにくい画面や業務フローも重要です。</div>
+<div class="en">I think data accuracy, access permissions, security, logs, testing, and change history are important. Usable screens and workflows that reduce user errors are also important.</div>
+</div>
+</details>
+
+<h3>Useful .NET terms</h3>
+<table>
+<tr><th>Term</th><th>Japanese</th><th>Simple explanation</th></tr>
+<tr><td>C#</td><td>C#（シーシャープ）</td><td>Programming language commonly used with .NET.</td></tr>
+<tr><td>.NET</td><td>.NET（ドットネット）</td><td>Microsoft development platform.</td></tr>
+<tr><td>ASP.NET Core</td><td>ASP.NET Core</td><td>Framework for web/API applications.</td></tr>
+<tr><td>API</td><td>API連携</td><td>System-to-system communication.</td></tr>
+<tr><td>Entity Framework Core</td><td>EF Core</td><td>ORM commonly used with .NET applications.</td></tr>
+<tr><td>SQL</td><td>SQL</td><td>Query language for relational databases.</td></tr>
+<tr><td>Authentication</td><td>認証（にんしょう）</td><td>Confirming who a user is.</td></tr>
+<tr><td>Authorization</td><td>認可（にんか）</td><td>Controlling what a user can access.</td></tr>
+<tr><td>Logging</td><td>ログ管理</td><td>Recording application/system events.</td></tr>
+</table>
+</div>
+</section>
+
+<section id="support">
+<div class="card">
+<h2>8. Technical Support / Implementation Questions</h2>
+
+<div class="q">
+<h3>「お客様から『システムが遅い』と言われたら、どうしますか？」</h3>
+<div class="en"><b>If a customer says “the system is slow,” what would you do?</b></div>
+<div class="answer">
+<div class="jp">まず、いつから発生しているか、どの画面や処理で発生するかを確認します。その後、ログ、DB、API、ネットワークなどを確認して、原因を切り分けます。</div>
+<div class="en">First, I would confirm when it started and which screen or process is affected. Then I would check logs, the database, APIs, network, etc. to narrow down the cause.</div>
+</div>
+</div>
+
+<div class="q">
+<h3>「お客様の要望と仕様が合わない場合は？」</h3>
+<div class="en"><b>What if the customer's request does not match the current specification?</b></div>
+<div class="answer">
+<div class="jp">まず現在の仕様とお客様の目的を確認します。その上で、変更が必要か、別の方法で対応できるかを検討します。影響範囲やスケジュールも確認して、チームと相談します。</div>
+<div class="en">First I would confirm the current specification and the customer's objective. Then I would consider whether a change is necessary or whether another solution is possible. I would also check the impact and schedule and discuss it with the team.</div>
+</div>
+</div>
+
+<div class="q">
+<h3>「日本語で技術的な説明をするのが難しい場合は？」</h3>
+<div class="answer">
+<div class="jp">専門用語をできるだけ簡単な言葉にして説明します。また、画面や資料を使って説明し、最後に相手の理解を確認します。分からない場合は、無理に答えず確認してから回答します。</div>
+<div class="en">I explain technical terms using simpler language as much as possible. I also use screens or documents and confirm the other person's understanding. If I do not know something, I confirm it before answering rather than guessing.</div>
+</div>
+</div>
+</div>
+</section>
+
+<section id="japanese">
+<div class="card">
+<h2>9. Japanese Communication Survival Kit</h2>
+<p>For this interview, you do not need complicated Japanese. You need to show that you can <b>listen, clarify, confirm, and communicate responsibly</b>.</p>
+
+<table>
+<tr><th>Situation</th><th>Say this</th><th>Meaning</th></tr>
+<tr>
+<td>Didn't hear</td>
+<td class="jp">すみません、もう一度お願いします。</td>
+<td>Sorry, please say that again.</td>
+</tr>
+<tr>
+<td>Didn't understand</td>
+<td class="jp">すみません、少し分からなかったので、もう一度ご説明いただけますか。</td>
+<td>I didn't quite understand. Could you explain it again?</td>
+</tr>
+<tr>
+<td>Need time</td>
+<td class="jp">少し考えてもよろしいでしょうか。</td>
+<td>May I think for a moment?</td>
+</tr>
+<tr>
+<td>Confirm meaning</td>
+<td class="jp">つまり、〇〇ということでしょうか。</td>
+<td>So, does that mean 〇〇?</td>
+</tr>
+<tr>
+<td>Confirm requirement</td>
+<td class="jp">私の理解が正しいか、確認させてください。</td>
+<td>Please let me confirm whether my understanding is correct.</td>
+</tr>
+<tr>
+<td>Don't know</td>
+<td class="jp">現時点では分かりませんが、確認して回答します。</td>
+<td>I don't know at this point, but I will check and answer.</td>
+</tr>
+<tr>
+<td>Agree</td>
+<td class="jp">はい、承知しました。</td>
+<td>Yes, understood.</td>
+</tr>
+<tr>
+<td>Polite disagreement</td>
+<td class="jp">私の認識では少し違うと思います。確認してもよろしいでしょうか。</td>
+<td>My understanding is slightly different. May I confirm?</td>
+</tr>
+<tr>
+<td>End answer</td>
+<td class="jp">以上です。よろしくお願いいたします。</td>
+<td>That's all. Thank you.</td>
+</tr>
+</table>
+
+<div class="note">
+<b>Do not say:</b> 「分かりません。」 and stop.<br>
+<b>Better:</b> 「現時点では分かりませんが、確認して回答します。」<br>
+This communicates honesty + responsibility.
+</div>
+</div>
+</section>
+
+<section id="questions-to-ask">
+<div class="card">
+<h2>10. Good Questions to Ask the Interviewer</h2>
+<p>At the end, they may ask 「何か質問はありますか？」. Prepare 2–4 questions.</p>
+
+<div class="q">
+<div class="jp">今回のポジションでは、主にどのようなLIMS製品・システムを担当しますか？</div>
+<div class="romaji">Konkai no pojishon de wa, omo ni dono yō na LIMS seihin / shisutemu o tantō shimasu ka?</div>
+<div class="en">What kind of LIMS products or systems would I mainly work on in this position?</div>
+</div>
+
+<div class="q">
+<div class="jp">入社後は、どのような業務から担当する予定でしょうか？</div>
+<div class="romaji">Nyūsha-go wa, dono yō na gyōmu kara tantō suru yotei deshō ka?</div>
+<div class="en">What kind of work would I be expected to start with after joining?</div>
+</div>
+
+<div class="q">
+<div class="jp">LIMSの業務知識について、入社後に研修やOJTはありますでしょうか？</div>
+<div class="romaji">LIMS no gyōmu chishiki ni tsuite, nyūsha-go ni kenshū ya OJT wa arimasu deshō ka?</div>
+<div class="en">Is there training or OJT after joining to learn LIMS domain knowledge?</div>
+</div>
+
+<div class="q">
+<div class="jp">お客様との要件確認や打ち合わせには、どの程度参加しますか？</div>
+<div class="romaji">Okyaku-sama to no yōken kakunin ya uchiawase ni wa, dono teido sanka shimasu ka?</div>
+<div class="en">To what extent would I participate in requirements discussions and meetings with customers?</div>
+</div>
+
+<div class="q">
+<div class="jp">現在の開発チームの人数と、主な技術スタックを教えていただけますか？</div>
+<div class="romaji">Genzai no kaihatsu chīmu no ninzū to, omo na gijutsu sutakku o oshiete itadakemasu ka?</div>
+<div class="en">Could you tell me the current development team size and main technology stack?</div>
+</div>
+
+<div class="q">
+<div class="jp">このポジションで、特に期待されている役割は何でしょうか？</div>
+<div class="romaji">Kono pojishon de, toku ni kitai sarete iru yakuwari wa nan deshō ka?</div>
+<div class="en">What role or responsibilities are particularly expected in this position?</div>
+</div>
+
+<div class="note good">
+<b>Recommended order:</b> Ask about the actual LIMS/product → onboarding → customer interaction → team/technology → expectations.
+</div>
+</div>
+</section>
+
+<section id="salary">
+<div class="card">
+<h2>11. If They Ask About Motivation / Job Change</h2>
+
+<h3>Why are you looking for a new opportunity?</h3>
+<div class="answer">
+<div class="jp">現在の会社でも多くのことを学んでいますが、今後はよりWeb・バックエンドや業務システムの開発経験を広げたいと考えています。また、要件定義や設計など、上流工程にもより積極的に関わりたいと思っています。</div>
+<div class="romaji">Genzai no kaisha demo ōku no koto o manandeimasu ga, kongo wa yori Web / bakkuendo ya gyōmu shisutemu no kaihatsu keiken o hirogetai to kangaeteimasu. Mata, yōken teigi ya sekkei nado, jōryū kōtei ni mo yori sekkyoku-teki ni kakawaritai to omotteimasu.</div>
+<div class="en">I am learning many things at my current company, but going forward I would like to broaden my experience in web, backend, and business-system development. I would also like to become more involved in upstream processes such as requirements definition and design.</div>
+</div>
+
+<h3>Why this company / position?</h3>
+<div class="answer">
+<div class="jp">現在も医療分野のソフトウェア開発に携わっているため、これまでの経験との親和性が高いと感じています。また、LIMSを通して業務システムやデータ管理についてさらに経験を積み、C#/.NETのスキルも伸ばしたいと考えています。</div>
+<div class="en">Since I currently work in healthcare software development, I feel there is a strong connection with my previous experience. Through LIMS, I would like to gain more experience in business systems and data management while also developing my C#/.NET skills.</div>
+</div>
+</div>
+</section>
+
+<section id="redflags">
+<div class="card">
+<h2>12. Things to Avoid Saying</h2>
+<table>
+<tr><th>Avoid</th><th>Better approach</th></tr>
+<tr><td>「LIMSは分かりません。」</td><td>「LIMSの実務経験はありませんが、関連する医療ソフトウェアの経験があります。」</td></tr>
+<tr><td>「C#はできます。」 if your experience is still developing</td><td>「C#/.NETを勉強しており、実務で触れる機会もあります。」</td></tr>
+<tr><td>Long explanations when you don't understand the question</td><td>Ask 「もう一度ご説明いただけますか」 and answer after clarification.</td></tr>
+<tr><td>Guessing a technical answer</td><td>「現時点では分かりません。確認して回答します。」</td></tr>
+<tr><td>Only talking about Flutter</td><td>Translate your Flutter experience into requirements, testing, debugging, healthcare, integration, support and teamwork.</td></tr>
+<tr><td>Only saying you want a higher salary</td><td>Lead with technical growth, system-development scope, customer requirements and upstream experience.</td></tr>
+</table>
+</div>
+</section>
+
+<section id="checklist">
+<div class="card">
+<h2>13. Final Interview Checklist</h2>
+<p>Use this the night before the interview.</p>
+<div class="checklist">
+<label><input type="checkbox"> I can introduce myself in Japanese in 60–90 seconds.</label>
+<label><input type="checkbox"> I can explain my current healthcare/rehabilitation project in simple Japanese.</label>
+<label><input type="checkbox"> I can explain that I do not have direct LIMS experience without sounding negative.</label>
+<label><input type="checkbox"> I can explain why healthcare experience is relevant to LIMS.</label>
+<label><input type="checkbox"> I can explain my current C#/.NET level honestly.</label>
+<label><input type="checkbox"> I can explain how I investigate a bug.</label>
+<label><input type="checkbox"> I can explain how I clarify customer requirements.</label>
+<label><input type="checkbox"> I know the meanings of 要件, 仕様, 設計, 実装, 保守, 障害, 不具合, 切り分け, 対応, 連携.</label>
+<label><input type="checkbox"> I can ask the interviewer at least three prepared questions.</label>
+<label><input type="checkbox"> I can politely ask them to repeat or explain something.</label>
+</div>
+
+<h3>Last-minute 10-line memorization sheet</h3>
+<ol>
+<li>現在、医療・リハビリテーション分野のアプリ開発をしています。</li>
+<li>FlutterとDartを中心に開発しています。</li>
+<li>要件確認から設計、開発、テスト、保守まで経験しています。</li>
+<li>C#と.NETも勉強しています。</li>
+<li>LIMSの実務経験はありません。</li>
+<li>しかし、医療分野のソフトウェア開発経験があります。</li>
+<li>これまでの経験をLIMSの仕事に活かしたいです。</li>
+<li>分からないことは確認して、認識を合わせるようにしています。</li>
+<li>今後はWeb、バックエンド、業務システムの経験を広げたいです。</li>
+<li>要件定義や設計など、上流工程にも関わりたいです。</li>
+</ol>
+</div>
+</section>
+
+</main>
+
+<footer>
+<div>Japanese Interview Guide — .NET Engineer / LIMS Technical Support</div>
+<div style="margin-top:6px">Designed as a revision document: Japanese → reading → romaji → English.</div>
+</footer>
+
+<script>
+const searchBox = document.createElement('input');
+searchBox.placeholder = 'Search this page: LIMS, 要件, C#, customer, troubleshooting...';
+searchBox.style.maxWidth = '1180px';
+searchBox.style.display = 'block';
+searchBox.style.margin = '14px auto';
+searchBox.style.padding = '11px 14px';
+searchBox.style.borderRadius = '10px';
+searchBox.style.border = '1px solid #dfe5ee';
+searchBox.style.fontSize = '15px';
+document.querySelector('nav').appendChild(searchBox);
+
+searchBox.addEventListener('input', function(){
+  const term = this.value.trim().toLowerCase();
+  document.querySelectorAll('main section').forEach(section => {
+    if(!term){ section.style.display='block'; return; }
+    section.style.display = section.innerText.toLowerCase().includes(term) ? 'block' : 'none';
+  });
+});
+</script>
+</body>
+</html>
