@@ -1,0 +1,514 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>LIMS Implementation Engineer — Japanese Customer Interview Guide</title>
+<style>
+:root{
+  --bg:#f5f7fb; --surface:#fff; --ink:#172033; --muted:#667085;
+  --line:#e4e7ec; --primary:#2457d6; --primary-soft:#eaf0ff;
+  --accent:#0f766e; --accent-soft:#e8f7f4; --warn:#b54708; --warn-soft:#fff4e5;
+  --danger:#b42318; --shadow:0 8px 28px rgba(16,24,40,.07); --radius:16px;
+}
+*{box-sizing:border-box} html{scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--ink);font:15px/1.65 Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
+a{color:var(--primary);text-decoration:none} a:hover{text-decoration:underline}
+.container{max-width:1280px;margin:auto;padding:0 24px}
+header.hero{background:linear-gradient(135deg,#10234d 0%,#2457d6 65%,#3b82f6 100%);color:white;padding:54px 0 42px}
+.eyebrow{font-size:12px;font-weight:800;letter-spacing:.12em;text-transform:uppercase;opacity:.82}
+h1{font-size:clamp(32px,5vw,58px);line-height:1.05;margin:12px 0 14px;max-width:1000px}
+.hero p{max-width:850px;font-size:17px;opacity:.9}
+.badges{display:flex;flex-wrap:wrap;gap:8px;margin-top:22px}.badge{padding:6px 10px;border:1px solid rgba(255,255,255,.25);border-radius:999px;background:rgba(255,255,255,.1);font-size:12px}
+.layout{display:grid;grid-template-columns:270px minmax(0,1fr);gap:26px;align-items:start}
+.sidebar{position:sticky;top:16px;margin-top:26px;background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);box-shadow:var(--shadow);padding:18px}
+.sidebar strong{display:block;margin-bottom:10px}.sidebar a{display:block;padding:7px 8px;border-radius:8px;color:#344054;font-size:13px}.sidebar a:hover{background:var(--primary-soft);text-decoration:none;color:var(--primary)}
+main{min-width:0;padding:26px 0 70px}
+section{margin-bottom:38px;scroll-margin-top:20px}
+.section-head{display:flex;gap:14px;align-items:flex-start;margin-bottom:16px}
+.num{min-width:38px;height:38px;border-radius:11px;background:var(--primary-soft);color:var(--primary);display:grid;place-items:center;font-weight:800}
+h2{font-size:28px;line-height:1.2;margin:0}.sub{color:var(--muted);margin:4px 0 0}
+h3{font-size:20px;margin:26px 0 10px} h4{margin:18px 0 8px}
+.card{background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);box-shadow:var(--shadow);padding:20px;margin:14px 0}
+.grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px}
+.grid2{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px}
+.kpi{font-size:28px;font-weight:800}.muted{color:var(--muted)}
+.callout{border-left:4px solid var(--primary);background:var(--primary-soft);padding:14px 16px;border-radius:0 12px 12px 0;margin:14px 0}
+.callout.warn{border-color:var(--warn);background:var(--warn-soft)}
+.callout.green{border-color:var(--accent);background:var(--accent-soft)}
+table{width:100%;border-collapse:collapse;background:var(--surface);border:1px solid var(--line);border-radius:12px;overflow:hidden;display:table}
+th,td{text-align:left;vertical-align:top;padding:11px 12px;border-bottom:1px solid var(--line)}
+th{background:#f8fafc;font-size:12px;text-transform:uppercase;letter-spacing:.04em;color:#475467}
+tr:last-child td{border-bottom:0}
+.timeline{display:grid;gap:10px}.week{display:grid;grid-template-columns:74px 1fr 1fr 1fr;gap:0;background:#fff;border:1px solid var(--line);border-radius:12px;overflow:hidden}
+.week>div{padding:10px;border-right:1px solid var(--line)}.week>div:last-child{border:0}.week .w{font-weight:800;color:var(--primary);background:#f8faff}
+.pill{display:inline-block;padding:3px 8px;border-radius:999px;background:#eef2f6;color:#344054;font-size:11px;font-weight:700;margin:2px}
+.flow{display:flex;flex-wrap:wrap;align-items:center;gap:7px}.flow .step{background:#fff;border:1px solid var(--line);padding:8px 10px;border-radius:10px;font-weight:700}.arrow{color:var(--muted)}
+details{background:#fff;border:1px solid var(--line);border-radius:12px;margin:9px 0;overflow:hidden}
+summary{cursor:pointer;padding:13px 15px;font-weight:750;list-style:none}.summary-row{display:flex;justify-content:space-between;gap:12px}
+details[open] summary{background:#f8fafc;border-bottom:1px solid var(--line)}
+.answer{padding:14px 15px}.tag{font-size:11px;padding:3px 7px;border-radius:999px;background:var(--primary-soft);color:var(--primary)}
+pre{background:#111827;color:#e5e7eb;padding:16px;border-radius:12px;overflow:auto;font-size:12px;line-height:1.55}
+code{font-family:ui-monospace,SFMono-Regular,Menlo,monospace}
+.checklist{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:9px}.check{background:#fff;border:1px solid var(--line);padding:11px;border-radius:10px}
+.check input{margin-right:8px}
+.vocab{columns:2}.vocab div{break-inside:avoid;padding:7px 0;border-bottom:1px dashed var(--line)}
+.jp{font-weight:750}.reading{color:var(--muted);font-size:12px}.en{color:#344054}
+.resource-list{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}.resource{background:#fff;border:1px solid var(--line);padding:12px;border-radius:12px}
+footer{border-top:1px solid var(--line);padding:25px 0;color:var(--muted);font-size:13px}
+.searchbar{position:sticky;top:0;z-index:5;background:rgba(245,247,251,.92);backdrop-filter:blur(10px);padding:10px 0}
+.search{width:100%;padding:12px 14px;border:1px solid var(--line);border-radius:10px;background:#fff;font-size:14px}
+.progress{height:8px;background:#e5e7eb;border-radius:999px;overflow:hidden}.progress span{display:block;height:100%;width:0;background:var(--primary)}
+.small{font-size:12px}
+@media(max-width:950px){.layout{grid-template-columns:1fr}.sidebar{position:relative;top:auto}.grid,.grid2,.resource-list{grid-template-columns:1fr}.week{grid-template-columns:58px 1fr}.week>div:nth-child(3),.week>div:nth-child(4){grid-column:2}.vocab{columns:1}}
+@media print{.sidebar,.searchbar{display:none}body{background:#fff}.card,table,details{box-shadow:none}a{color:inherit}}
+</style>
+</head>
+<body>
+<header class="hero">
+<div class="container">
+<div class="eyebrow">29-page source guide · structured web edition</div>
+<h1>LIMS Implementation & Application Engineer</h1>
+<p>Japanese-Customer Role — Complete Interview Preparation Guide</p>
+<p class="small">製薬・ライフサイエンス向け LIMS 導入／アプリケーションサポート職 面接対策ガイド</p>
+<div class="badges">
+<span class="badge">LIMS</span><span class="badge">GxP & Data Integrity</span><span class="badge">Validation</span>
+<span class="badge">SQL / Java / .NET</span><span class="badge">Japanese Business Communication</span>
+<span class="badge">Interview Preparation</span><span class="badge">Mini-LIMS Portfolio</span>
+</div>
+</div>
+</header>
+
+<div class="container layout">
+<aside class="sidebar">
+<strong>Guide navigation</strong>
+<a href="#overview">Overview</a><a href="#role">1. Role decoded</a><a href="#plan">2. 26-week plan</a>
+<a href="#lims">3. LIMS fundamentals</a><a href="#pharma">4. Pharma lab domain</a>
+<a href="#reg">5. Regulation & validation</a><a href="#tech">6. Technical skills</a>
+<a href="#japanese">7. Japanese communication</a><a href="#interview">8. Interview Q&A</a>
+<a href="#portfolio">9. Mini-LIMS project</a><a href="#resources">10. Resources</a><a href="#checklists">11. Checklists</a>
+</aside>
+
+<main>
+<div class="searchbar"><input id="search" class="search" placeholder="Filter interview questions, vocabulary, topics…"></div>
+
+<section id="overview">
+<div class="section-head"><div class="num">A</div><div><h2>Guide at a glance</h2><p class="sub">The source guide is a preparation system, not merely a topic list.</p></div></div>
+<div class="grid">
+<div class="card"><div class="kpi">26</div><b>weeks</b><div class="muted">Three parallel tracks: domain/regulation, technical, Japanese.</div></div>
+<div class="card"><div class="kpi">11</div><b>major sections</b><div class="muted">Role → study plan → knowledge → communication → interview → portfolio.</div></div>
+<div class="card"><div class="kpi">48</div><b>numbered interview questions visible in source</b><div class="muted">The cover describes 90+ questions; the parsed guide ends at Q48.</div></div>
+</div>
+<div class="callout"><b>Core preparation logic:</b> build technical/domain credibility quickly, make Japanese a daily track, demonstrate hands-on LIMS understanding through Mini-LIMS, and rehearse concise answers that connect engineering work to customer and compliance needs.</div>
+</section>
+
+<section id="role">
+<div class="section-head"><div class="num">1</div><div><h2>The Role Decoded</h2><p class="sub">What the job-description language means in practice.</p></div></div>
+<table>
+<thead><tr><th>JD phrase</th><th>What the guide says it means</th><th>How to prove it</th></tr></thead>
+<tbody>
+<tr><td>Analyze customer needs / propose solutions</td><td>Run 要件定義 workshops with QC/QA staff and map lab workflow to LIMS configuration.</td><td>Explain a sample lifecycle, configuration choices, and clarifying questions in Japanese.</td></tr>
+<tr><td>Complete project lifecycle</td><td>V-model: URS → FS/DS → build → IQ/OQ/PQ → go-live → hypercare.</td><td>Name phases, deliverables, and Japanese project terminology.</td></tr>
+<tr><td>Configure / modify / maintain</td><td>Mostly LIMS configuration and scripting, plus custom code and SQL reports.</td><td>Show SQL, scripting logic, and change-control discipline.</td></tr>
+<tr><td>Investigate technical problems</td><td>L2/L3 support: logs, database queries, interface failures, performance.</td><td>Give a structured troubleshooting story using STAR.</td></tr>
+<tr><td>Technical documents</td><td>Validation documents in a GxP environment where changes are documented, reviewed and approved.</td><td>Discuss RTM, test scripts, evidence, and GDP.</td></tr>
+<tr><td>Java / .NET</td><td>Read/write code, debug, build interfaces.</td><td>Answer core Java/C# and REST questions; show portfolio work.</td></tr>
+<tr><td>Pharma / lab familiarity</td><td>GMP, QC testing, OOS, stability, audit trails.</td><td>Use 21 CFR Part 11, ALCOA+, GAMP 5 terminology correctly.</td></tr>
+<tr><td>Strong Japanese</td><td>Daily meetings, emails and documents with Japanese customers; keigo required.</td><td>Self-introduction and selected answers in Japanese.</td></tr>
+</tbody></table>
+<div class="callout warn"><b>Source-identified gap:</b> the guide says the target profile is around A2/N4 and that roles asking for strong Japanese commonly expect N2 or above. It therefore treats Japanese as a daily, non-negotiable track.</div>
+</section>
+
+<section id="plan">
+<div class="section-head"><div class="num">2</div><div><h2>26-Week Study Plan</h2><p class="sub">Suggested load: about 15–18 hours/week, with Japanese never skipped.</p></div></div>
+<div class="grid3"></div>
+<div class="card">
+<h3>Three parallel tracks</h3>
+<table><tr><th>Track</th><th>Daily minimum</th><th>Week-26 goal</th></tr>
+<tr><td>Domain & Regulation</td><td>30–40 min</td><td>Explain lab workflows and regulations clearly in English and simply in Japanese.</td></tr>
+<tr><td>Technical</td><td>40–60 min</td><td>Finished Mini-LIMS portfolio + 100 SQL problems.</td></tr>
+<tr><td>Japanese</td><td>60 min</td><td>Solid N3 target, business email, self-introduction and 20 interview answers in Japanese.</td></tr>
+</table></div>
+<div class="timeline">
+<div class="week"><div class="w">W1</div><div>LIMS + sample lifecycle</div><div>SQL SELECT/WHERE/JOIN</div><div>Japanese level diagnosis + Anki</div></div>
+<div class="week"><div class="w">W2</div><div>GMP, batch release, CoA, specs</div><div>GROUP BY/HAVING/subqueries</div><div>自己紹介 + です/ます</div></div>
+<div class="week"><div class="w">W3</div><div>GLP/GMP/GCP, ISO 17025, OOS/OOT</div><div>Java/C# OOP, collections, exceptions</div><div>10 kanji/day + IT vocab</div></div>
+<div class="week"><div class="w">W4</div><div>Deviation, CAPA, change control</div><div>Git + tiny REST API</div><div>Keigo: 尊敬語・謙譲語・丁寧語</div></div>
+<div class="week"><div class="w">W5</div><div>21 CFR Part 11</div><div>Window functions, CTEs, indexes</div><div>N4→N3 grammar</div></div>
+<div class="week"><div class="w">W6</div><div>Annex 11, ALCOA+, data integrity</div><div>Mini-LIMS data model</div><div>Business email structure</div></div>
+<div class="week"><div class="w">W7</div><div>GAMP 5, CSV vs CSA</div><div>Workflow states, spec check, OOS</div><div>Meeting phrases</div></div>
+<div class="week"><div class="w">W8</div><div>Japan: ER/ES, CSV guideline, GMP, PMDA/PIC/S</div><div>Audit trail</div><div>NHK News Web Easy</div></div>
+<div class="week"><div class="w">W9</div><div>URS/FS/DS/IQ/OQ/PQ/RTM</div><div>E-signature</div><div>Explain LIMS in Japanese</div></div>
+<div class="week"><div class="w">W10</div><div>CDS, ELN, SDMS, MES, ERP</div><div>Instrument CSV import</div><div>IT project vocabulary</div></div>
+<div class="week"><div class="w">W11</div><div>Stability + environmental monitoring</div><div>REST vs SOAP; SAP mock interface</div><div>障害報告 email</div></div>
+<div class="week"><div class="w">W12</div><div>SENAITE via Docker</div><div>Logging, retry, idempotency</div><div>Business Japanese shadowing</div></div>
+<div class="week"><div class="w">W13</div><div>ITIL: incident/problem/change; SLA</div><div>Slow query/deadlock/interface labs</div><div>Support-call role-play</div></div>
+<div class="week"><div class="w">W14</div><div>Mini validation package</div><div>Docker/IIS/Tomcat + logs</div><div>N3 mock #1</div></div>
+<div class="week"><div class="w">W15</div><div>Data migration, backup/restore</div><div>CoA PDF + reporting SQL</div><div>10 Japanese interview answers</div></div>
+<div class="week"><div class="w">W16</div><div>Regulation cheat sheet</div><div>Publish Mini-LIMS + bilingual README</div><div>Business-Japanese tutoring 2×/week</div></div>
+</div>
+<div class="card"><h3>Weeks 17–22: Interview mastery</h3><ul><li>Two full mock interviews each week: one technical English, one 30-minute Japanese.</li><li>Drill answers until each is deliverable in 60–120 seconds without notes.</li><li>Prepare five STAR stories: tough bug, customer conflict, deadline pressure, mistake, process improvement.</li><li>Research each target company, its LIMS product, Japanese customers, news and locations.</li><li>Continue Japanese mock tests, keigo drills and Japanese pharma/IT reading.</li></ul></div>
+<div class="card"><h3>Weeks 23–26 and beyond</h3><ul><li>Update CV with LIMS, GxP, Part 11, CSV, GAMP 5, IQ/OQ/PQ, SQL, Java/.NET, REST, SAP QM and Japanese keywords.</li><li>Apply to vendors, partners and Japan-facing offshore delivery centres.</li><li>Source target: JLPT N3 July 2027; N2 December 2027 or July 2028; BJT J2+ after N2 is suggested.</li><li>Monthly: reread regulation cheat sheet, add one portfolio feature, complete one Japanese mock interview.</li></ul></div>
+<div class="card"><h3>Daily routine template — 2 h 15 min</h3><div class="flow"><span class="step">30m Anki</span><span class="arrow">→</span><span class="step">30m Japanese grammar / NHK Easy</span><span class="arrow">→</span><span class="step">45m technical</span><span class="arrow">→</span><span class="step">30m domain/regulation</span><span class="arrow">→</span><span class="step">15m speaking/review</span></div></div>
+</section>
+
+<section id="lims">
+<div class="section-head"><div class="num">3</div><div><h2>LIMS Fundamentals</h2><p class="sub">The domain model the guide expects you to memorize and explain.</p></div></div>
+<div class="card"><h3>What is a LIMS?</h3><p>A Laboratory Information Management System manages samples, tests, results and associated laboratory data across the lifecycle from registration through approval and reporting, while enforcing workflows, specifications and controls such as audit trails, e-signatures and access control. The guide frames pharma LIMS as the system of record for QC results supporting batch release.</p></div>
+<h3>10-step sample lifecycle</h3>
+<div class="flow">
+<span class="step">1 Registration</span><span class="arrow">→</span><span class="step">2 Receipt</span><span class="arrow">→</span><span class="step">3 Test assignment</span><span class="arrow">→</span><span class="step">4 Testing/result entry</span><span class="arrow">→</span><span class="step">5 Spec check</span><span class="arrow">→</span><span class="step">6 Review</span><span class="arrow">→</span><span class="step">7 Approval</span><span class="arrow">→</span><span class="step">8 Reporting</span><span class="arrow">→</span><span class="step">9 Release/disposition</span><span class="arrow">→</span><span class="step">10 Archive</span>
+</div>
+<h3>Master/static data</h3>
+<div class="grid2">
+<div class="card"><b>Products & tests</b><p>Products/materials, specifications, test methods, components, calculations, units, rounding and limits.</p></div>
+<div class="card"><b>Operations</b><p>Sampling plans, sample types, lots/batches, storage locations, workflows and report templates.</p></div>
+<div class="card"><b>Resources</b><p>Instruments, calibration/maintenance status, reagents and standards with expiry.</p></div>
+<div class="card"><b>People & controls</b><p>Users, roles, privileges, training records and controlled lifecycle states.</p></div>
+</div>
+<h3>Common modules</h3>
+<table><tr><th>Module</th><th>Purpose</th></tr>
+<tr><td>QC Release</td><td>Raw material, in-process and finished-product testing for batch release.</td></tr>
+<tr><td>Stability</td><td>Protocols, storage conditions, pull points, automatic scheduling, trend/shelf-life reporting.</td></tr>
+<tr><td>Environmental Monitoring</td><td>Cleanroom air/surface/personnel sampling, limits, trending and excursions.</td></tr>
+<tr><td>Instrument & Inventory</td><td>Calibration, reagents, standards, expiry and usage logs.</td></tr>
+<tr><td>Investigations</td><td>OOS/OOT investigation records linked to results.</td></tr>
+<tr><td>Batch/Lot</td><td>Lot genealogy and Certificates of Analysis.</td></tr>
+<tr><td>Water/Utilities</td><td>Purified water/WFI sampling and trending.</td></tr>
+</table>
+<h3>Lab system landscape</h3>
+<table><tr><th>System</th><th>Role</th><th>Relationship to LIMS</th></tr>
+<tr><td>ERP / SAP QM</td><td>Materials, batches, inspection lots, usage decision</td><td>Sends inspection lots; receives results/usage decisions.</td></tr>
+<tr><td>MES</td><td>Manufacturing execution / e-batch record</td><td>Requests in-process tests; receives results.</td></tr>
+<tr><td>CDS</td><td>HPLC/GC control and chromatogram processing</td><td>Sends sample lists; returns results.</td></tr>
+<tr><td>ELN</td><td>R&D experiment notebook</td><td>May share samples/results.</td></tr>
+<tr><td>LES</td><td>Step-by-step method execution</td><td>Often a LIMS module.</td></tr>
+<tr><td>SDMS</td><td>Raw scientific data files</td><td>Stores files referenced by LIMS.</td></tr>
+<tr><td>QMS</td><td>Deviations, CAPA, change control</td><td>OOS investigations may link to QMS.</td></tr>
+</table>
+<div class="callout green"><b>Named platforms in the guide:</b> LabWare, Thermo Fisher SampleManager, LabVantage, STARLIMS and SENAITE.</div>
+</section>
+
+<section id="pharma">
+<div class="section-head"><div class="num">4</div><div><h2>Pharmaceutical Lab Domain</h2><p class="sub">Core quality concepts and analytical workflows.</p></div></div>
+<table><tr><th>Term</th><th>Meaning</th><th>LIMS relevance</th></tr>
+<tr><td>GMP</td><td>Good Manufacturing Practice</td><td>QC release, stability and environmental monitoring.</td></tr>
+<tr><td>GLP</td><td>Good Laboratory Practice</td><td>Non-clinical safety/toxicology labs.</td></tr>
+<tr><td>GCP</td><td>Good Clinical Practice</td><td>Clinical trials and central/bioanalytical labs.</td></tr>
+<tr><td>GDP</td><td>Good Distribution Practice / Good Documentation Practice</td><td>Documentation rules apply to validated records.</td></tr>
+<tr><td>ISO/IEC 17025</td><td>Competence standard for testing/calibration labs</td><td>Contract, food and environmental labs.</td></tr>
+<tr><td>GQP / GVP</td><td>Japan quality assurance / pharmacovigilance standards</td><td>Japanese pharma context.</td></tr>
+</table>
+<h3>QC concepts</h3>
+<div class="grid2">
+<div class="card"><b>OOS — Out of Specification</b><p>Result outside specification. The guide describes Phase I laboratory investigation followed, when needed, by Phase II broader investigation, with controlled retesting/resampling. It explicitly warns against “testing into compliance”.</p></div>
+<div class="card"><b>OOT — Out of Trend</b><p>Within specification but abnormal compared with historical data; especially important in stability work.</p></div>
+<div class="card"><b>Deviation / CAPA</b><p>Deviation is departure from an approved procedure. CAPA is corrective and preventive action.</p></div>
+<div class="card"><b>Change control</b><p>Formal assessment, approval, implementation and verification of changes, including LIMS configuration.</p></div>
+</div>
+<h3>Typical tests</h3>
+<p><span class="pill">Assay</span><span class="pill">Impurities</span><span class="pill">Dissolution</span><span class="pill">Content uniformity</span><span class="pill">Karl Fischer water</span><span class="pill">pH</span><span class="pill">Appearance</span><span class="pill">Bioburden</span><span class="pill">Endotoxin</span><span class="pill">Sterility</span><span class="pill">IR</span><span class="pill">UV</span><span class="pill">Residual solvents</span></p>
+</section>
+
+<section id="reg">
+<div class="section-head"><div class="num">5</div><div><h2>Regulation, Data Integrity & Japan-Specific Rules</h2><p class="sub">The guide treats compliance knowledge as a core interview differentiator.</p></div></div>
+<h3>21 CFR Part 11 — control map</h3>
+<table><tr><th>Section</th><th>Guide emphasis</th></tr>
+<tr><td>11.10(a)</td><td>System validation: accuracy, reliability, consistent performance and ability to detect invalid/altered records.</td></tr>
+<tr><td>11.10(b,c)</td><td>Accurate/complete copies and record protection for retention period.</td></tr>
+<tr><td>11.10(d,g)</td><td>Authorized access and authority checks.</td></tr>
+<tr><td>11.10(e)</td><td>Secure computer-generated time-stamped audit trail; previous values must not be obscured.</td></tr>
+<tr><td>11.10(f)</td><td>Operational system checks enforce sequence of steps.</td></tr>
+<tr><td>11.50</td><td>Signature manifestation: name, date/time and meaning.</td></tr>
+<tr><td>11.70</td><td>Signature linked to record.</td></tr>
+<tr><td>11.100/11.200</td><td>Unique e-signature; non-biometric signatures use two components.</td></tr>
+<tr><td>11.300</td><td>ID/password controls.</td></tr>
+</table>
+<h3>ALCOA+</h3>
+<div class="grid">
+<div class="card"><b>A — Attributable</b><p>Unique user identity.</p></div><div class="card"><b>L — Legible</b><p>Readable, permanent records.</p></div><div class="card"><b>C — Contemporaneous</b><p>Recorded at the time of activity.</p></div>
+<div class="card"><b>O — Original</b><p>First capture/certified copy; preserve raw data.</p></div><div class="card"><b>A — Accurate</b><p>Validated calculations and interfaces.</p></div><div class="card"><b>+ Complete</b><p>Includes repeats, failed runs and audit trail.</p></div>
+<div class="card"><b>+ Consistent</b><p>Chronological and consistent timestamps.</p></div><div class="card"><b>+ Enduring</b><p>Durable storage and backups.</p></div><div class="card"><b>+ Available</b><p>Retrievable throughout retention.</p></div>
+</div>
+<h3>GAMP 5 and validation</h3>
+<table><tr><th>Category</th><th>Guide description</th><th>Example</th></tr><tr><td>1</td><td>Infrastructure software</td><td>OS, database, middleware</td></tr><tr><td>3</td><td>Non-configured products</td><td>Firmware/off-the-shelf defaults</td></tr><tr><td>4</td><td>Configured products</td><td>LIMS, CDS, ERP configured to process</td></tr><tr><td>5</td><td>Custom applications</td><td>Custom code, interfaces, LIMS scripts/reports</td></tr></table>
+<div class="callout">The guide positions a typical LIMS as Category 4, with custom scripts/interfaces treated as Category 5, and says validation effort should be scaled to risk to patient safety, product quality and data integrity.</div>
+<h3>CSV vs CSA</h3>
+<div class="grid2"><div class="card"><b>CSV</b><p>Traditional computer system validation with heavier, document-driven scripted testing.</p></div><div class="card"><b>CSA</b><p>Risk- and critical-thinking-oriented assurance: deeper testing for high-risk functions and efficient evidence/testing for lower-risk functions.</p></div></div>
+<h3>Japan-specific controls named in the guide</h3>
+<table><tr><th>Framework</th><th>Key points in source</th></tr>
+<tr><td>ER/ES指針 (2005)</td><td>Electronic records/signatures; 真正性, 見読性, 保存性.</td></tr>
+<tr><td>コンピュータ化システム適正管理ガイドライン (2010)</td><td>Japanese CSV lifecycle, documentation, roles and qualification activities.</td></tr>
+<tr><td>改正GMP省令 (effective Aug 2021)</td><td>Pharmaceutical quality system, QA, data integrity and supplier management.</td></tr>
+<tr><td>PIC/S</td><td>Japan joined in 2014; guide highlights PI 041 data-integrity guidance.</td></tr>
+<tr><td>PMDA / prefectures</td><td>GMP適合性調査 / inspections.</td></tr>
+</table>
+<h3>Validation lifecycle</h3>
+<div class="flow"><span class="step">VP</span><span class="arrow">→</span><span class="step">URS</span><span class="arrow">→</span><span class="step">FS</span><span class="arrow">→</span><span class="step">DS/CS</span><span class="arrow">→</span><span class="step">Risk Assessment</span><span class="arrow">→</span><span class="step">IQ</span><span class="arrow">→</span><span class="step">OQ</span><span class="arrow">→</span><span class="step">PQ/UAT</span><span class="arrow">→</span><span class="step">RTM</span><span class="arrow">→</span><span class="step">VSR</span></div>
+<p class="muted">Japanese IT vocabulary maps the V-model to 要件定義 → 基本設計 → 詳細設計 → 製造/実装 → 単体テスト → 結合テスト → 総合テスト → 受入テスト → 本番稼働 → 運用・保守.</p>
+</section>
+
+<section id="tech">
+<div class="section-head"><div class="num">6</div><div><h2>Technical Skills</h2><p class="sub">SQL is explicitly called the most-used skill in LIMS work.</p></div></div>
+<h3>SQL essentials</h3>
+<p><span class="pill">JOIN</span><span class="pill">GROUP BY/HAVING</span><span class="pill">Subqueries</span><span class="pill">CTEs</span><span class="pill">Window functions</span><span class="pill">Indexes</span><span class="pill">Execution plans</span><span class="pill">Transactions</span><span class="pill">Isolation</span><span class="pill">Locks/deadlocks</span><span class="pill">NULL handling</span><span class="pill">Date functions</span></p>
+<div class="card"><h4>Source schema used for interview examples</h4><pre><code>SAMPLE(sample_id, lot_id, product_id, status, login_date)
+TEST(test_id, sample_id, analysis, status)
+RESULT(result_id, test_id, component, value_num, units, entered_by, entered_on)
+SPEC_LIMIT(product_id, analysis, component, min_val, max_val)</code></pre></div>
+<h3>Java / .NET topics</h3>
+<div class="grid2">
+<div class="card"><b>Java</b><p>OOP, SOLID, collections, generics, streams/lambdas, checked/unchecked exceptions, JDBC/JPA, transactions, connection pools, Spring Boot, REST, security, concurrency, JVM memory/GC, Tomcat logs.</p></div>
+<div class="card"><b>.NET / C#</b><p>OOP, interfaces, generics, LINQ, async/await, exceptions, legacy .NET Framework vs modern .NET, ASP.NET Core Web API, DI, EF Core, IIS, Windows services and scheduled tasks.</p></div>
+</div>
+<h3>Integration patterns</h3>
+<table><tr><th>Pattern</th><th>Typical use</th><th>Key design concerns</th></tr>
+<tr><td>CSV/XML/TXT files</td><td>Balances, pH meters, legacy systems</td><td>Polling, parsing, archive/error folders, duplicate checks.</td></tr>
+<tr><td>Serial/TCP</td><td>Balances, titrators</td><td>Direct capture without transcription.</td></tr>
+<tr><td>REST / SOAP</td><td>LIMS–ERP/MES APIs</td><td>Authentication, error codes, idempotency, versioning.</td></tr>
+<tr><td>SAP IDoc/RFC/BAPI/OData</td><td>SAP integration</td><td>Inspection lot, result/usage-decision mapping, monitoring.</td></tr>
+<tr><td>CDS integration</td><td>HPLC/GC</td><td>Sample-list exchange and result upload.</td></tr>
+<tr><td>HL7/FHIR, SiLA 2, OPC UA, Allotrope</td><td>Clinical/automation/lab standards</td><td>Message structure, acknowledgements and standardized data.</td></tr>
+</table>
+<div class="callout green"><b>GxP interface rules:</b> prevent loss and duplicates; make failures visible; preserve originals and audit changes; validate mapping, positive/negative/boundary, retry/recovery and volume behavior.</div>
+<h3>Troubleshooting — 8-step method</h3>
+<ol><li>Understand and reproduce: who/what/when/environment/recent changes.</li><li>Assess impact and urgency, especially GxP and batch-release impact.</li><li>Collect evidence: application/DB/audit/interface/OS logs.</li><li>Isolate layer-by-layer and compare working vs failing cases.</li><li>Form and test a hypothesis in a test environment, one variable at a time.</li><li>Apply workaround, then permanent fix through change control and regression testing.</li><li>Identify root cause and prevention using 5 Whys/fishbone.</li><li>Close with a written customer incident report and lessons learned.</li></ol>
+</section>
+
+<section id="japanese">
+<div class="section-head"><div class="num">7</div><div><h2>Japanese Business Communication</h2><p class="sub">Business Japanese is integrated into the technical workflow.</p></div></div>
+<h3>Work-culture vocabulary</h3>
+<table><tr><th>Concept</th><th>Meaning / interview behavior described by the guide</th></tr>
+<tr><td>報連相</td><td>報告・連絡・相談 — report, inform and consult early.</td></tr>
+<tr><td>根回し</td><td>Build consensus informally before a meeting decision.</td></tr>
+<tr><td>品質へのこだわり</td><td>Strong quality expectations; emphasize review and test evidence.</td></tr>
+<tr><td>納期厳守</td><td>Strict deadline adherence; plan buffers and escalate early.</td></tr>
+<tr><td>議事録</td><td>Meeting minutes confirmed by the customer; reduce 認識齟齬.</td></tr>
+</table>
+<h3>Keigo essentials</h3>
+<table><tr><th>Plain</th><th>尊敬語</th><th>謙譲語</th><th>Meaning</th></tr>
+<tr><td>する</td><td>なさる</td><td>いたす</td><td>do</td></tr><tr><td>言う</td><td>おっしゃる</td><td>申す / 申し上げる</td><td>say</td></tr>
+<tr><td>行く / 来る</td><td>いらっしゃる</td><td>参る / 伺う</td><td>go / come</td></tr><tr><td>見る</td><td>ご覧になる</td><td>拝見する</td><td>see</td></tr>
+<tr><td>聞く</td><td>お聞きになる</td><td>伺う / 拝聴する</td><td>hear / ask</td></tr><tr><td>知っている</td><td>ご存じだ</td><td>存じている / 存じ上げる</td><td>know</td></tr>
+<tr><td>もらう</td><td>—</td><td>いただく</td><td>receive</td></tr><tr><td>会う</td><td>お会いになる</td><td>お目にかかる</td><td>meet</td></tr>
+</table>
+<h3>Useful meeting/support phrases</h3>
+<div class="grid2">
+<div class="card"><p class="jp">本日はお時間をいただき、ありがとうございます。</p><p class="en">Thank you for your time today.</p></div>
+<div class="card"><p class="jp">念のため確認させていただきます。</p><p class="en">Let me confirm just to be sure.</p></div>
+<div class="card"><p class="jp">〜という理解で合っていますでしょうか。</p><p class="en">Is my understanding that … correct?</p></div>
+<div class="card"><p class="jp">恐れ入りますが、もう一度ご説明いただけますでしょうか。</p><p class="en">Could you please explain once more?</p></div>
+<div class="card"><p class="jp">現在、原因を調査しております。</p><p class="en">We are currently investigating the cause.</p></div>
+<div class="card"><p class="jp">暫定対応として〜を実施いたしました。</p><p class="en">As a workaround, we have done …</p></div>
+<div class="card"><p class="jp">本件につきましては、変更管理の手続きが必要となります。</p><p class="en">This requires change-control procedure.</p></div>
+<div class="card"><p class="jp">GMPの観点から、その対応は推奨いたしかねます。</p><p class="en">From a GMP perspective, we cannot recommend that.</p></div>
+</div>
+<h3>IT & pharma vocabulary</h3>
+<div class="card vocab">
+<div><span class="jp">要件定義</span> <span class="reading">ようけんていぎ</span><br><span class="en">requirements definition</span></div>
+<div><span class="jp">基本設計</span> <span class="reading">きほんせっけい</span><br><span class="en">basic design</span></div>
+<div><span class="jp">詳細設計</span> <span class="reading">しょうさいせっけい</span><br><span class="en">detailed design</span></div>
+<div><span class="jp">実装 / 製造</span> <span class="reading">じっそう / せいぞう</span><br><span class="en">implementation / build</span></div>
+<div><span class="jp">単体テスト</span> <span class="reading">たんたいテスト</span><br><span class="en">unit test</span></div>
+<div><span class="jp">結合テスト</span> <span class="reading">けつごうテスト</span><br><span class="en">integration test</span></div>
+<div><span class="jp">総合テスト</span> <span class="reading">そうごうテスト</span><br><span class="en">system test</span></div>
+<div><span class="jp">受入テスト</span> <span class="reading">うけいれテスト</span><br><span class="en">UAT</span></div>
+<div><span class="jp">本番環境</span> <span class="reading">ほんばんかんきょう</span><br><span class="en">production environment</span></div>
+<div><span class="jp">検証環境</span> <span class="reading">けんしょうかんきょう</span><br><span class="en">test / validation environment</span></div>
+<div><span class="jp">障害</span> <span class="reading">しょうがい</span><br><span class="en">incident / failure</span></div>
+<div><span class="jp">不具合</span> <span class="reading">ふぐあい</span><br><span class="en">bug / defect</span></div>
+<div><span class="jp">原因調査</span> <span class="reading">げんいんちょうさ</span><br><span class="en">root-cause investigation</span></div>
+<div><span class="jp">暫定対応</span> <span class="reading">ざんていたいおう</span><br><span class="en">workaround / interim fix</span></div>
+<div><span class="jp">恒久対策</span> <span class="reading">こうきゅうたいさく</span><br><span class="en">permanent fix</span></div>
+<div><span class="jp">再発防止策</span> <span class="reading">さいはつぼうしさく</span><br><span class="en">recurrence prevention</span></div>
+<div><span class="jp">変更管理</span> <span class="reading">へんこうかんり</span><br><span class="en">change control</span></div>
+<div><span class="jp">議事録</span> <span class="reading">ぎじろく</span><br><span class="en">meeting minutes</span></div>
+<div><span class="jp">進捗</span> <span class="reading">しんちょく</span><br><span class="en">progress</span></div>
+<div><span class="jp">権限</span> <span class="reading">けんげん</span><br><span class="en">permission / privilege</span></div>
+<div><span class="jp">承認</span> <span class="reading">しょうにん</span><br><span class="en">approval</span></div>
+<div><span class="jp">査閲</span> <span class="reading">さえつ</span><br><span class="en">review</span></div>
+<div><span class="jp">試料 / 検体</span> <span class="reading">しりょう / けんたい</span><br><span class="en">sample / specimen</span></div>
+<div><span class="jp">規格 / 規格外</span> <span class="reading">きかく / きかくがい</span><br><span class="en">specification / OOS</span></div>
+<div><span class="jp">安定性試験</span> <span class="reading">あんていせいしけん</span><br><span class="en">stability study</span></div>
+<div><span class="jp">監査証跡</span> <span class="reading">かんさしょうせき</span><br><span class="en">audit trail</span></div>
+<div><span class="jp">電子署名 / 電子記録</span> <span class="reading">でんししょめい / でんしきろく</span><br><span class="en">e-signature / e-record</span></div>
+<div><span class="jp">適格性評価</span> <span class="reading">てきかくせいひょうか</span><br><span class="en">qualification</span></div>
+<div><span class="jp">真正性・見読性・保存性</span> <span class="reading">しんせいせい・けんどくせい・ほぞんせい</span><br><span class="en">authenticity, legibility, preservation</span></div>
+<div><span class="jp">出荷判定</span> <span class="reading">しゅっかはんてい</span><br><span class="en">batch release decision</span></div>
+<div><span class="jp">試験成績書</span> <span class="reading">しけんせいせきしょ</span><br><span class="en">Certificate of Analysis</span></div>
+<div><span class="jp">逸脱</span> <span class="reading">いつだつ</span><br><span class="en">deviation</span></div>
+<div><span class="jp">是正措置・予防措置</span> <span class="reading">ぜせいそち・よぼうそち</span><br><span class="en">CAPA</span></div>
+</div>
+<h3>Email templates</h3>
+<details><summary>障害報告 — incident report</summary><div class="answer"><pre><code>件名：【障害報告】LIMS SAP間インターフェース停止について（第1報）
+
+株式会社〇〇 品質管理部
+〇〇様
+
+いつも大変お世話になっております。△△株式会社の Vraj でございます。
+
+本日 9:00 頃より、LIMS から SAP への結果送信が停止している事象を確認いたしました。
+現時点の状況を以下の通りご報告いたします。
+
+1. 事象 ：LIMS SAP 結果送信の停止（未送信 200 件）
+2. 影響範囲：出荷判定に必要な試験結果の連携遅延
+3. 暫定対応：送信キューを確認し、データ欠損がないことを確認済みです
+4. 今後の対応：原因調査を継続し、本日 15:00 までに第2報をご連絡いたします
+
+ご不便をおかけし、誠に申し訳ございません。
+引き続きよろしくお願いいたします。</code></pre></div></details>
+<details><summary>仕様確認 — requirement confirmation</summary><div class="answer"><pre><code>件名：【ご確認依頼】安定性試験モジュールの採取ポイントについて
+
+〇〇様
+
+お世話になっております。△△株式会社の Vraj です。
+
+先日の打ち合わせにて伺った内容について、認識に齟齬がないよう確認させていただきたく、ご連絡いたしました。
+
+・長期保存条件（25°C/60%RH）の採取ポイントは 0, 3, 6, 9, 12, 18, 24, 36 か月
+・加速条件（40°C/75%RH）は 0, 3, 6 か月
+
+上記の理解で合っていますでしょうか。
+
+お手数をおかけしますが、期日までにご回答いただけますと幸いです。
+よろしくお願いいたします。</code></pre></div></details>
+</section>
+
+<section id="interview">
+<div class="section-head"><div class="num">8</div><div><h2>Interview Questions & Model Answers</h2><p class="sub">Models should be rewritten using your own experience. The guide targets 60–120 seconds per answer.</p></div></div>
+<div id="qa"></div>
+</section>
+
+<section id="portfolio">
+<div class="section-head"><div class="num">9</div><div><h2>Mini-LIMS Portfolio Project</h2><p class="sub">The guide’s central hands-on proof of both engineering and GxP understanding.</p></div></div>
+<div class="callout green"><b>Suggested stack:</b> Spring Boot + PostgreSQL (Java) or ASP.NET Core + SQL Server (.NET). Build during Weeks 6–16 and publish on GitHub with English/Japanese README.</div>
+<div class="checklist">
+<label class="check"><input type="checkbox"> Data model: Product, Specification, Analysis, Sample, Test, Result, User</label>
+<label class="check"><input type="checkbox"> Sample workflow: Logged → Received → In Progress → Reviewed → Approved</label>
+<label class="check"><input type="checkbox"> Automatic specification check + OOS block</label>
+<label class="check"><input type="checkbox"> Audit trail: who/what/when/old/new/why</label>
+<label class="check"><input type="checkbox"> E-signature with re-authentication and meaning</label>
+<label class="check"><input type="checkbox"> Role-based access / segregation of duties</label>
+<label class="check"><input type="checkbox"> Instrument CSV import + archive/error folders + duplicate detection</label>
+<label class="check"><input type="checkbox"> REST mock SAP inspection-lot interface + idempotency key</label>
+<label class="check"><input type="checkbox"> CoA PDF report</label>
+<label class="check"><input type="checkbox"> URS, FS, risk assessment, 20 test scripts, RTM, summary report</label>
+<label class="check"><input type="checkbox"> English/Japanese README + architecture diagram + screenshots</label>
+</div>
+<h3>SENAITE hands-on path</h3>
+<ol><li>Install SENAITE through Docker.</li><li>Configure client, sample type and analysis services.</li><li>Set units, limits and analysis specification.</li><li>Run create → receive → result entry → second-user verification → report.</li><li>Write a one-page configuration summary.</li></ol>
+</section>
+
+<section id="resources">
+<div class="section-head"><div class="num">10</div><div><h2>Master Resource Library</h2><p class="sub">Grouped exactly around the guide’s learning tracks.</p></div></div>
+<div class="resource-list">
+<div class="resource"><b>Domain & LIMS</b><p>LIMSwiki · LIMS Wikipedia · LabWare · LabVantage · STARLIMS · LIMS demos · Japanese LIMS導入 videos</p></div>
+<div class="resource"><b>Regulation & validation</b><p>21 CFR Part 11 · FDA Data Integrity Q&A · FDA CSA guidance · MHRA data integrity · EudraLex Annex 11 · PIC/S PI 041 · ISPE GAMP · ICH Q1A/Q2/Q9/Q10 · PMDA · ER/ES指針 · Japanese CSV guideline</p></div>
+<div class="resource"><b>Technical</b><p>SQLBolt · LeetCode SQL 50 · Use The Index, Luke · dev.java · Spring guides · Microsoft Learn · Pro Git · Docker · roadmap.sh · ITIL 4 overview</p></div>
+<div class="resource"><b>Japanese</b><p>JLPT · IRODORI · Marugoto · NHK News Web Easy · Tae Kim · Bunpro · WaniKani · Anki · Jisho · italki · BJT</p></div>
+<div class="resource"><b>Interview</b><p>STAR method guide · Pramp / interviewing.io · Glassdoor LIMS consultant interview reports</p></div>
+</div>
+</section>
+
+<section id="checklists">
+<div class="section-head"><div class="num">11</div><div><h2>Final Checklists</h2><p class="sub">Use these as the final readiness dashboard.</p></div></div>
+<h3>Knowledge self-check</h3>
+<div class="checklist" id="knowledge-checks">
+<label class="check"><input type="checkbox"> Sample lifecycle in 10 steps</label>
+<label class="check"><input type="checkbox"> LIMS vs ELN vs CDS vs SDMS vs MES vs ERP</label>
+<label class="check"><input type="checkbox"> Stability and environmental monitoring configuration</label>
+<label class="check"><input type="checkbox"> OOS Phase I / Phase II</label>
+<label class="check"><input type="checkbox"> Part 11 sections 11.10, 11.50, 11.70, 11.200, 11.300</label>
+<label class="check"><input type="checkbox"> ALCOA+ with LIMS examples</label>
+<label class="check"><input type="checkbox"> GAMP 5 categories + CSV vs CSA</label>
+<label class="check"><input type="checkbox"> IQ/OQ/PQ + URS/FS/DS + RTM</label>
+<label class="check"><input type="checkbox"> ER/ES three principles + Japanese CSV + 2021 GMP</label>
+<label class="check"><input type="checkbox"> Change-control steps</label>
+<label class="check"><input type="checkbox"> SQL joins, windows, execution plans, deadlocks</label>
+<label class="check"><input type="checkbox"> Interface idempotency, reconciliation, error queue</label>
+<label class="check"><input type="checkbox"> Troubleshooting 8 steps + ITIL</label>
+<label class="check"><input type="checkbox"> Japanese self-introduction, 90 seconds</label>
+<label class="check"><input type="checkbox"> 10 Japanese interview answers</label>
+<label class="check"><input type="checkbox"> 5 STAR stories</label>
+<label class="check"><input type="checkbox"> 5-minute Mini-LIMS demo</label>
+</div>
+<h3>One week before</h3><ul><li>Research target company/products/customers/news.</li><li>Review regulation cheat sheet and model answers.</li><li>Run two mock interviews, including one in Japanese.</li><li>Prepare Mini-LIMS demo and one-page portfolio summary.</li><li>Prepare English CV and Japanese 履歴書 / 職務経歴書 if requested.</li></ul>
+<h3>Interview day</h3><ul><li>Test camera, microphone, background and Japanese IME.</li><li>Open politely: 「本日はお時間をいただき、ありがとうございます。どうぞよろしくお願いいたします。」</li><li>Answer conclusion-first (結論から), then reason, then example.</li><li>If you do not know something, be honest and explain how you would find out.</li><li>Close with thanks, two questions and a short same-day thank-you email.</li></ul>
+<div class="card"><h3>Source-level note</h3><p>The PDF cover says “90+ interview questions,” but the parsed 29-page source supplied for this webpage ends at Q48. This webpage therefore does not invent or fabricate the missing questions; it represents the 48 numbered questions actually present in the supplied source text.</p></div>
+</section>
+
+<footer><div class="container"><b>LIMS Japanese Interview Guide — structured web edition</b><br>Built from the uploaded 29-page PDF. Content is organized and visually structured for study; source terminology and claims are preserved rather than silently supplemented.</div></footer>
+</main>
+</div>
+
+<script>
+const qa = [
+["Q1","LIMS & functional","What is a LIMS and why do pharmaceutical companies need one?","A LIMS manages samples, tests, results and lab resources across the lifecycle. In pharma, QC results support batch-release decisions. The guide emphasizes workflow/specification enforcement, reduced transcription errors, instrument/ERP integration, audit trails, e-signatures and access control."],
+["Q2","LIMS & functional","Walk me through the sample lifecycle in a QC LIMS.","Registration → receipt → test assignment → result entry → automatic limit check/OOS → second-person review → e-signature approval → CoA/report → usage decision/ERP → archive."],
+["Q3","LIMS & functional","What master/static data must be configured before go-live?","Products/materials, specifications and limits, analyses/test methods, components, units, rounding, calculations, sampling plans, sample types, locations, instruments and calibration status, reagents/standards, users/roles/privileges, workflows, lists and report templates."],
+["Q4","LIMS & functional","How is a LIMS different from an ELN, CDS, SDMS, MES and ERP?","LIMS is sample-centric and manages structured results/workflow; ELN is experiment-centric; CDS controls chromatography instruments and processes raw data; SDMS stores scientific files; MES handles manufacturing execution; ERP manages enterprise/material/batch processes. The guide describes these as integrated systems."],
+["Q5","LIMS & functional","How would you configure a stability study?","Configure product/batch, storage conditions, time points, tests and pull windows; generate samples on schedule; track chamber inventory; report trends; configure OOT detection and handle excursions."],
+["Q6","LIMS & functional","What is environmental monitoring in LIMS?","Scheduled sampling of cleanroom air, surfaces and personnel by location/grade, with alert/action limits, excursion investigation and trend reporting."],
+["Q7","LIMS & functional","A customer wants their paper process copied 1:1 into LIMS. How do you respond?","Understand why each step exists, distinguish regulatory needs from habits, demonstrate standard LIMS workflows and document the final agreed requirements. The guide emphasizes consulting mindset and respect for customer decisions."],
+["Q8","Regulatory","Explain 21 CFR Part 11 in two minutes.","System validation; secure computer-generated time-stamped audit trails; controlled access; operational/authority checks; record copies/retention; unique e-signatures with required manifestation and linkage; plus procedural controls such as training and SOPs."],
+["Q9","Regulatory","What is ALCOA+? Give a LIMS example for each.","Attributable—unique logins; Legible—readable reports; Contemporaneous—time-of-entry timestamps; Original—raw data preserved; Accurate—validated calculations/interfaces; plus Complete, Consistent, Enduring and Available."],
+["Q10","Regulatory","What must an audit trail capture, and who reviews it?","Who, what changed, old/new values, when and why. It must be secure, computer-generated and retained. The guide says data-related audit trails are reviewed as part of result review and system audit trails periodically according to SOP."],
+["Q11","Regulatory","What are the GAMP 5 software categories, and where does a LIMS fit?","Categories highlighted: 1 infrastructure, 3 non-configured products, 4 configured products, 5 custom applications. The guide places a typical LIMS in Category 4 and custom scripts/interfaces in Category 5."],
+["Q12","Regulatory","What is the difference between CSV and CSA?","Both seek fitness for intended use. Traditional CSV is described as heavier scripted/document-driven testing; CSA emphasizes critical thinking and risk-based assurance, with deeper testing for high-risk functions."],
+["Q13","Regulatory","Explain IQ, OQ and PQ for a LIMS.","IQ verifies installation/configuration; OQ verifies functions including workflows, calculations, limits, security, audit trail, e-signatures and interfaces; PQ verifies the real business process with representative users/data, often as UAT."],
+["Q14","Regulatory","What Japanese regulations apply to a LIMS used by a Japanese pharmaceutical company?","The guide names the revised GMP Ministerial Ordinance, the 2010 computerised systems guideline, the 2005 ER/ES guideline, PIC/S guidance, and—when relevant to export—US Part 11 and EU Annex 11."],
+["Q15","Regulatory","Give examples of data-integrity violations and how LIMS configuration prevents them.","Shared logins → unique accounts; deleting results → restricted permissions and reasoned invalidation; backdating → server timestamps; excessive admin rights → segregation of duties; retesting into compliance → controlled OOS workflow; uncontrolled spreadsheets → validated calculations."],
+["Q16","Regulatory","What is an OOS result and how does LIMS support the investigation?","A result outside specification. LIMS can flag it, block approval, notify supervisors and link an investigation. The guide stresses preserving the original value, retests with reasons and the audit trail."],
+["Q17","Regulatory","What is change control and how does it apply to LIMS configuration?","Change request → impact/risk assessment → approval → implementation in development → test/verify in validation environment → documented approval → production deployment → post-implementation verification and documentation updates."],
+["Q18","Technical","Interface vs abstract class in Java (or C#)?","An interface defines a contract and can be implemented by many classes; an abstract class can provide shared implementation/state and is inherited from one base class. The guide uses InstrumentParser vs AbstractFileParser as examples."],
+["Q19","Technical","Checked vs unchecked exceptions? How do you handle errors in an interface program?","Checked exceptions must be caught/declared; unchecked exceptions are RuntimeExceptions. At the interface boundary, log message ID/context, route failures to an error queue/folder, alert support and never silently swallow errors."],
+["Q20","Technical","Explain database transactions and ACID. Why do they matter in LIMS?","Atomicity, Consistency, Isolation, Durability. Sample/test/result operations need all-or-nothing behavior to avoid orphan data or invalid approval states; isolation controls concurrency effects."],
+["Q21","Technical","A LIMS screen became very slow after a data import. How do you investigate?","Confirm scope and timing; check application resources/logs; identify slow SQL; inspect execution plans and statistics/indexes; test the fix outside production; measure; then deploy via change control."],
+["Q22","Technical","What is a deadlock and how do you resolve one?","Two transactions hold locks each other needs; the database terminates one. Investigate DB traces/logs, then consider consistent table-access order, shorter transactions, indexes and retry logic."],
+["Q23","Technical","REST vs SOAP — which would you choose for a LIMS-ERP interface?","SOAP uses XML/WSDL and is common in older enterprise environments; REST uses HTTP/JSON and is lightweight. Choose based on partner support; regardless of protocol, design for idempotency, acknowledgements, error handling and monitoring."],
+["Q24","Technical","How do you guarantee an interface never loses or duplicates results?","Unique message IDs/idempotency, persistent queue/staging, message states, retry/backoff, error/dead-letter queue, alerts, reconciliation reports and audit trail; validate failure/duplicate scenarios."],
+["Q25","Technical","How would you build an instrument file import?","Controlled folder → polling service → format/checksum validation → parse sample IDs/values → match LIMS tests → load results → archive success or route to error folder. Preserve original, log everything and prevent double import."],
+["Q26","Scenario","LIMS-to-SAP results stopped overnight and a batch release is blocked. What do you do?","Acknowledge and give next-update time; assess pending messages and urgent batches; inspect logs/queues/middleware/SAP errors/credentials/certificates/recent changes; restore and reprocess; reconcile once; report root cause and prevention."],
+["Q27","Scenario","Customer asks to let analysts edit approved results without an audit trail. What do you say?","Understand the pain, explain that the requested control would conflict with the compliance framework described in the guide, and propose alternatives such as faster reason-coded correction workflows, stronger entry validation or review-by-exception."],
+["Q28","Scenario","Requirements keep changing in the middle of the project. How do you handle it?","Baseline requirements; assess impact on effort, schedule, cost and validation; present to customer/PM; implement only after formal approval; keep change log and meeting minutes."],
+["Q29","Scenario","You find a production bug affecting calculated results already approved. What do you do?","Treat as a GxP incident; notify lead and QA; determine scope; let QA assess product impact; use a controlled workaround; fix via change control; regression test; support CAPA as needed."],
+["Q30","Scenario","During go-live, data migration counts do not match. What do you do?","Stop before proceeding; compare source/target counts by table/key; identify rejected records; correct and rerun in a controlled way; document deviations; obtain QA sign-off; escalate for no-go if unresolved."],
+["Q31","Scenario","A user says LIMS calculated the wrong result. How do you investigate?","Collect sample/test/expected/actual; inspect raw values and audit trail; verify calculation definition/version, rounding, significant figures, units and recent spec/calculation changes."],
+["Q32","Behavioral","Tell me about yourself.","Use Present → Past → Domain link → Japanese → Future. The guide suggests a 90-second answer using current role/strengths, quantified achievements, LIMS/GxP learning, Japanese study and why the role is a next step."],
+["Q33","Behavioral","Why do you want to work with Japanese customers in life sciences?","Connect the meaning of lab-system work, genuine Japanese-language interest demonstrated through study, and an appreciation for careful/documented customer work."],
+["Q34","Behavioral","Tell me about a difficult technical problem you solved.","Use a real story with root cause, reproduce → logs → hypothesis → test → fix → prevention, and quantify the result."],
+["Q35","Behavioral","Tell me about a conflict with a customer or colleague.","Show listening, understand the other side, use data, find a workable compromise and maintain the relationship; the guide emphasizes patience and written confirmation with Japanese customers."],
+["Q36","Behavioral","Tell me about a mistake you made.","Choose a real but manageable mistake; emphasize immediate reporting, correction and a process change such as checklist or peer review."],
+["Q37","Behavioral","How do you work with people from a different culture?","Confirm understanding in writing, avoid ambiguous English, learn the language, respect hierarchy/consensus and report early."],
+["Q38","Behavioral","What is your weakness?","The guide suggests honestly acknowledging that Japanese is not yet at business level while describing a concrete daily study and progression plan."],
+["Q39","Behavioral","Where do you see yourself in 5 years?","The source model is a LIMS consultant supporting Japanese pharma customers, running requirements workshops in Japanese, mentoring juniors and possibly specializing in integration or validation."],
+["Q40","日本語面接","自己紹介をお願いします。","Vraj と申します。現在、〇〇株式会社でソフトウェアエンジニアとして、Java SQL を使った業務システムの開発と保守を担当しております。特に、障害対応やデータベースの調査を得意としております。最近は製薬業界の LIMS とデータインテグリティに興味を持ち、21 CFR Part 11、GMP について勉強しております。日本語は毎日勉強しており、来年 N3 の取得を目指しております。本日はどうぞよろしくお願いいたします。"],
+["Q41","日本語面接","なぜ弊社を志望されましたか。","御社の LIMS は製薬会社の品質管理を支え、最終的に患者さんの安全につながる仕事だと考えております。私のシステム開発とサポートの経験を活かし、日本のお客様の高い品質要求に応えられるエンジニアになりたいと思い、志望いたしました。"],
+["Q42","日本語面接","LIMSとは何ですか。簡単に説明してください。","LIMS は、試験室の検体、試験、結果を管理するシステムです。検体の受付から結果入力、査閲、承認、試験成績書の発行まで管理します。また、監査証跡や電子署名によって、データインテグリティを確保します。"],
+["Q43","日本語面接","データインテグリティとは何ですか。","データが作成されてから廃棄されるまで、完全で、一貫性があり、正確であることです。ALCOA+ の原則に基づき、誰が、いつ、何を、なぜ変更したかを記録することが重要です。"],
+["Q44","日本語面接","お客様から急な仕様変更の依頼があったら、どうしますか。","まず、お客様のご要望と背景を丁寧に確認いたします。次に、工数、スケジュール、バリデーションへの影響を調査し、上司と相談のうえ、お客様にご報告いたします。正式に承認されてから対応いたします。"],
+["Q45","日本語面接","本番環境で障害が発生したら、どのように対応しますか。","まず、上司とお客様にすぐに第1報をご報告いたします。次に、影響範囲を確認し、ログやデータベースを調査して原因を特定します。暫定対応で業務を復旧させた後、恒久対策と再発防止策を検討し、障害報告書を提出いたします。"],
+["Q46","日本語面接","あなたの長所と短所を教えてください。","長所は、問題の原因を最後まで粘り強く調査できることです。短所は、日本語がまだビジネスレベルではないことです。そのため、毎日日本語を勉強し、ビジネスメールや敬語の練習もしております。"],
+["Q47","日本語面接","日本語はどのように勉強していますか。","毎日1時間以上勉強しております。文法と漢字はアプリで復習し、NHK のニュースを読んでおります。また、IT やバリデーションの用語を中心に、ビジネス日本語も練習しております。"],
+["Q48","日本語面接","最後に何か質問はありますか。","はい、二つ質問させていただいてもよろしいでしょうか。一つ目は、入社後の研修やトレーニングについてです。二つ目は、日本のお客様とのプロジェクトで、チームが最も大切にしていることを教えていただけますでしょうか。"]
+];
+const qacont = document.getElementById("qa");
+function renderQA(list){
+  qacont.innerHTML = list.map(x=>`<details class="qa-item" data-search="${(x.join(" ")).toLowerCase()}">
+    <summary><div class="summary-row"><span>${x[0]} · ${x[2]}</span><span class="tag">${x[1]}</span></div></summary>
+    <div class="answer"><b>Model answer / guide focus</b><p>${x[3]}</p></div>
+  </details>`).join("");
+}
+renderQA(qa);
+document.getElementById("search").addEventListener("input", e=>{
+  const q=e.target.value.toLowerCase().trim();
+  document.querySelectorAll(".qa-item").forEach(el=>el.style.display=!q || el.dataset.search.includes(q)?"":"none");
+});
+document.querySelectorAll('input[type="checkbox"]').forEach((c,i)=>{
+  const key="lims-guide-check-"+i;
+  c.checked=localStorage.getItem(key)==="1";
+  c.addEventListener("change",()=>localStorage.setItem(key,c.checked?"1":"0"));
+});
+</script>
+</body>
+</html>
